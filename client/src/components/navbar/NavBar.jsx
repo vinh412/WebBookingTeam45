@@ -1,4 +1,14 @@
+import { useNavigate, Link } from "react-router-dom";
+
 const NavBar = () => {
+    const navigate = useNavigate();
+    const navigateToLogin = () => {
+        navigate('/login');
+    };
+    const navigateToSignup = () => {
+        navigate('/signup');
+    };
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -32,10 +42,10 @@ const NavBar = () => {
                         </ul>
                         <ul className='navbar-nav me-2'>
                             <li className='nav-item me-2'>
-                                <button className='btn btn-outline-primary' href='#'>Đăng nhập</button>
+                                <button className='btn btn-outline-primary' onClick={navigateToLogin}>Đăng nhập</button>
                             </li>
                             <li className='nav-item'>
-                                <button className="btn btn-primary" type="button">Tạo tài khoản</button>
+                                <button className="btn btn-primary" type="button" onClick={navigateToSignup}>Tạo tài khoản</button>
                             </li>
                         </ul>
                     </div>

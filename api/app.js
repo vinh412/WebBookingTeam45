@@ -1,5 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
+const cors = require('cors');
 const mysql = require('mysql');
 const path = require('path');
 const app = express();
@@ -7,6 +8,8 @@ const port = process.env.port || 3333;
 
 app.use(morgan('tiny'));
 app.use(express.json());
+app.use(cors());
+
 let db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
