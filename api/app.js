@@ -6,39 +6,30 @@ const app = express();
 const port = process.env.port || 3333;
 
 app.use(morgan('tiny'));
-
-let connection = mysql.createConnection({
+app.use(express.json());
+let db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
     password: '',
     database: 'web_booking'
 });
 
-connection.connect(err=>{
-    if(err) throw err;
-    console.log('Connected!');
+app.get("/login",(req,res)=>{
+    let q = "SELECT * from personal_user";
+    db.query(q,(err, data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
+    });
 });
 
-let username = '';
-let password = '';
+app.post("/login",(req,res)=>{
+    let q = "INSERT INTO personal_user (`username`,`password`,`role`) VALUES (?)";
+    let value = [req.body.username, req.body.password, req.role];
 
-app.get('/', (req, res)=>{
-    res.sendFile(__dirname + '/views/index.html');
-});
-
-app.get('/login', (req, res)=>{
-   res.sendFile(path.resolve('./views/login.html'));
-   username = req.query.username;
-   password = req.query.password;
-   if(username && password){
-    let sql = `select * from personal_user where username = '${username}'`;
-    connection.query(sql, (err, row)=>{
-        if(err) throw err;
-        if(row[0].password == password){
-            res.send('Đăng nhập thành công');
-        }
+    db.query(q,[value],(err,data)=>{
+        if(err) return res.json(err);
+        return res.json(data);
     })
-   }
-});
+})
 
 app.listen(port,() => console.log(`Example app listening on port ${port}!`));
