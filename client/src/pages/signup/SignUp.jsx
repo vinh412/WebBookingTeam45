@@ -17,9 +17,14 @@ const SignUp = () => {
                             <div className="col-lg-6 mb-5 mb-lg-0">
                                 <div className="card">
                                     <div className="card-body py-5 px-md-5">
+
                                         <form>
+                                            <div className="text-center fw-bold">
+                                                <p>Sign Up</p>
+                                               
+                                            </div>
                                             {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
-                                            <div className="row">
+                                            {/* <div className="row">
                                                 <div className="col-md-6 mb-4">
                                                     <div className="form-outline">
                                                         <input type="text" id="form3Example1" className="form-control" />
@@ -32,6 +37,17 @@ const SignUp = () => {
                                                         <label className="form-label" for="form3Example2">Last name</label>
                                                     </div>
                                                 </div>
+                                            </div> */}
+                                            {/*Name input */}
+                                            <div className="form-outline mb-4">
+                                                <input type="name" id="form3Example3" className="form-control" />
+                                                <label className="form-label" for="form3Example3">Name</label>
+                                            </div>
+                                            
+                                             {/*Number Phone input */}
+                                             <div className="form-outline mb-4">
+                                                <input type="phone" id="form3Example3" className="form-control" />
+                                                <label className="form-label" for="form3Example3">Number phone</label>
                                             </div>
 
                                             {/* <!-- Email input --> */}
@@ -77,6 +93,11 @@ const SignUp = () => {
                                                 <button type="button" className="btn btn-link btn-floating mx-1">
                                                     <i className="fab fa-github"></i>
                                                 </button>
+                                                <div className="text-center ls-tight">
+                                                <p>or have an account <a href="../login">sign in</a>
+                                                </p>
+                                               
+                                            </div>
                                             </div>
                                         </form>
                                     </div>
