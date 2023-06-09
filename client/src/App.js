@@ -13,6 +13,7 @@ import Rentals from "./components/rentals/Rentals";
 import HomeRecommended from "./components/homerecommended/HomeRecommended";
 import Login from "./pages/login/Login";
 import SignUp from "./pages/signup/SignUp";
+import ImagePreview from "./components/imagepreview/ImagePreview";
 const destinations = [
   { imgSrc: "https://pix6.agoda.net/geo/city/13170/1_13170_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "HCM City" },
   { imgSrc: "https://pix6.agoda.net/geo/city/2758/065f4f2c9fa263611ab65239ecbeaff7.jpg?ce=0&s=345x345&ar=1x1", name: "Hanoi" },
@@ -41,6 +42,14 @@ const hotels = [
 
 ]
 
+const images = [
+  'https://picsum.photos/id/1018/800/600',
+  'https://picsum.photos/id/1025/800/600',
+  'https://picsum.photos/id/1020/800/600',
+  'https://picsum.photos/id/1021/800/600',
+  'https://picsum.photos/id/1022/800/600',
+];
+
 function App() {
   return (
     <div>
@@ -57,6 +66,14 @@ function App() {
           />
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<SignUp/>}/>
+          <Route path="/hotel" element={
+            <>
+              <NavBar/>
+              <SearchField/>
+              <ImagePreview images={hotels}/>
+            </>
+          }/>
+          <Route path="/test" element={<ImagePreview images={hotels}/>}/>
         </Routes>
       </BrowserRouter>
 
