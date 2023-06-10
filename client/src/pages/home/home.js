@@ -1,22 +1,12 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
-  BrowserRouter,
-  Routes,
-} from "react-router-dom";
-import Payment from "./pages/payment/Payment";
-import NavBar from "./components/navbar/NavBar";
-import SearchField from "./components/searchfield/SearchField";
-import TopDestinations from "./components/topdestinations/TopDestinations";
-import Rentals from "./components/rentals/Rentals";
-import HomeRecommended from "./components/homerecommended/HomeRecommended";
-import Login from "./pages/login/Login";
-import SignUp from "./pages/signup/SignUp";
-import ImagePreview from "./components/imagepreview/ImagePreview";
-import Overview from "./components/overview/Overview";
-import Rooms from "./components/rooms/Rooms";
+
+
+import NavBar from "../../components/navbar/NavBar";
+import SearchField from "../../components/searchfield/SearchField";
+import TopDestinations from "../../components/topdestinations/TopDestinations";
+import Rentals from "../../components/rentals/Rentals";
+import HomeRecommended from "../../components/homerecommended/HomeRecommended";
+
+
 const destinations = [
   { imgSrc: "https://pix6.agoda.net/geo/city/13170/1_13170_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "HCM City" },
   { imgSrc: "https://pix6.agoda.net/geo/city/2758/065f4f2c9fa263611ab65239ecbeaff7.jpg?ce=0&s=345x345&ar=1x1", name: "Hanoi" },
@@ -44,42 +34,17 @@ const hotels = [
   { imgSrc: "https://pix8.agoda.net/hotelImages/1517561/-1/c8d7f0bb4cf45c2493dfaf257b0b1750.jpg?ca=16&ce=1", name: "Ekomo Home", address: "District 3, HCM", price: "1.310.757" },
 
 ]
+const Home = () => {
+    return (
+            <div>
+              <NavBar />
+              <SearchField />
+              <TopDestinations destinations={destinations} />
+              <Rentals rentals={rentals} />
+              <HomeRecommended hotels={hotels} />
+            </div>
 
-const images = [
-  'https://picsum.photos/id/1018/800/600',
-  'https://picsum.photos/id/1025/800/600',
-  'https://picsum.photos/id/1020/800/600',
-  'https://picsum.photos/id/1021/800/600',
-  'https://picsum.photos/id/1022/800/600',
-];
+    )
+};
 
-function App() {
-  return (
-    <div>
-
-      <BrowserRouter>
-      
-        <Routes>
-          
-          <Route path="/*" element={<Home/>} />
-          <Route path="/login" element={<Login/>}/>
-          <Route path="/signup" element={<SignUp/>}/>
-          <Route path="/hotel" element={
-            <>
-              <NavBar/>
-              <SearchField/>
-              <ImagePreview images={hotels}/>
-              <Overview />
-              <Rooms/>
-            </>
-          }/>
-          <Route path="/test" element={<Overview/>}/>
-          <Route path="/payment" element={<Payment/>}/>
-        </Routes>
-      </BrowserRouter>
-
-    </div>
-  );
-}
-
-export default App;
+export default Home;

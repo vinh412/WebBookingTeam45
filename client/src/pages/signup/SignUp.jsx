@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const SignUp = () => {
     return (
         <div>
@@ -94,10 +96,10 @@ const SignUp = () => {
                                                     <i className="fab fa-github"></i>
                                                 </button>
                                                 <div className="text-center ls-tight">
-                                                <p>or have an account <a href="../login">sign in</a>
-                                                </p>
+                                                <p>or have an account <Link to="/login">Login</Link></p>
+                                          
                                                
-                                            </div>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
