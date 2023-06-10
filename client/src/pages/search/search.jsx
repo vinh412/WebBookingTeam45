@@ -372,10 +372,18 @@ const dataSearch= [
 
 const Search = () =>{
 
-    const [itemhotel1,setPage]=useState([])
+   
     const itemhotel=[]
+  
     const numberPage=(dataSearch.length/5)+(dataSearch.length%5?1:0)
-
+    
+    const [itemhotel1,setPage]=useState(()=>{
+        const itemhotel2=[]
+        for(let i=0; i<=4;i++){
+            itemhotel2.push(<SearchCard hotel={dataSearch[i]}/>)
+        }
+        return itemhotel2;
+    })
     const check=()=>{
         for (let i=1;i<=5;i++){
             if(document.getElementById(i).innerHTML>numberPage){
@@ -386,7 +394,8 @@ const Search = () =>{
         
     
     const  switchPage = (x) => {
-        itemhotel.splice(0, 4)
+        itemhotel.splice(0, 50)
+        
 
         
         
@@ -404,16 +413,18 @@ const Search = () =>{
             if(page>=4){
                 for(let i=1;i<=5;i++){
                     document.getElementById(i).innerHTML=(page-(3-i))
+                    document.getElementById(i).style.display=""
                 }
             }
             else{
-                for(let i=1;i<5;i++){
+                for(let i=1;i<=5;i++){
                    document.getElementById(i).innerHTML=(i)
+                   document.getElementById(i).style.display=""
                 }
         
             }
        check();
-        
+      return(itemhotel) ; 
 
 }
 const Test1=()=>{
@@ -441,6 +452,8 @@ const Test1=()=>{
     setPage(itemhotel);
  
    }
+   
+   
     
     return(
         <div>
