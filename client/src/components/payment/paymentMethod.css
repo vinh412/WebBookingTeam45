@@ -20,6 +20,13 @@ p {
     background: #141432;
     color: #ffffff;
 } */
+.card-1 header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: left;
+    padding: 20px 0px 10px 30px;
+  }
 .radio-section{
     display: flex;
     margin-left: 30px;
@@ -93,7 +100,8 @@ p {
 }
 .radio-text {
     font-style: italic;
-    font-weight: 900;
+    font-weight: 500;
+
 }
 #des-1 {
     margin-left: 30px;

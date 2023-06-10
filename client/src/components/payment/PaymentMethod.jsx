@@ -6,8 +6,8 @@ const PaymentMethod = () =>{
     let time = '20 Tháng 6, 2023';
     return (
         <div className="card-1">
-            <h1 style={{padding:10}}>Chọn cách thanh toán</h1>
             <section className="radio-section">
+                <header>Chọn cách thanh toán</header>
                 <div className="radio-list">
                     <div className="radio-item">
                         <input type="radio" name="radio" id="radio1"/>
@@ -25,12 +25,12 @@ const PaymentMethod = () =>{
                             Thanh toán ngay
                         </label>
                         <p style={{marginLeft:50}}>Bạn cũng có thể chọn Thanh toán ngay bằng thẻ tín dụng hoặc phương thức thanh toán khác bên dưới.</p>
-                        <div id="image-item">
-                            <img src="https://cdn6.agoda.net/images/mvc/default/ic_card_unionpay.png"></img>
+                        {/* <div id="image-item">
+                            <img src="https://cdn-icons-png.flaticon.com/256/825/825484.png"></img>
                             <img src="https://cdn6.agoda.net/images/mvc/default/ic_momo_mobile_money_2.png"></img>
                             <img src="https://cdn6.agoda.net/images/mvc/default/ic_paypal_3.png"></img>
                             <img src="https://cdn6.agoda.net/images/mvc/default/ic_atmcard.png"></img>
-                        </div>
+                        </div> */}
                     </div>
 
                 </div>
