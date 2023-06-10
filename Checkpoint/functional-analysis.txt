@@ -1,0 +1,23 @@
+------Danh sách các chức năng phát triển chính-----
+
+1. Về giao diện
+    - Giới thiệu về website
+        + Giới thiệu về mô hình, cách thức tổ chức hoạt động của website
+        + Các bên liên quan như: nhà cung cấp, khách sạn, dịch vụ hệ thống
+    - Thông tin khách sạn, phòng, giá phòng, khuyến mại tương ứng
+        + Thông tin chi tiết, tương ứng với từng mục
+    - Hệ thống tìm kiếm, lọc thông tin phòng
+        + Tìm kiếm theo tên, theo địa điểm,...
+        + Lọc theo danh mục, giá tiền,...
+    - Hệ thống đặt phòng trực tuyến và thanh toán
+        + Hỗ trỡ đặt phòng giữ chỗ, thanh toán,..
+        + Gợi ý về các phòng có thể đặt
+    - Hỏi, đáp các câu hỏi thường gặp
+        + Forum 
+        + Liên hệ, giải đáp
+    - Cộng tác của nhà cung cấp
+
+2. Về quản trị
+    - Cài đặt thông tin về phòng, khách sạn
+    - Các chương trình sale off, voucher
+    - Thống kê

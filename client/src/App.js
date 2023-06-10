@@ -6,6 +6,7 @@ import {
   BrowserRouter,
   Routes,
 } from "react-router-dom";
+import Payment from "./pages/payment/Payment";
 import NavBar from "./components/navbar/NavBar";
 import SearchField from "./components/searchfield/SearchField";
 import TopDestinations from "./components/topdestinations/TopDestinations";
@@ -78,6 +79,7 @@ function App() {
             </>
           }/>
           <Route path="/test" element={<Overview/>}/>
+          <Route path="/payment" element={<Payment/>}/>
         </Routes>
       </BrowserRouter>
 
