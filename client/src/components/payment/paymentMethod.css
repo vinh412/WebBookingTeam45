@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+p {
+    font-weight: 50;
+    color: rgb(87, 89, 90);
+}
+/* body {
+    font-family: "Poppins", sans-serif;
+    background: #141432;
+    color: #ffffff;
+} */
+.radio-section{
+    display: flex;
+    margin-left: 30px;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding: 10; */
+    width: 50vw;
+    box-shadow: 0px 0px 5px 5px rgba(53, 51, 51, 0.064);
+
+}
+.radio-item [type="radio"]{
+    display: none;
+}
+
+.radio-item + .radio-item{
+    margin-top: 15px;
+}
+.radio-item label{
+    display: block;
+    padding: 20px 60px;
+    background: white;
+    border:2px solid rgba(238, 243, 244, 0.107);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    min-width: 250px;
+    white-space: nowrap;
+    position: relative;
+}
+.radio-item label:after,
+.radio-item label:before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+}
+
+.radio-item label:after{
+    height: 20px;
+    width: 20px;
+    border:2px solid #524eee;
+    left: 20px;
+    top: calc(50% - 12px);
+}
+.radio-item label:before{
+    background: #524eee;
+    height: 10px;
+    width: 10px;
+    left: 27px;
+    top: calc(50% - 5px);
+    transform: scale(5);
+    transition: .4s ease-in-out 0s;
+    opacity: 0;
+    visibility: hidden;
+}
+.radio-item [type="radio"]:checked ~ label{
+    border-color: #524eee;
+}
+
+.radio-item [type="radio"]:checked ~ label:before{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+.card-1 {
+    padding: 30;
+}
+#text1 {
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    color: rgb(137, 241, 156);
+}
+.radio-text {
+    font-style: italic;
+    font-weight: 900;
+}
+#des-1 {
+    margin-left: 30px;
+    background: rgba(217, 248, 217, 0.444);
+    padding: 20px;
+}
+#image-item {
+    margin-left: 30px;
+}
