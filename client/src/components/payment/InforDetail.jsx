@@ -3,7 +3,7 @@ import "./inforDetail.css"
 const InforDetail = () => {
     return (
         <div>
-            <section className="container">
+            <section className="container1">
                 <header>Vui lòng điền thông tin của bạn</header>
                 <form action="#" className="form">
                     <div className="input-box">

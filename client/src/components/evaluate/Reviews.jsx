@@ -9,7 +9,7 @@ const Reviews = ({reviews}) => {
         );
     });
     return (
-        <div className="container">
+        <div className="container1">
             <header>Nhận xét thực từ du khách</header>
             <div className="reviews">
                 <div className="review">
