@@ -4,6 +4,14 @@ import NavBar from '../../components/navbar/NavBar'
 import Overview from '../../components/overview/Overview'
 import Rooms from '../../components/rooms/Rooms'
 import SearchField from '../../components/searchfield/SearchField'
+import Reviews from "../../components/evaluate/Reviews";
+
+const reviews = [
+    {name: "Phuong từ Việt Nam", point: "9,3	Trên cả tuyệt vời", desc: "Khách sạn nằm ở vị trí đẹp, thuận tiện cho việc đi lại. Nhân viên phục vụ nhiệt tình và chu đáo. Phòng tôi ở nằm trên tầng 12 có view rất đẹp, có thể nhìn toàn cảnh thành phố từ hai hướng. Thẻ (khóa) vào phòng đôi khi gặp vấn đề trục trặc, phải nhờ sự trợ giúp của nhân viên. Hành lang bộ mỗi tầng nên có số điện thoại với lễ tân khách sạn (vì không phải lúc nào khách cũng có sẵn số điện thoại của khách sạn)." },
+    {name: "Phuong từ Việt Nam", point: "9,3	Trên cả tuyệt vời", desc: "Khách sạn nằm ở vị trí đẹp, thuận tiện cho việc đi lại. Nhân viên phục vụ nhiệt tình và chu đáo. Phòng tôi ở nằm trên tầng 12 có view rất đẹp, có thể nhìn toàn cảnh thành phố từ hai hướng. Thẻ (khóa) vào phòng đôi khi gặp vấn đề trục trặc, phải nhờ sự trợ giúp của nhân viên. Hành lang bộ mỗi tầng nên có số điện thoại với lễ tân khách sạn (vì không phải lúc nào khách cũng có sẵn số điện thoại của khách sạn)." },
+    {name: "Phuong từ Việt Nam", point: "9,3	Trên cả tuyệt vời", desc: "Khách sạn nằm ở vị trí đẹp, thuận tiện cho việc đi lại. Nhân viên phục vụ nhiệt tình và chu đáo. Phòng tôi ở nằm trên tầng 12 có view rất đẹp, có thể nhìn toàn cảnh thành phố từ hai hướng. Thẻ (khóa) vào phòng đôi khi gặp vấn đề trục trặc, phải nhờ sự trợ giúp của nhân viên. Hành lang bộ mỗi tầng nên có số điện thoại với lễ tân khách sạn (vì không phải lúc nào khách cũng có sẵn số điện thoại của khách sạn)." },
+    {name: "Phuong từ Việt Nam", point: "9,3	Trên cả tuyệt vời", desc: "Khách sạn nằm ở vị trí đẹp, thuận tiện cho việc đi lại. Nhân viên phục vụ nhiệt tình và chu đáo. Phòng tôi ở nằm trên tầng 12 có view rất đẹp, có thể nhìn toàn cảnh thành phố từ hai hướng. Thẻ (khóa) vào phòng đôi khi gặp vấn đề trục trặc, phải nhờ sự trợ giúp của nhân viên. Hành lang bộ mỗi tầng nên có số điện thoại với lễ tân khách sạn (vì không phải lúc nào khách cũng có sẵn số điện thoại của khách sạn)." }
+]
 
 const images = [
      "https://pix8.agoda.net/hotelImages/13594309/-1/5c2b630a41e9e0675208dc8bc871ff5a.jpg?ce=0",
@@ -23,6 +31,8 @@ function Hotel() {
             <ImagePreview images={images} />
             <Overview />
             <Rooms />
+            <Reviews reviews={reviews}/>
+
         </div>
     )
 }

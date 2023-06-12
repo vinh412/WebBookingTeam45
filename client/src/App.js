@@ -11,8 +11,8 @@ import Login from "./pages/login/Login";
 import SignUp from "./pages/signup/SignUp";
 import Overview from "./components/overview/Overview";
 import Home from "./pages/home/Home";
-import Search from "./pages/search/Search";
 import Hotel from "./pages/hotel/Hotel";
+import Search from "./pages/search/Search";
 
 function App() {
   return (
