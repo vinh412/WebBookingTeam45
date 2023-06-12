@@ -17,11 +17,15 @@ const images = [
   },
 ];
 
-function ImageGaleryModal({setOpenModal}) {
+function ImageGaleryModal({setOpenModal, images}) {
+  const imagesArr = images.reduce((total, currentValue, currentIndex)=>{
+    total.push({original: currentValue, thumbnail: currentValue});
+    return total;
+  }, []);
   return (
     <div className='modal-wrapper' onClick={(e) => {e.stopPropagation(); setOpenModal(false);}}>
         <div className='gallery-wrapper' onClick={(e)=>e.stopPropagation()}>
-            <ImageGallery items={images} />
+            <ImageGallery items={imagesArr} />
         </div>
     </div>
   );

@@ -3,7 +3,7 @@ import RoomCard from '../card/RoomCard'
 
 function Rooms() {
   return (
-    <div className='container'>
+    <div className='container p-3'>
         <div className='row gy-2'>
             <div className="col-md-6">
                 <RoomCard/>

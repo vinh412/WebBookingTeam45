@@ -1,4 +1,4 @@
-import "./inforDetail.css"
+//import "./inforDetail.css"
 
 const InforDetail = () => {
     return (
