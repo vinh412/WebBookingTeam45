@@ -1,8 +1,8 @@
-//import "./inforDetail.css"
+import "./inforDetail.css"
 
 const InforDetail = () => {
     return (
-        <div>
+        <div className="body1">
             <section className="container1">
                 <header>Vui lòng điền thông tin của bạn</header>
                 <form action="#" className="form">
