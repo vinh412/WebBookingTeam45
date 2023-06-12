@@ -1,6 +1,10 @@
 import { useNavigate, Link } from "react-router-dom";
+import React, { memo } from "react"
+import avatar from "../../asset/avatar.jpg"
 
-const NavBar = () => {
+
+const NavBar = ({status}) => {
+   
     const navigate = useNavigate();
     const navigateToLogin = () => {
         navigate('/login');
@@ -8,7 +12,11 @@ const NavBar = () => {
     const navigateToSignup = () => {
         navigate('/signup');
     };
+    
+   
 
+
+    
     return (
         <div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -40,14 +48,28 @@ const NavBar = () => {
                                 <a className="nav-link disabled">Disabled</a>
                             </li>
                         </ul>
-                        <ul className='navbar-nav me-2'>
-                            <li className='nav-item me-2'>
-                                <button className='btn btn-outline-primary' onClick={navigateToLogin}>Đăng nhập</button>
-                            </li>
-                            <li className='nav-item'>
-                                <button className="btn btn-primary" type="button" onClick={navigateToSignup}>Tạo tài khoản</button>
-                            </li>
-                        </ul>
+                        
+                        {!status?<ul className='navbar-nav me-2'>
+                                    <li className='nav-item me-2'>
+                                        <button className='btn btn-outline-primary' onClick={navigateToLogin}>Đăng nhập</button>
+                                    </li>
+                                    <li className='nav-item'>
+                                        <button className="btn btn-primary" type="button" onClick={navigateToSignup}>Tạo tài khoản</button>
+                                    </li>
+                                </ul>
+                                :<ul className='navbar-nav me-2'>
+                                    <li className='nav-item me-2'>  
+                                        <button className='btn btn-outline-primary mx-3'>Đăng ký làm đối tác</button>
+                                    </li>
+                                    <li className='nav-item me-2'>
+                                    <img src={avatar} 
+                                            alt="icon Quantrimang.com" 
+                                            class="rounded-circle" 
+                                            width="35" height="35"/> 
+                                    </li>
+                                    
+                                </ul>
+                        }
                     </div>
                 </div>
             </nav>
@@ -55,4 +77,4 @@ const NavBar = () => {
     )
 };
 
-export default NavBar;
+export default memo(NavBar);
