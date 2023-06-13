@@ -1,5 +1,5 @@
 import NavBar from "../../components/navbar/NavBar";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import avatar from '../../asset/avatar.jpg'
 import SearchField from "../../components/searchfield/SearchField";
 import SearchCard from "../../components/card/SearchCard";

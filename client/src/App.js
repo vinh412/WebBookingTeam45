@@ -6,12 +6,13 @@ import {
   BrowserRouter,
   Routes,
 } from "react-router-dom";
-
+import Payment from "./pages/payment/Payment";
 import Login from "./pages/login/Login";
 import SignUp from "./pages/signup/SignUp";
-import Home from "./pages/home/home";
-import Search from "./pages/search/search";
-
+import Overview from "./components/overview/Overview";
+import Home from "./pages/home/Home";
+import Hotel from "./pages/hotel/Hotel";
+import Search from "./pages/search/Search"
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
           <Route path="/*" element={<Home/>} />
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<SignUp/>}/>
+          <Route path="/hotel" element={<Hotel/>}/>
+          <Route path="/test" element={<Overview/>}/>
+          <Route path="/payment" element={<Payment/>}/>
           <Route path="/search" element={<Search/>}/>
         </Routes>
       </BrowserRouter>
