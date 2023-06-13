@@ -12,7 +12,7 @@ import SignUp from "./pages/signup/SignUp";
 import Overview from "./components/overview/Overview";
 import Home from "./pages/home/Home";
 import Hotel from "./pages/hotel/Hotel";
-import Search from "./pages/search/Search"
+import Search from "./pages/search/search"
 
 function App() {
   return (
