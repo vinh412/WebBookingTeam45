@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th5 31, 2023 lúc 06:54 PM
+-- Thời gian đã tạo: Th6 14, 2023 lúc 04:30 AM
 -- Phiên bản máy phục vụ: 10.4.25-MariaDB
 -- Phiên bản PHP: 8.1.10
 
@@ -24,221 +24,299 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `account`
+-- Cấu trúc bảng cho bảng `accounts`
 --
 
-CREATE TABLE `account` (
-  `ID` int(11) NOT NULL,
-  `Gmail` varchar(100) NOT NULL,
-  `Password` varchar(100) NOT NULL,
-  `TypeUser` int(100) NOT NULL
+CREATE TABLE `accounts` (
+  `id` int(11) NOT NULL,
+  `gmail` varchar(255) DEFAULT NULL,
+  `passWord` varchar(255) DEFAULT NULL,
+  `avatar` varchar(255) DEFAULT NULL,
+  `typeUser` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Đang đổ dữ liệu cho bảng `accounts`
+--
+
+INSERT INTO `accounts` (`id`, `gmail`, `passWord`, `avatar`, `typeUser`, `createdAt`, `updatedAt`) VALUES
+(1, 'levan@gmail.com', '12345', NULL, 2, '2023-06-06 19:34:50', '2023-06-06 19:34:50'),
+(4, 'levu@gmail.com', '$2a$10$VnW6bqWY/h1/wVAnTo6A2u0oNdUM2qeLWrQWeJeKgVRfNPFD4kNhm', NULL, 2, '2023-06-07 13:13:35', '2023-06-07 13:13:35'),
+(5, 'levan1@gmail.com', '$2a$10$skngmV55hj/U/GdVVrfIcO.ug43dYW/22wcH7ZNB2V2Td7anVl0WW', NULL, 2, '2023-06-07 16:54:59', '2023-06-07 16:54:59'),
+(6, 'levan3@gmail.com', '$2a$10$qLRpMN2UgI1eY.o2eH5UvuGFlCAE3Q/nCdQYQMr.wK.r.ykUZSMXC', NULL, 2, '2023-06-08 15:57:00', '2023-06-08 15:57:00');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `admins`
+--
+
+CREATE TABLE `admins` (
+  `id` int(11) NOT NULL,
+  `gmail` varchar(255) DEFAULT NULL,
+  `passWord` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `numberPhone` varchar(255) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `admin`
+-- Cấu trúc bảng cho bảng `bankaccounts`
 --
 
-CREATE TABLE `admin` (
-  `ID` int(11) NOT NULL,
-  `AccountID` int(11) NOT NULL,
-  `Name` varchar(100) NOT NULL,
-  `PhoneNumber` varchar(100) NOT NULL
+CREATE TABLE `bankaccounts` (
+  `id` int(11) NOT NULL,
+  `CustomerID` int(11) DEFAULT NULL,
+  `bankNumber` varchar(255) DEFAULT NULL,
+  `bankName` varchar(255) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `bank_account`
+-- Cấu trúc bảng cho bảng `bookingrooms`
 --
 
-CREATE TABLE `bank_account` (
-  `ID` int(11) NOT NULL,
-  `UserID` int(11) NOT NULL,
-  `NumberAccount` varchar(100) NOT NULL,
-  `BankName` varchar(100) NOT NULL
+CREATE TABLE `bookingrooms` (
+  `id` int(11) NOT NULL,
+  `roomID` int(11) DEFAULT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `startDate` datetime DEFAULT NULL,
+  `endDate` datetime DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `booking`
+-- Cấu trúc bảng cho bảng `bookings`
 --
 
-CREATE TABLE `booking` (
-  `ID` int(11) NOT NULL,
-  `CustomerID` int(11) NOT NULL,
-  `DateTimeCreate` int(11) NOT NULL,
-  `VocherApplyID` int(11) NOT NULL,
-  `BookingRoomID` int(11) NOT NULL,
-  `Status` int(11) NOT NULL,
-  `Price` int(11) NOT NULL,
-  `Pay` int(11) NOT NULL,
-  `Discount` int(11) NOT NULL
+CREATE TABLE `bookings` (
+  `id` int(11) NOT NULL,
+  `customerID` int(11) DEFAULT NULL,
+  `bookingRoomID` int(11) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `vocherApplyID` int(11) DEFAULT NULL,
+  `discount` int(11) DEFAULT NULL,
+  `pay` int(11) DEFAULT NULL,
+  `dateCreate` datetime DEFAULT NULL,
+  `status` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `booking_room`
+-- Cấu trúc bảng cho bảng `customers`
 --
 
-CREATE TABLE `booking_room` (
-  `ID` int(11) NOT NULL,
-  `RoomID` int(11) NOT NULL,
-  `Quantity` int(11) NOT NULL,
-  `Price` int(11) NOT NULL,
-  `StartDate` date NOT NULL,
-  `EndDate` date NOT NULL
+CREATE TABLE `customers` (
+  `id` int(11) NOT NULL,
+  `accountID` int(11) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `numberPhone` varchar(255) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `customer`
+-- Cấu trúc bảng cho bảng `favoritehotels`
 --
 
-CREATE TABLE `customer` (
-  `ID` int(11) NOT NULL,
-  `AccountID` int(11) NOT NULL,
-  `Name` varchar(100) NOT NULL,
-  `PhoneNumber` varchar(100) NOT NULL
+CREATE TABLE `favoritehotels` (
+  `id` int(11) NOT NULL,
+  `customerID` int(11) DEFAULT NULL,
+  `hotelID` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `favorite_hotel`
+-- Cấu trúc bảng cho bảng `hotels`
 --
 
-CREATE TABLE `favorite_hotel` (
-  `ID` int(11) NOT NULL,
-  `CustomerID` int(11) NOT NULL,
-  `HotelID` int(11) NOT NULL,
-  `DateCreate` date NOT NULL
+CREATE TABLE `hotels` (
+  `id` int(11) NOT NULL,
+  `accountID` int(11) DEFAULT NULL,
+  `nameHotel` varchar(255) DEFAULT NULL,
+  `revenua` int(11) DEFAULT NULL,
+  `fee` int(11) DEFAULT NULL,
+  `phoneNumber` varchar(255) DEFAULT NULL,
+  `type` int(11) DEFAULT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `evaluate` int(11) DEFAULT NULL,
+  `numberReview` int(11) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `minCost` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `hotel`
+-- Cấu trúc bảng cho bảng `photos`
 --
 
-CREATE TABLE `hotel` (
-  `ID` int(11) NOT NULL,
-  `AccountID` int(11) NOT NULL,
-  `NameHotel` varchar(100) NOT NULL,
-  `Revenua` int(100) NOT NULL,
-  `Fee` int(100) NOT NULL,
-  `PhoneNumber` varchar(100) NOT NULL,
-  `Type` int(100) NOT NULL
+CREATE TABLE `photos` (
+  `id` int(11) NOT NULL,
+  `hotelID` int(11) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `hotel_branch`
+-- Cấu trúc bảng cho bảng `reviews`
 --
 
-CREATE TABLE `hotel_branch` (
-  `ID` int(11) NOT NULL,
-  `HotelID` int(11) NOT NULL,
-  `Address` varchar(100) NOT NULL,
-  `Evaluate` int(11) NOT NULL,
-  `NumberReviews` int(11) NOT NULL
+CREATE TABLE `reviews` (
+  `id` int(11) NOT NULL,
+  `customerID` int(11) DEFAULT NULL,
+  `hotelID` int(11) DEFAULT NULL,
+  `note` varchar(255) DEFAULT NULL,
+  `dateCreate` datetime DEFAULT NULL,
+  `scores` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `review`
+-- Cấu trúc bảng cho bảng `rooms`
 --
 
-CREATE TABLE `review` (
-  `ID` int(11) NOT NULL,
-  `CustomerID` int(11) NOT NULL,
-  `HotelBranchID` int(11) NOT NULL,
-  `Note` text NOT NULL,
-  `DateCreate` date NOT NULL,
-  `Scores` int(11) NOT NULL
+CREATE TABLE `rooms` (
+  `id` int(11) NOT NULL,
+  `hotelID` int(11) DEFAULT NULL,
+  `typeRoomID` int(11) DEFAULT NULL,
+  `cost` int(11) DEFAULT NULL,
+  `quantity` int(11) DEFAULT NULL,
+  `emptyRoom` int(11) DEFAULT NULL,
+  `salePrice` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `room`
+-- Cấu trúc bảng cho bảng `sales`
 --
 
-CREATE TABLE `room` (
-  `ID` int(11) NOT NULL,
-  `Cost` int(11) NOT NULL,
-  `HotelBranchID` int(11) NOT NULL,
-  `TypeRoomID` int(11) NOT NULL,
-  `Quantity` int(11) NOT NULL,
-  `EmptyRoom` int(11) NOT NULL,
-  `SalePrice` int(11) NOT NULL
+CREATE TABLE `sales` (
+  `id` int(11) NOT NULL,
+  `hotelID` int(11) DEFAULT NULL,
+  `roomID` int(11) DEFAULT NULL,
+  `percent` int(11) DEFAULT NULL,
+  `startDate` datetime DEFAULT NULL,
+  `endDate` datetime DEFAULT NULL,
+  `status` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `sale`
+-- Cấu trúc bảng cho bảng `sequelizemeta`
 --
 
-CREATE TABLE `sale` (
-  `ID` int(11) NOT NULL,
-  `HotelID` int(11) NOT NULL,
-  `RoomID` int(11) NOT NULL,
-  `Percent` int(11) NOT NULL,
-  `StartDate` date NOT NULL,
-  `EndDate` date NOT NULL,
-  `Status` int(11) NOT NULL
+CREATE TABLE `sequelizemeta` (
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `sequelizemeta`
+--
+
+INSERT INTO `sequelizemeta` (`name`) VALUES
+('20230606173817-create-admin.js'),
+('20230608100234-create-customer.js'),
+('20230608101033-create-bank-account.js'),
+('create-account.js'),
+('create-admin.js'),
+('create-bank-account.js'),
+('create-booking-room.js'),
+('create-booking.js'),
+('create-customer.js'),
+('create-favorite-hotel.js'),
+('create-hotel.js'),
+('create-photo.js'),
+('create-review.js'),
+('create-room.js'),
+('create-sale.js'),
+('create-type-room.js'),
+('create-voucher-collection.js'),
+('create-voucher.js');
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `typerooms`
+--
+
+CREATE TABLE `typerooms` (
+  `id` int(11) NOT NULL,
+  `category` int(11) DEFAULT NULL,
+  `occupancy` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `type_room`
+-- Cấu trúc bảng cho bảng `vouchercollections`
 --
 
-CREATE TABLE `type_room` (
-  `ID` int(11) NOT NULL,
-  `Category` int(11) NOT NULL,
-  `Occupancy` int(11) NOT NULL
+CREATE TABLE `vouchercollections` (
+  `id` int(11) NOT NULL,
+  `voucherID` int(11) DEFAULT NULL,
+  `customerID` int(11) DEFAULT NULL,
+  `status` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
 --
--- Cấu trúc bảng cho bảng `vocher`
+-- Cấu trúc bảng cho bảng `vouchers`
 --
 
-CREATE TABLE `vocher` (
-  `ID` int(11) NOT NULL,
-  `Code` varchar(100) NOT NULL,
-  `DiscountValue` int(11) NOT NULL,
-  `ExpiryDate` date NOT NULL,
-  `VocherQuantity` int(11) NOT NULL,
-  `MinimumValue` int(11) NOT NULL,
-  `MaximumDiscount` int(11) NOT NULL,
-  `UsageCount` int(11) NOT NULL,
-  `Status` int(11) NOT NULL,
-  `Description` text NOT NULL,
-  `VoucherType` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
--- Cấu trúc bảng cho bảng `vocher_collection`
---
-
-CREATE TABLE `vocher_collection` (
-  `ID` int(11) NOT NULL,
-  `VocherID` int(11) NOT NULL,
-  `CustomerID` int(11) NOT NULL,
-  `Status` int(11) NOT NULL
+CREATE TABLE `vouchers` (
+  `id` int(11) NOT NULL,
+  `code` varchar(255) DEFAULT NULL,
+  `discountValue` int(11) DEFAULT NULL,
+  `expiryDate` datetime DEFAULT NULL,
+  `voucherQuantity` int(11) DEFAULT NULL,
+  `minimumBookingValue` int(11) DEFAULT NULL,
+  `maximumDiscount` int(11) DEFAULT NULL,
+  `usageCount` int(11) DEFAULT NULL,
+  `status` int(11) DEFAULT NULL,
+  `description` varchar(255) DEFAULT NULL,
+  `voucherType` int(11) DEFAULT NULL,
+  `createdAt` datetime NOT NULL,
+  `updatedAt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -246,283 +324,290 @@ CREATE TABLE `vocher_collection` (
 --
 
 --
--- Chỉ mục cho bảng `account`
+-- Chỉ mục cho bảng `accounts`
 --
-ALTER TABLE `account`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `accounts`
+  ADD PRIMARY KEY (`id`);
 
 --
--- Chỉ mục cho bảng `admin`
+-- Chỉ mục cho bảng `admins`
 --
-ALTER TABLE `admin`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `AccountID` (`AccountID`);
+ALTER TABLE `admins`
+  ADD PRIMARY KEY (`id`);
 
 --
--- Chỉ mục cho bảng `bank_account`
+-- Chỉ mục cho bảng `bankaccounts`
 --
-ALTER TABLE `bank_account`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `UserID` (`UserID`);
+ALTER TABLE `bankaccounts`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `CustomerID` (`CustomerID`);
 
 --
--- Chỉ mục cho bảng `booking`
+-- Chỉ mục cho bảng `bookingrooms`
 --
-ALTER TABLE `booking`
-  ADD KEY `CustomerID` (`CustomerID`),
-  ADD KEY `BookingRoomID` (`BookingRoomID`),
-  ADD KEY `VocherApplyID` (`VocherApplyID`);
+ALTER TABLE `bookingrooms`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `roomID` (`roomID`);
 
 --
--- Chỉ mục cho bảng `booking_room`
+-- Chỉ mục cho bảng `bookings`
 --
-ALTER TABLE `booking_room`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `RoomID` (`RoomID`);
+ALTER TABLE `bookings`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `bookingRoomID` (`bookingRoomID`),
+  ADD KEY `customerID` (`customerID`),
+  ADD KEY `vocherApplyID` (`vocherApplyID`);
 
 --
--- Chỉ mục cho bảng `customer`
+-- Chỉ mục cho bảng `customers`
 --
-ALTER TABLE `customer`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `AccountID` (`AccountID`);
+ALTER TABLE `customers`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `accountID` (`accountID`);
 
 --
--- Chỉ mục cho bảng `favorite_hotel`
+-- Chỉ mục cho bảng `favoritehotels`
 --
-ALTER TABLE `favorite_hotel`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `CustomerID` (`CustomerID`),
-  ADD KEY `HotelID` (`HotelID`);
+ALTER TABLE `favoritehotels`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `hotelID` (`hotelID`),
+  ADD KEY `customerID` (`customerID`);
 
 --
--- Chỉ mục cho bảng `hotel`
+-- Chỉ mục cho bảng `hotels`
 --
-ALTER TABLE `hotel`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `AccountID` (`AccountID`);
+ALTER TABLE `hotels`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `accountID` (`accountID`);
 
 --
--- Chỉ mục cho bảng `hotel_branch`
+-- Chỉ mục cho bảng `photos`
 --
-ALTER TABLE `hotel_branch`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `HotelID` (`HotelID`);
+ALTER TABLE `photos`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `hotelID` (`hotelID`);
 
 --
--- Chỉ mục cho bảng `review`
+-- Chỉ mục cho bảng `reviews`
 --
-ALTER TABLE `review`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `CustomerID` (`CustomerID`),
-  ADD KEY `HotelBranchID` (`HotelBranchID`);
+ALTER TABLE `reviews`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `customerID` (`customerID`),
+  ADD KEY `hotelID` (`hotelID`);
 
 --
--- Chỉ mục cho bảng `room`
+-- Chỉ mục cho bảng `rooms`
 --
-ALTER TABLE `room`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `HotelBranchID` (`HotelBranchID`),
-  ADD KEY `TypeRoomID` (`TypeRoomID`);
+ALTER TABLE `rooms`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `hotelID` (`hotelID`),
+  ADD KEY `typeRoomID` (`typeRoomID`);
 
 --
--- Chỉ mục cho bảng `sale`
+-- Chỉ mục cho bảng `sales`
 --
-ALTER TABLE `sale`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `HotelID` (`HotelID`),
-  ADD KEY `RoomID` (`RoomID`);
+ALTER TABLE `sales`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `hotelID` (`hotelID`),
+  ADD KEY `roomID` (`roomID`);
 
 --
--- Chỉ mục cho bảng `type_room`
+-- Chỉ mục cho bảng `sequelizemeta`
 --
-ALTER TABLE `type_room`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `sequelizemeta`
+  ADD PRIMARY KEY (`name`),
+  ADD UNIQUE KEY `name` (`name`);
 
 --
--- Chỉ mục cho bảng `vocher`
+-- Chỉ mục cho bảng `typerooms`
 --
-ALTER TABLE `vocher`
-  ADD PRIMARY KEY (`ID`);
+ALTER TABLE `typerooms`
+  ADD PRIMARY KEY (`id`);
 
 --
--- Chỉ mục cho bảng `vocher_collection`
+-- Chỉ mục cho bảng `vouchercollections`
 --
-ALTER TABLE `vocher_collection`
-  ADD PRIMARY KEY (`ID`),
-  ADD KEY `CustomerID` (`CustomerID`),
-  ADD KEY `VocherID` (`VocherID`);
+ALTER TABLE `vouchercollections`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `customerID` (`customerID`),
+  ADD KEY `voucherID` (`voucherID`);
+
+--
+-- Chỉ mục cho bảng `vouchers`
+--
+ALTER TABLE `vouchers`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
 --
 
 --
--- AUTO_INCREMENT cho bảng `account`
+-- AUTO_INCREMENT cho bảng `accounts`
 --
-ALTER TABLE `account`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `accounts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
--- AUTO_INCREMENT cho bảng `admin`
+-- AUTO_INCREMENT cho bảng `admins`
 --
-ALTER TABLE `admin`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `admins`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `bank_account`
+-- AUTO_INCREMENT cho bảng `bankaccounts`
 --
-ALTER TABLE `bank_account`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `bankaccounts`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `booking_room`
+-- AUTO_INCREMENT cho bảng `bookingrooms`
 --
-ALTER TABLE `booking_room`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `bookingrooms`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `customer`
+-- AUTO_INCREMENT cho bảng `bookings`
 --
-ALTER TABLE `customer`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `bookings`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `favorite_hotel`
+-- AUTO_INCREMENT cho bảng `customers`
 --
-ALTER TABLE `favorite_hotel`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `customers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `hotel`
+-- AUTO_INCREMENT cho bảng `favoritehotels`
 --
-ALTER TABLE `hotel`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `favoritehotels`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `hotel_branch`
+-- AUTO_INCREMENT cho bảng `hotels`
 --
-ALTER TABLE `hotel_branch`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `hotels`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `review`
+-- AUTO_INCREMENT cho bảng `photos`
 --
-ALTER TABLE `review`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `photos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `room`
+-- AUTO_INCREMENT cho bảng `reviews`
 --
-ALTER TABLE `room`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `reviews`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `sale`
+-- AUTO_INCREMENT cho bảng `rooms`
 --
-ALTER TABLE `sale`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `rooms`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `type_room`
+-- AUTO_INCREMENT cho bảng `sales`
 --
-ALTER TABLE `type_room`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `sales`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `vocher`
+-- AUTO_INCREMENT cho bảng `typerooms`
 --
-ALTER TABLE `vocher`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `typerooms`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT cho bảng `vocher_collection`
+-- AUTO_INCREMENT cho bảng `vouchercollections`
 --
-ALTER TABLE `vocher_collection`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `vouchercollections`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT cho bảng `vouchers`
+--
+ALTER TABLE `vouchers`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
 --
 
 --
--- Các ràng buộc cho bảng `admin`
+-- Các ràng buộc cho bảng `bankaccounts`
 --
-ALTER TABLE `admin`
-  ADD CONSTRAINT `admin_ibfk_1` FOREIGN KEY (`AccountID`) REFERENCES `account` (`ID`);
+ALTER TABLE `bankaccounts`
+  ADD CONSTRAINT `bankaccounts_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customers` (`id`);
 
 --
--- Các ràng buộc cho bảng `bank_account`
+-- Các ràng buộc cho bảng `bookingrooms`
 --
-ALTER TABLE `bank_account`
-  ADD CONSTRAINT `bank_account_ibfk_1` FOREIGN KEY (`UserID`) REFERENCES `account` (`ID`);
+ALTER TABLE `bookingrooms`
+  ADD CONSTRAINT `bookingrooms_ibfk_1` FOREIGN KEY (`roomID`) REFERENCES `rooms` (`id`);
 
 --
--- Các ràng buộc cho bảng `booking`
+-- Các ràng buộc cho bảng `bookings`
 --
-ALTER TABLE `booking`
-  ADD CONSTRAINT `booking_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customer` (`ID`),
-  ADD CONSTRAINT `booking_ibfk_2` FOREIGN KEY (`BookingRoomID`) REFERENCES `booking_room` (`ID`),
-  ADD CONSTRAINT `booking_ibfk_3` FOREIGN KEY (`VocherApplyID`) REFERENCES `vocher_collection` (`ID`);
+ALTER TABLE `bookings`
+  ADD CONSTRAINT `bookings_ibfk_1` FOREIGN KEY (`bookingRoomID`) REFERENCES `bookingrooms` (`id`),
+  ADD CONSTRAINT `bookings_ibfk_2` FOREIGN KEY (`customerID`) REFERENCES `customers` (`id`),
+  ADD CONSTRAINT `bookings_ibfk_3` FOREIGN KEY (`vocherApplyID`) REFERENCES `vouchercollections` (`id`);
 
 --
--- Các ràng buộc cho bảng `booking_room`
+-- Các ràng buộc cho bảng `customers`
 --
-ALTER TABLE `booking_room`
-  ADD CONSTRAINT `booking_room_ibfk_1` FOREIGN KEY (`RoomID`) REFERENCES `room` (`ID`);
+ALTER TABLE `customers`
+  ADD CONSTRAINT `customers_ibfk_1` FOREIGN KEY (`accountID`) REFERENCES `accounts` (`id`);
 
 --
--- Các ràng buộc cho bảng `customer`
+-- Các ràng buộc cho bảng `favoritehotels`
 --
-ALTER TABLE `customer`
-  ADD CONSTRAINT `customer_ibfk_1` FOREIGN KEY (`AccountID`) REFERENCES `account` (`ID`);
+ALTER TABLE `favoritehotels`
+  ADD CONSTRAINT `favoritehotels_ibfk_1` FOREIGN KEY (`hotelID`) REFERENCES `hotels` (`id`),
+  ADD CONSTRAINT `favoritehotels_ibfk_2` FOREIGN KEY (`customerID`) REFERENCES `customers` (`id`);
 
 --
--- Các ràng buộc cho bảng `favorite_hotel`
+-- Các ràng buộc cho bảng `hotels`
 --
-ALTER TABLE `favorite_hotel`
-  ADD CONSTRAINT `favorite_hotel_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customer` (`ID`),
-  ADD CONSTRAINT `favorite_hotel_ibfk_2` FOREIGN KEY (`HotelID`) REFERENCES `hotel` (`ID`);
+ALTER TABLE `hotels`
+  ADD CONSTRAINT `hotels_ibfk_1` FOREIGN KEY (`accountID`) REFERENCES `accounts` (`id`);
 
 --
--- Các ràng buộc cho bảng `hotel`
+-- Các ràng buộc cho bảng `photos`
 --
-ALTER TABLE `hotel`
-  ADD CONSTRAINT `hotel_ibfk_1` FOREIGN KEY (`AccountID`) REFERENCES `account` (`ID`);
+ALTER TABLE `photos`
+  ADD CONSTRAINT `photos_ibfk_1` FOREIGN KEY (`hotelID`) REFERENCES `hotels` (`id`);
 
 --
--- Các ràng buộc cho bảng `hotel_branch`
+-- Các ràng buộc cho bảng `reviews`
 --
-ALTER TABLE `hotel_branch`
-  ADD CONSTRAINT `hotel_branch_ibfk_1` FOREIGN KEY (`HotelID`) REFERENCES `hotel` (`ID`);
+ALTER TABLE `reviews`
+  ADD CONSTRAINT `reviews_ibfk_1` FOREIGN KEY (`customerID`) REFERENCES `customers` (`id`),
+  ADD CONSTRAINT `reviews_ibfk_2` FOREIGN KEY (`hotelID`) REFERENCES `hotels` (`id`);
 
 --
--- Các ràng buộc cho bảng `review`
+-- Các ràng buộc cho bảng `rooms`
 --
-ALTER TABLE `review`
-  ADD CONSTRAINT `review_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customer` (`ID`),
-  ADD CONSTRAINT `review_ibfk_2` FOREIGN KEY (`HotelBranchID`) REFERENCES `hotel_branch` (`ID`);
+ALTER TABLE `rooms`
+  ADD CONSTRAINT `rooms_ibfk_1` FOREIGN KEY (`hotelID`) REFERENCES `hotels` (`id`),
+  ADD CONSTRAINT `rooms_ibfk_2` FOREIGN KEY (`typeRoomID`) REFERENCES `typerooms` (`id`);
 
 --
--- Các ràng buộc cho bảng `room`
+-- Các ràng buộc cho bảng `sales`
 --
-ALTER TABLE `room`
-  ADD CONSTRAINT `room_ibfk_1` FOREIGN KEY (`HotelBranchID`) REFERENCES `hotel_branch` (`ID`),
-  ADD CONSTRAINT `room_ibfk_2` FOREIGN KEY (`TypeRoomID`) REFERENCES `type_room` (`ID`);
+ALTER TABLE `sales`
+  ADD CONSTRAINT `sales_ibfk_1` FOREIGN KEY (`hotelID`) REFERENCES `hotels` (`id`),
+  ADD CONSTRAINT `sales_ibfk_2` FOREIGN KEY (`roomID`) REFERENCES `rooms` (`id`);
 
 --
--- Các ràng buộc cho bảng `sale`
+-- Các ràng buộc cho bảng `vouchercollections`
 --
-ALTER TABLE `sale`
-  ADD CONSTRAINT `sale_ibfk_1` FOREIGN KEY (`HotelID`) REFERENCES `hotel` (`ID`),
-  ADD CONSTRAINT `sale_ibfk_2` FOREIGN KEY (`RoomID`) REFERENCES `room` (`ID`);
-
---
--- Các ràng buộc cho bảng `vocher_collection`
---
-ALTER TABLE `vocher_collection`
-  ADD CONSTRAINT `vocher_collection_ibfk_1` FOREIGN KEY (`CustomerID`) REFERENCES `customer` (`ID`),
-  ADD CONSTRAINT `vocher_collection_ibfk_2` FOREIGN KEY (`VocherID`) REFERENCES `vocher` (`ID`);
+ALTER TABLE `vouchercollections`
+  ADD CONSTRAINT `vouchercollections_ibfk_1` FOREIGN KEY (`customerID`) REFERENCES `customers` (`id`),
+  ADD CONSTRAINT `vouchercollections_ibfk_2` FOREIGN KEY (`voucherID`) REFERENCES `vouchers` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
