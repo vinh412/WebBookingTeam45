@@ -20,6 +20,9 @@ p {
     background: #141432;
     color: #ffffff;
 } */
+.card-1 {
+    margin-top: 30px;
+}
 .card-1 header {
     font-size: 1.5rem;
     color: #333;

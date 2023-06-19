@@ -1,6 +1,42 @@
 import "./inforDetail.css"
+import React, {useState} from "react"
+import isEmpty from 'validator/lib/isEmpty';
 
 const InforDetail = () => {
+    const [fullname, setFullname] = useState('')
+    const [email, setEmail] = useState('')
+    const [validationMsg, setValidationMsg] = useState('')
+
+
+    const onChangeFullname = (e) => { 
+        const value = e.target.value
+        setFullname(value)
+    }
+    const onChangeEmail = (e) => {
+        const value = e.target.value
+        setEmail(value)
+    }
+
+    const validateAll = () => {
+        const msg = {}
+        if(isEmpty(email)){
+            msg.email = "Vui lòng nhập địa chỉ email hợp lệ để chúng tôi có thể gửi xác nhận đặt phòng cho bạn."
+        }
+        if(isEmpty(fullname)){
+            msg.fullname = "Vui lòng nhập tên"
+        }
+        setValidationMsg(msg)
+        if (Object.keys(msg).length > 0) return false
+        return true
+    }
+
+
+
+    const onSubmit = () => {
+        const isValid = validateAll()
+        if (!isValid) return
+    }
+
     return (
         <div className="body1">
             <section className="container1">
@@ -8,11 +44,21 @@ const InforDetail = () => {
                 <form action="#" className="form">
                     <div className="input-box">
                         <label>Họ tên như trong hộ chiếu</label>
-                        <input type="text" placeholder="" required />
+                        <input 
+                            type="text"     
+                            placeholder=""
+                            name="fullname" 
+                            onChange={onChangeFullname} />
+                        <p className="form-validate">{validationMsg.fullname}</p>
                     </div>
                     <div className="input-box">
                         <label>Email</label>
-                        <input type="text" placeholder="Kiểm tra kỹ lỗi chính tả" required />
+                        <input 
+                            type="email" 
+                            placeholder="Kiểm tra kỹ lỗi chính tả" 
+                            name="email"
+                            onChange={onChangeEmail} />
+                        <p className="form-validate">{validationMsg.email}</p>
                     </div>
                     <div className="input-box" required >
                         <label>Số điện thoại </label>
@@ -45,7 +91,10 @@ const InforDetail = () => {
                         <a href="/"> Chính sách bảo mật</a>
                         <span> của chúng tôi.</span>
                     </div>
-                    <button>Kế tiếp: Bước cuối cùng</button>
+                    <button 
+                        type="submit"
+                        onClick={onSubmit}
+                    >Kế tiếp: Bước cuối cùng</button>
                 </form>
     </section>
         </div>
