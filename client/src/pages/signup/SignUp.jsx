@@ -1,6 +1,124 @@
-import { Link } from 'react-router-dom';
-
+import { Link ,useLocation,useNavigate} from 'react-router-dom';
+import {useState, useEffect } from "react"
+import { apiLogin } from '../../services/auth';
+import * as actions from '../../store/actions'
+import { useDispatch, useSelector } from 'react-redux';
 const SignUp = () => {
+
+    const [invalidFields,setInvalidFields] =useState([])
+    const {isLoggedIn} = useSelector(state => state.auth)
+    const navigate = useNavigate()
+    const [payload,setPayload]=useState({
+        name:'',
+        phone:'',
+        gmail:'',
+        passWord:''
+        
+    })
+    useEffect(()=> {
+        isLoggedIn && navigate('/')
+
+    },[isLoggedIn])
+    const [errorName,setErrorName] =useState([])
+    const [errorPassWord,setErrorPassWord] =useState([])
+    const [errorGmail,setErrorGmail] =useState([])
+    const [errorPhone,setErrorPhone] =useState([])
+    const dispatch = useDispatch()
+    const handleRegister =async() =>{
+        setInvalidFields([]) 
+       console.log(payload)
+   
+      //dispatch(actions.register(payload))
+      let tmp=[]
+      let tmp1=[]
+      let tmp2=[]
+      let tmp3=[]
+      
+     let invalids= validate(payload)
+    console.log(invalids)
+    console.log(invalidFields)
+    if(invalids ===0 ){
+        dispatch(actions.register(payload))
+    }else{
+    invalidFields.forEach(error =>{
+        switch(error.name){
+            case 'name':
+               
+               tmp.push(<small className='text-danger d-block'>{error.message}</small>)
+                break;
+            case 'passWord':
+               
+               tmp1.push(<small className='text-danger d-block'>{error.message}</small>)
+               break;
+            case 'gmail':
+               
+               tmp2.push(<small className='text-danger d-block'>{error.message}</small>)
+               break;
+            case 'phone':
+               
+               tmp3.push(<small className='text-danger d-block'>{error.message}</small>)
+               break;
+            default:
+                break;
+        }
+        
+      })
+      setErrorName(tmp)
+      setErrorPassWord(tmp1)
+      setErrorGmail(tmp2)
+      setErrorPhone(tmp3)
+      
+    }  }
+
+    const validate = (payload) => {
+        console.log(payload)
+        let invalids = 0
+        let fields = Object.entries(payload)
+        fields.forEach(item => {
+            if (item[1] === '') {
+                setInvalidFields(prev => [...prev, {
+                    name: item[0],
+                    message: 'Bạn không được bỏ trống trường này.'
+                }])
+                invalids++
+            }
+        })
+        fields.forEach(item => {
+            switch (item[0]) {
+                case 'passWord':
+                    if (item[1].length < 6) {
+                        setInvalidFields(prev => [...prev, {
+                            name: item[0],
+                            message: 'Mật khẩu phải có tối thiểu 6 kí tự.'
+                        }])
+                        invalids++
+                    }
+                    break;
+                case 'phone':
+                    if (!+item[1]) {
+                        setInvalidFields(prev => [...prev, {
+                            name: item[0],
+                            message: 'Số điện thoại không hợp lệ.'
+                        }])
+                        invalids++
+                    }
+                    break
+                case 'gmail':
+                    if (!item[1].includes('@gmail.com')) {
+                        setInvalidFields(prev => [...prev, {
+                            name: item[0],
+                            message: 'gmail không hợp lệ.'
+                        }])
+                        invalids++
+                    }
+                    break
+                default:
+                    break;
+            }
+        })
+        return invalids
+    }
+    
     return (
         <div>
             {/* <!-- Section: Design Block --> */}
@@ -25,43 +143,44 @@ const SignUp = () => {
                                                 <p>Sign Up</p>
                                                
                                             </div>
-                                            {/* <!-- 2 column grid layout with text inputs for the first and last names --> */}
-                                            {/* <div className="row">
-                                                <div className="col-md-6 mb-4">
-                                                    <div className="form-outline">
-                                                        <input type="text" id="form3Example1" className="form-control" />
-                                                        <label className="form-label" for="form3Example1">First name</label>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6 mb-4">
-                                                    <div className="form-outline">
-                                                        <input type="text" id="form3Example2" className="form-control" />
-                                                        <label className="form-label" for="form3Example2">Last name</label>
-                                                    </div>
-                                                </div>
-                                            </div> */}
-                                            {/*Name input */}
+                                           
                                             <div className="form-outline mb-4">
-                                                <input type="name" id="form3Example3" className="form-control" />
-                                                <label className="form-label" for="form3Example3">Name</label>
+                                                <input type="name" id="form3Example1" className="form-control" 
+                                                    //onFocus={()=> setInvalidFields([])}
+                                                    onChange={()=>setPayload({...payload,name:document.getElementById("form3Example1").value
+})}
+                                                />
+                                                <label className="form-label" for="form3Example1">Name</label>
+                                                {errorName[0]}
                                             </div>
                                             
                                              {/*Number Phone input */}
                                              <div className="form-outline mb-4">
-                                                <input type="phone" id="form3Example3" className="form-control" />
-                                                <label className="form-label" for="form3Example3">Number phone</label>
+                                                <input type="phone" id="form3Example2" className="form-control"
+                                                 onChange={()=>setPayload({...payload,phone:document.getElementById("form3Example2").value
+})} />
+                                                <label className="form-label" for="form3Example2">Number phone</label>
+                                                {errorPhone[0]}
                                             </div>
 
                                             {/* <!-- Email input --> */}
                                             <div className="form-outline mb-4">
-                                                <input type="email" id="form3Example3" className="form-control" />
+                                                <input type="email" id="form3Example3" className="form-control" 
+                                                     onChange={()=>setPayload({...payload,gmail:document.getElementById("form3Example3").value
+})}
+                                                />
                                                 <label className="form-label" for="form3Example3">Email address</label>
+                                                {errorGmail[0]}
                                             </div>
 
                                             {/* <!-- Password input --> */}
                                             <div className="form-outline mb-4">
-                                                <input typeName="password" id="form3Example4" className="form-control" />
+                                                <input typeName="password" id="form3Example4" className="form-control" 
+                                                     onChange={()=>setPayload({...payload,passWord:document.getElementById("form3Example4").value
+})}
+                                                />
                                                 <label className="form-label" for="form3Example4">Password</label>
+                                                {errorPassWord[0]}
                                             </div>
 
                                             {/* <!-- Checkbox --> */}
@@ -73,7 +192,9 @@ const SignUp = () => {
                                             </div>
 
                                             {/* <!-- Submit button --> */}
-                                            <button type="submit" className="btn btn-primary btn-block mb-4">
+                                            <button type="button" className="btn btn-primary btn-block mb-4" 
+                                            onClick={handleRegister}
+                                            >
                                                 Sign up
                                             </button>
 

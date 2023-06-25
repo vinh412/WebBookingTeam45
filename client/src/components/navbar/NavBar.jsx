@@ -1,11 +1,15 @@
 import { useNavigate, Link } from "react-router-dom";
 import React, { memo } from "react"
 import avatar from "../../asset/avatar.jpg"
+import { useSelector , useDispatch} from "react-redux";
+import * as actions from '../../store/actions'
 
 
-const NavBar = ({status}) => {
+const NavBar = () => {
    
     const navigate = useNavigate();
+    const {isLoggedIn} = useSelector(state => state.auth)
+    const dispatch = useDispatch()
     const navigateToLogin = () => {
         navigate('/login');
     };
@@ -49,7 +53,7 @@ const NavBar = ({status}) => {
                             </li>
                         </ul>
                         
-                        {!status?<ul className='navbar-nav me-2'>
+                        {!isLoggedIn?<ul className='navbar-nav me-2'>
                                     <li className='nav-item me-2'>
                                         <button className='btn btn-outline-primary' onClick={navigateToLogin}>Đăng nhập</button>
                                     </li>
@@ -60,6 +64,11 @@ const NavBar = ({status}) => {
                                 :<ul className='navbar-nav me-2'>
                                     <li className='nav-item me-2'>  
                                         <button className='btn btn-outline-primary mx-3'>Đăng ký làm đối tác</button>
+                                    </li>
+                                    <li className='nav-item me-2'>  
+                                        <button className='btn btn-primary mx-3'
+                                            onClick={()=>dispatch(actions.logout())}
+                                        >Đăng xuất</button>
                                     </li>
                                     <li className='nav-item me-2'>
                                     <img src={avatar} 
