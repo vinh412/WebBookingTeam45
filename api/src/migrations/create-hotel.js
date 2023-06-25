@@ -12,7 +12,7 @@ module.exports = {
       accountID: {
         type: Sequelize.INTEGER
       },
-      nameHotel: {
+      name: {
         type: Sequelize.STRING
       },
       revenua: {
@@ -30,14 +30,20 @@ module.exports = {
       address: {
         type: Sequelize.STRING
       },
+      longitude: {
+        type: Sequelize.FLOAT
+      },
+      latitude: {
+        type: Sequelize.FLOAT
+      },
       evaluate: {
-        type: Sequelize.INTEGER
+        type: Sequelize.FLOAT
       },
       numberReview: {
         type: Sequelize.INTEGER
       },
       description: {
-        type: Sequelize.STRING
+        type: Sequelize.TEXT
       },
       minCost: {
         type: Sequelize.INTEGER

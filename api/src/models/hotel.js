@@ -11,19 +11,31 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Hotel.hasMany(models.Photo, {
+        foreignKey: "hotelID",
+        as: "images"
+      });
+
+      Hotel.hasMany(models.Room, {
+        foreignKey: "hotelID",
+        as: "rooms"
+      });
+
     }
   }
   Hotel.init({
     accountID: DataTypes.INTEGER,
-    nameHotel: DataTypes.STRING,
+    name: DataTypes.STRING,
     revenua: DataTypes.INTEGER,
     fee: DataTypes.INTEGER,
     phoneNumber: DataTypes.STRING,
     type: DataTypes.INTEGER,
     address: DataTypes.STRING,
-    evaluate: DataTypes.INTEGER,
+    longitude: DataTypes.FLOAT,
+    latitude: DataTypes.FLOAT,
+    evaluate: DataTypes.FLOAT,
     numberReview: DataTypes.INTEGER,
-    description: DataTypes.STRING,
+    description: DataTypes.TEXT,
     minCost: DataTypes.INTEGER
   }, {
     sequelize,

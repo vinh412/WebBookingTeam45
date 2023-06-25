@@ -11,15 +11,24 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Room.belongsTo(models.Hotel, {
+        foreignKey: "hotelID",
+        targetKey: "id",
+        as: "rooms"
+      })
     }
   }
   Room.init({
     hotelID: DataTypes.INTEGER,
-    typeRoomID: DataTypes.INTEGER,
+    name: DataTypes.STRING,
+    image: DataTypes.STRING,
     cost: DataTypes.INTEGER,
     quantity: DataTypes.INTEGER,
     emptyRoom: DataTypes.INTEGER,
-    salePrice: DataTypes.INTEGER
+    salePrice: DataTypes.INTEGER,
+    area: DataTypes.INTEGER,
+    singleBed: DataTypes.INTEGER,
+    doubleBed: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Room',
