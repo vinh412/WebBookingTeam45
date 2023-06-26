@@ -59,6 +59,7 @@ const InforDetail = () => {
             });
         }
 
+    
 
     return (
         <div className="body1">

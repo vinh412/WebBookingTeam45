@@ -44,13 +44,7 @@ const NewRoom = () => {
     };
 
     const handleClick = async (e) => {
-        e.preventDefault();
-        const roomNumbers = rooms.split(",").map((room) => ({ number: room }));
-        try {
-        await axios.post(`/rooms/${hotelId}`, { ...info, roomNumbers });
-        } catch (err) {
-        console.log(err);
-        }
+      //TODO
     };
 
   console.log(info)
