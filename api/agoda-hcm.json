@@ -46,15 +46,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Phòng Đôi Cao Cấp (Superior Double Room)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/377422085.jpg?k=1114d004e85728f67b992977e9e4db3758a7312705fbdcc81895ca092a66887c&o=&isSkia=true",
+                "cost": 999999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 799999,
+                "area": 20,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
+            },
+            {
+                "name": "Standard Double Room",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/377421736.jpg?k=3c0c5e31b00ba17b6d97dc1ca4564ed46a5ab681f1d1b4033484fd9cffaa4a0e&o=&isSkia=true",
+                "cost": 799999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 599999,
+                "area": 20,
+                "singleBed": 0,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -62,7 +73,7 @@
             "score": 8.3
         },
         "propertyPage": "https://www.agoda.com/vi-vn/holo-central-saigon-serviced-homestay/hotel/all/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Quận 1 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
     },
     {
         "id": 15946528,
@@ -111,15 +122,15 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Căn Hộ Studio (Studio Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/262682757.jpg?k=25f8c18881960e54161716c7bcbbca81c0f4a11a9617714642fd5702322c0714&o=&isSkia=true",
+                "cost": 1000000,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
-                "singleBed": 0,
-                "doubleBed": 0
+                "salePrice": 900000,
+                "area": 26,
+                "singleBed": 1,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -127,7 +138,7 @@
             "score": 7.7
         },
         "propertyPage": "https://www.agoda.com/vi-vn/an-binh-house-saigon/hotel/all/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Quận 10 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Chỗ nghỉ 5 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
     },
     {
         "id": 18766278,
@@ -176,15 +187,37 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Apartment With 2 Bedrooms",
+                "image": "https://pix8.agoda.net/hotelImages/18766278/-1/f5514c5e67be5acd2add17aa172cde77.jpg?ca=16&ce=1&isSkia=true",
+                "cost": 1700000,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 1500000,
+                "area": 65,
+                "singleBed": 2,
+                "doubleBed": 2
+            },
+            {
+                "name": "Căn Hộ 1 Phòng Ngủ (Apartment 1 Bedroom)",
+                "image": "https://pix8.agoda.net/hotelImages/187/18766278/18766278_20101917190092796161.jpg?ca=14&ce=1&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 799999,
+                "area": 35,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn Hộ có Cửa Sổ (Apartment with Window)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/471406516.jpg?k=a44039632a321a73b2b0076632526cdd9e1780bfc8cfe7aa7619592ea749d283&o=&isSkia=true",
+                "cost": 1000000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 750000,
+                "area": 30,
+                "singleBed": 0,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -192,7 +225,7 @@
             "score": 9
         },
         "propertyPage": "https://www.agoda.com/vi-vn/sabay-airport-apartment/hotel/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 5 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
     },
     {
         "id": 7431632,
@@ -241,14 +274,25 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Studio Suite",
+                "image": "https://pix8.agoda.net/hotelImages/7431632/-1/bd90d16e68378c0bfae12806b86b13a8.jpg?ca=13&ce=1&isSkia=true",
+                "cost": 799999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 499999,
+                "area": 20,
                 "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Suite Vườn (Garden Suite)",
+                "image": "https://pix8.agoda.net/hotelImages/7431632/-1/1e0ef4eaea82343fd81948025d5c0b51.jpg?ca=9&ce=1&isSkia=true",
+                "cost": 899999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 699999,
+                "area": 29,
+                "singleBed": 2,
                 "doubleBed": 0
             }
         ],
@@ -257,7 +301,7 @@
             "score": 8.5
         },
         "propertyPage": "https://www.agoda.com/vi-vn/the-hut-boutique-hotel-notre-dame/hotel/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Hãy để chuyến đi của quý khách có một khởi đầu tuyệt vời khi ở lại khách sạn này, nơi có Wi-Fi miễn phí trong tất cả các phòng. Nằm ở vị trí trung tâm tại Quận 3 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 3 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
     },
     {
         "id": 2205456,
@@ -306,15 +350,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Căn hộ Deluxe (Deluxe Apartment)",
+                "image": "https://pix8.agoda.net/hotelImages/220/2205456/2205456_19100315010081779192.jpg?ca=9&ce=1&isSkia=true",
+                "cost": 1199999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
-                "singleBed": 0,
-                "doubleBed": 0
+                "salePrice": 999999,
+                "area": 45,
+                "singleBed": 1,
+                "doubleBed": 1
+            },
+            {
+                "name": "Phòng Đôi Cao Cấp (Superior Double Room)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/256113408.jpg?k=ea2e114520f4341de0e12f6336393217878f7ab47b8a0e37e422147a4558188d&o=&isSkia=true",
+                "cost": 1099999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 899999,
+                "area": 50,
+                "singleBed": 1,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -322,7 +377,7 @@
             "score": 8.6
         },
         "propertyPage": "https://www.agoda.com/vi-vn/diamond-luxury-ben-thanh/hotel/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Hãy để chuyến đi của quý khách có một khởi đầu tuyệt vời khi ở lại khách sạn này, nơi có Wi-Fi miễn phí trong tất cả các phòng. Nằm ở vị trí chiến lược tại Quận 1, cho phép quý khách lui tới và gần với các điểm thu hút và tham quan địa phương. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 4 sao này có spa giúp cho kỳ nghỉ của quý khách thêm thư thái và đáng nhớ."
     },
     {
         "id": 11157171,
@@ -371,15 +426,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Căn hộ 201 (Apartment 201)",
+                "image": "https://pix8.agoda.net/hotelImages/11157171/-1/7aabef6350e3c023df4e3164e6fddc7c.jpg?ca=13&ce=1&isSkia=true",
+                "cost": 999999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 799999,
+                "area": 38,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn hộ 1 giường (1 bed apartment)",
+                "image": "https://pix8.agoda.net/hotelImages/11157171/-1/e40da93fdc8df71639008cf7b6659d8c.jpg?ca=14&ce=1&isSkia=true",
+                "cost": 899999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 699999,
+                "area": 38,
+                "singleBed": 0,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -387,7 +453,7 @@
             "score": 9.1
         },
         "propertyPage": "https://www.agoda.com/vi-vn/the-art-sunshine-apartment/hotel/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 3 sao này có nhà hàng giúp cho kỳ nghỉ của quý khách thêm thư thái và đáng nhớ"
     },
     {
         "id": 36886794,
@@ -436,15 +502,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Căn Hộ 1 Phòng Ngủ (One-Bedroom Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/414333366.jpg?k=94cb540ab0f093cac87d9fe5ef0ae29a7c117ea4183d0479cd97f55205232ffc&o=&isSkia=true",
+                "cost": 700000,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 500000,
+                "area": 40,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn Hộ (Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/426720572.jpg?k=908b04310d464cac0d3a4895db91de9b007bb0cee5590ba623d6eedf1b45f24a&o=&isSkia=true",
+                "cost": 6000000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 4000000,
+                "area": 35,
+                "singleBed": 0,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -452,7 +529,7 @@
             "score": 9
         },
         "propertyPage": "https://www.agoda.com/vi-vn/yen-house_2/hotel/all/ho-chi-minh-city-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
     },
     {
         "id": 8705825,

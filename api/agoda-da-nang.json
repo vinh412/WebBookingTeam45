@@ -46,15 +46,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Phòng 3 Người Nhìn Ra Thành Phố (Triple Room with City View)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/306881859.jpg?k=ae2250b977b8ed4fbdf10aff7c45ea47c3911357808350d22c6649610b6e4274&o=&isSkia=true",
+                "cost": 8999999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 6999999,
+                "area": 35,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
+            },
+            {
+                "name": "Phòng Deluxe giường đôi Có ban công (Deluxe Double Balcony Room)",
+                "image": "https://pix8.agoda.net/hotelImages/35444461/-1/def8d2c19d6cbf548e222b71d65fa9e9.jpg?ce=0&isSkia=true",
+                "cost": 7999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 5999999,
+                "area": 30,
+                "singleBed": 0,
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -62,7 +73,7 @@
             "score": 9.1
         },
         "propertyPage": "https://www.agoda.com/vi-vn/lamanga-hotel-suites/hotel/da-nang-vn.html",
-        "description": ""
+        "description": "Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Hải Châu của Da Nang, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Ngũ Hành Sơn nổi tiếng. Được xếp hạng 4 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng bể bơi trong nhà và nhà hàng ngay trong khuôn viên."
     },
     {
         "id": 4435798,
@@ -111,14 +122,25 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Căn hộ có ban công (Apartment with Balcony)",
+                "image": "https://pix8.agoda.net/hotelImages/4435798/-1/cb87d11cfe64136f764f5963cb2092cd.jpg?ca=16&ce=1&isSkia=true",
+                "cost": 1000000,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 8000000,
+                "area": 50,
                 "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Superior giường King Hướng phố (Superior King City View)",
+                "image": "https://pix8.agoda.net/hotelImages/4435798/-1/a5f5f7068db32e25e8bdcaf6371ac798.jpg?ce=0&isSkia=true",
+                "cost": 500000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 450000,
+                "area": 24,
+                "singleBed": 2,
                 "doubleBed": 0
             }
         ],
@@ -127,7 +149,7 @@
             "score": 8.9
         },
         "propertyPage": "https://www.agoda.com/vi-vn/hanami-hotel-danang_2/hotel/da-nang-vn.html",
-        "description": ""
+        "description": "Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Phước Mỹ của Da Nang, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Hãy nhớ dành một chút thời gian để thăm thú Ngũ Hành Sơn cũng như Biển Mỹ Khê gần đó. Chỗ nghỉ 3 sao này có nhà hàng giúp cho kỳ nghỉ của quý khách thêm thư thái và đáng nhớ."
     },
     {
         "id": 32401237,
@@ -176,15 +198,15 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
+                "name": "Studio Superior (Superior Studio)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/363794088.jpg?k=9ebe785dab9e038a4f1e04c1fe70d16489f7aa7428337a38d45db5c2a8f204fe&o=&isSkia=true",
                 "cost": 0,
-                "quantity": 10,
+                "quantity": 899999,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 699999,
+                "area": 35,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed":1
             }
         ],
         "evaluate": {
@@ -192,7 +214,7 @@
             "score": 8.5
         },
         "propertyPage": "https://www.agoda.com/vi-vn/tigon-boutique/hotel/all/da-nang-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Hải Châu của Da Nang, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
     },
     {
         "id": 12376453,
@@ -241,23 +263,45 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Phòng Ba Người Gia Đình (Family Triple Room)",
+                "image": "https://pix8.agoda.net/hotelImages/12376453/-1/e4d8e842a5980f3d94196f4336018066.jpg?ca=12&ce=1&isSkia=true",
+                "cost": 799999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 699999,
+                "area": 30,
+                "singleBed": 1,
+                "doubleBed": 1
+            },
+            {
+                "name": "Phòng gia đình hướng biển (Family Ocean View)",
+                "image": "https://pix8.agoda.net/hotelImages/12376453/-1/adf56109f80bdc01c49c8a0270eded95.jpg?ca=12&ce=1&isSkia=true",
+                "cost": 749999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 689999,
+                "area": 30,
+                "singleBed": 1,
+                "doubleBed": 1
+            },
+            {
+                "name": "Suite Có Giường Cỡ King Nhìn Ra Biển (King Suite with Sea View)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/260827852.jpg?k=a7fcccc51faea15ad138808a1de8c199da92907611e3a6c51d7931336882f615&o=&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 800000,
+                "area": 30,
                 "singleBed": 0,
-                "doubleBed": 0
-            }
+                "doubleBed": 1
+            }   
         ],
         "evaluate": {
             "reviewCount": 141,
             "score": 9
         },
         "propertyPage": "https://www.agoda.com/vi-vn/santa-luxury-hotel/hotel/da-nang-vn.html",
-        "description": ""
+        "description": "Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Phước Mỹ của Da Nang, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Hãy nhớ dành một chút thời gian để thăm thú Ngũ Hành Sơn cũng như Biển Mỹ Khê gần đó. Được xếp hạng 4 sao, chỗ nghỉ chất lượng cao này cho phép khách nghỉ sử dụng bể bơi ngoài trời, phòng tập và nhà hàng ngay trong khuôn viên."
     },
     {
         "id": 27938347,
@@ -306,23 +350,34 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Phòng Loại Sang (Deluxe Room)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/349637530.jpg?k=864546e7ef375ec0741b7dadda312ae6b4dc190b58413b8ba137bb624a96d5a7&o=&isSkia=true",
+                "cost": 1111111,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 999999,
+                "area": 20,
                 "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn Hộ Một Phòng Ngủ (One-Bedroom Apartment)",
+                "image": "https://pix8.agoda.net/hotelImages/27938347/-1/5ef151205f5b2cee97154d8a28d1ae89.jpg?ca=28&ce=0&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 899999,
+                "area": 45,
+                "singleBed": 2,
                 "doubleBed": 0
-            }
+            } 
         ],
         "evaluate": {
             "reviewCount": 151,
             "score": 8.1
         },
         "propertyPage": "https://www.agoda.com/vi-vn/chin-stays-han-river/hotel/da-nang-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí chiến lược tại Hải Châu, cho phép quý khách lui tới và gần với các điểm thu hút và tham quan địa phương. Hãy nhớ dành một chút thời gian để thăm thú Ngũ Hành Sơn cũng như Biển Mỹ Khê gần đó."
     },
     {
         "id": 6771680,
@@ -371,15 +426,26 @@
         },
         "rooms": [
             {
-                "name": "",
-                "image": "",
-                "cost": 0,
+                "name": "Phòng Giường Đôi Có Ban Công (2 Người Lớn + 1 Trẻ Em) (Double Room with Balcony (2 Adults + 1 Child))",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/238858490.jpg?k=cabfb8dd304fb1457265a490d0a7c27fac8267aaacff77196b2fd86b1ab3480a&o=&isSkia=true",
+                "cost": 1099999,
                 "quantity": 10,
                 "emptyRoom": 0,
-                "salePrice": 0,
-                "area": 0,
+                "salePrice": 899998,
+                "area": 25,
+                "singleBed": 1,
+                "doubleBed": 1
+            },
+            {
+                "name": "Phòng Giường Đôi Có Ban Công (Double Room with Balcony)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/175083286.jpg?k=94edd2f6f042536a1c840942d83cad3a002eb67e50b00fa6e6af9d46d13f552d&o=&isSkia=true",
+                "cost": 799999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 599999,
+                "area": 20,
                 "singleBed": 0,
-                "doubleBed": 0
+                "doubleBed": 1
             }
         ],
         "evaluate": {
@@ -387,7 +453,7 @@
             "score": 9
         },
         "propertyPage": "https://www.agoda.com/vi-vn/siro-house-da-nang-homestay/hotel/all/da-nang-vn.html",
-        "description": ""
+        "description": "Nằm ở vị trí trung tâm tại Phước Mỹ của Da Nang, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
     },
     {
         "id": 2262064,
