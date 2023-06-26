@@ -1,19 +1,4 @@
-// const hotel={
-//     id:1,
-//     name: 'Hotel',
-//     revenua:300,
-//     fee: 100,
-//     images: ["src1", "src2", "src3"],
-//     type:3,
-//     description: 'Hotel Description',
-//     address: 'Hotel Address',
-//     mincost:200,
-//     phone:113,
-//     evalute:3.5,
-//     numberreviews:222
 
-// }
-//import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { useState ,memo } from "react";
 const SearchCard = ({hotel}) =>{
   console.log(typeof(hotel))
