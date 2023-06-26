@@ -9,6 +9,7 @@ app.use( cors({
     origin: process.env.CLIENT_URL,
     methods: ["PORT", 'GET', 'PUT', "DELETE"]
 }))
+
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 

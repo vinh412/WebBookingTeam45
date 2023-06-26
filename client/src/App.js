@@ -13,6 +13,8 @@ import Overview from "./components/overview/Overview";
 import Home from "./pages/home/Home";
 import Hotel from "./pages/hotel/Hotel";
 import Search from "./pages/search/Search"
+import NewHotel from "./pages/newHotel/NewHotel";
+import NewRoom from "./pages/newRoom/NewRoom";
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/test" element={<Overview/>}/>
           <Route path="/payment" element={<Payment/>}/>
           <Route path="/search" element={<Search/>}/>
+          <Route path="/newHotel" element={<NewHotel/>}/>
+          <Route path="/newRoom" element={<NewRoom/>}/>
         </Routes>
       </BrowserRouter>
 
