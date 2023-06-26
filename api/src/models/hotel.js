@@ -27,7 +27,8 @@ module.exports = (sequelize, DataTypes) => {
     numberReview: DataTypes.INTEGER,
     description: DataTypes.TEXT,
     minCost: DataTypes.INTEGER,
-    saleMax: DataTypes.INTEGER
+    saleMax: DataTypes.INTEGER,
+    status: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Hotel',

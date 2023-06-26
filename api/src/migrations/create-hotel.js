@@ -51,6 +51,9 @@ module.exports = {
       saleMax: {
         type: Sequelize.INTEGER
       },
+      status: {
+        type: Sequelize.INTEGER
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
