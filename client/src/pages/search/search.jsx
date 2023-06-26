@@ -554,6 +554,7 @@ const Test1=()=>{
                                 </div>
                            
                            </div>
+                           <button type="button" class="btn btn-light m-2" id="10" >clear</button>
                            
                         </div>
                         <div className="col-md-12 col-lg-9 col-xl-7 offset-xr-1 ">
