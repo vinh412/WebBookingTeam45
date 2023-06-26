@@ -13,7 +13,6 @@ import Overview from "./components/overview/Overview";
 import Home from "./pages/home/Home";
 import Hotel from "./pages/hotel/Hotel";
 import Search from "./pages/search/Search"
-import Partner from "./pages/partner/Partner"
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
           <Route path="/test" element={<Overview/>}/>
           <Route path="/payment" element={<Payment/>}/>
           <Route path="/search" element={<Search/>}/>
-          <Route path="/partner" element={<Partner/>}/>
         </Routes>
       </BrowserRouter>
 
