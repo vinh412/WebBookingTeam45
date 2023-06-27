@@ -89,15 +89,16 @@ const NewHotel = () => {
     } catch (err) {console.log(err)}
   };
   return (
-    <div className="new">
-      <div className="newContainer">
+    <div className="new-hotel">
+      <div className="newContainer-hotel">
         <NavBar/>
-        <div className="top">
+        <div className="top-hotel">
           <h1>Add New Hotel</h1>
         </div>
-        <div className="bottom">
-          <div className="left">
+        <div className="bottom-hotel">
+          <div className="left-hotel">
             <img 
+              className="img-hotel"
               src={
                 files
                   ? URL.createObjectURL(files[0])
@@ -106,9 +107,9 @@ const NewHotel = () => {
               alt=""
             />
           </div>
-          <div className="right">
+          <div className="right-hotel">
             <form>
-              <div className="form-input">
+              <div className="form-input-hotel">
                 <label htmlFor="file">
                   Image: <DriveFolderUploadOutlinedIcon className="icon" />
                 </label>
@@ -122,20 +123,20 @@ const NewHotel = () => {
               </div>
 
               {hotelInputs.map((input) => (
-                    <div className="form-input">
-                        <label className="label1">{input.label}</label>
+                    <div className="form-input-hotel">
+                        <label className="label1-hotel">{input.label}</label>
                         <div>
                             <input
                                 id={input.id}
                                 onChange={handleChange}
                                 type={input.type}
-                                className="input1"
+                                className="input1-hotel"
                                 placeholder={input.placeholder}
                                 />
                         </div>
                     </div>
               ))}
-              <button className="button1 mx-5 center-block my-2" onClick={handleClick}>Send</button>
+              <button className="button1-hotel mx-5 center-block my-2" onClick={handleClick}>Send</button>
             </form>
           </div>
         </div>

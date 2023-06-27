@@ -49,17 +49,17 @@ const NewRoom = () => {
 
   console.log(info)
     return (
-        <div className="new">
-            <div className="newContainer">
+        <div className="new-room">
+            <div className="newContainer-room">
                 <NavBar/>
-                <div className="top">
+                <div className="top-room">
                 <h1>Add New Room</h1>
                 </div>
-                <div className="bottom">
-                <div className="right">
+                <div className="bottom-room">
+                <div className="right-room">
                     <form>
                     {roomInputs.map((input) => (
-                        <div className="form-input">
+                        <div className="form-input-room">
                             <label className="label1 col-sm-5 col-form-label">{input.label}</label>
                             <div>
                                 <input
@@ -72,7 +72,7 @@ const NewRoom = () => {
                             </div>
                         </div>
                     ))}
-                    <div className="form-input">
+                    <div className="form-input-room">
                         <label>Rooms</label>
                         <textarea
                         className="form-control my-2"
@@ -95,7 +95,7 @@ const NewRoom = () => {
                             ))}
                         </select>
                     </div>
-                    <button className="button1" onClick={handleClick}>Send</button>
+                    <button className="button1-room" onClick={handleClick}>Send</button>
                     </form>
                 </div>
                 </div>

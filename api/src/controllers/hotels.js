@@ -91,11 +91,11 @@ export const getHotels = async (req, res) => {
     } catch (error) {
         return res.status(500).json({
             err: error,
-            msg: 'Failed at hotel controller'})
+            msg: 'Failed at hotel controller'
+        })
 
-        }
     }
-
+}
 export const createHotel = async (req, res) =>{
     
     try {

@@ -8,7 +8,7 @@ import userRouter from './user'
 
 const initRouters = (app) =>{
     app.use('/api/v1/auth',authRouter)
-    app.use('/api/v1/hotels',hotelsRouter)
+    app.use('/api/v1/hotel',hotelsRouter)
     app.use('/api/v1/rooms',roomsRouter)
     app.use('/api/v1/user',userRouter)
 

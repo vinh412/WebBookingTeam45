@@ -55,7 +55,7 @@ function FilterSearch() {
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype4" id="checktype4" />
+                    <input class="form-check-input" type="radio" name="checktype" id="checktype4" />
                     <label class="form-check-label" for="checktype">
                         3 Stars
                     </label>
