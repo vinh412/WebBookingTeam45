@@ -11,4 +11,5 @@ router.post('/updatehotel',hotelController.updateHotel)
 
 
 
+
  export default router
