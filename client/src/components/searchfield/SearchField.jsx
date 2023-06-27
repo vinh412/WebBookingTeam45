@@ -1,11 +1,8 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const SearchField = () => {
     const [address, setAddress] = useState("");
-    const navigate = useNavigate();
     const handleSubmit = () => {
-        // navigate(`../search?searchterm=${address.replaceAll(' ', '+')}`);
         window.location.href = `http://localhost:3000/search?searchterm=${address.replaceAll(' ', '+')}`;
     }
     return (
