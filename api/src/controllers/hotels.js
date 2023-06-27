@@ -29,20 +29,6 @@ export const addHotel = async (req, res) => {
     }
 };
 
-export const getAllHotels = async (req, res) => {
-    try {
-        let hotels = await db.Hotel.findAll({
-            attributes: ['id', 'name', 'type', 'address', 'longitude', 'latitude', 'evaluate', 'numberReview', 'description', 'minCost'],
-            include: [{ model: db.Photo, as: "images", attributes: ['src'] },
-            { model: db.Room, as: "rooms", attributes: ['cost', 'salePrice'] }
-            ]
-        });
-        res.status(200).json(hotels);
-    } catch (err) {
-        res.status(500).json(err);
-    }
-}
-
 export const getHotelById = async (req, res) => {
     let id = req.params.id;
     try {
@@ -97,15 +83,12 @@ export const getHotels = async (req, res) => {
     try {
 
         if (!searchterm) {
-            return res.status(400).json({
-                err: 1,
-                msg: 'missing inputs!'
-
-            })
+            const response = await hotelService.getAllHotels();
+            return res.status(200).json(response)
+        }else{
+            const response = await hotelService.getHotelsService(req.body);
+            return res.status(200).json(response)
         }
-        
-        const response = await hotelService.getHotelsService(req.body);
-        return res.status(200).json(response)
     } catch (error) {
         return res.status(500).json({
             err: error,

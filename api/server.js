@@ -20,7 +20,7 @@ initRoutes(app)
 
 connectDatabase()
 
-// fs.readFile('./src/controllers/agoda-nha-trang-3.json', 'utf-8', function(err, data){
+// fs.readFile('./src/controllers/agoda-hcm-3.json', 'utf-8', function(err, data){
 //     JSON.parse(data).map(async (item) => {
 //         await db.Hotel.create(item)
 //         await item.images.map(async (image) => {
@@ -33,6 +33,7 @@ connectDatabase()
 //             await db.Room.create(room);
 //         });
 //     })
+//     console.log("add db thanh cong");
 // });
 
 const port = process.env.PORT ||8888

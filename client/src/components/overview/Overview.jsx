@@ -1,6 +1,6 @@
 import React from 'react'
 import { Rating } from '@mui/material';
-import Rate from './Rate';
+import Map from './Map';
 
 function Overview({ hotel }) {
   return (
@@ -23,6 +23,7 @@ function Overview({ hotel }) {
               <p className='card-text'>{hotel ? hotel.numberReview : 0} bài đánh giá</p>
             </div>
           </div>
+          <Map latitude={hotel.latitude} longitude={hotel.longitude}/>
         </div>
       </div>
     </div>
