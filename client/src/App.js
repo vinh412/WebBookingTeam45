@@ -4,7 +4,7 @@ import {
   Route,
   Link,
   BrowserRouter,
-  Routes,
+  Routes
 } from "react-router-dom";
 import Payment from "./pages/payment/Payment";
 import Login from "./pages/login/Login";

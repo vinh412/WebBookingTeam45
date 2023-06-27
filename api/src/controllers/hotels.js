@@ -1,4 +1,6 @@
 import Photo from '../models/photo';
+import * as hotelService from '../services/hotels'
+const fs = require('fs');
 
 const db = require('../models');
 
@@ -30,8 +32,10 @@ export const addHotel = async (req, res) => {
 export const getAllHotels = async (req, res) => {
     try {
         let hotels = await db.Hotel.findAll({
-            attributes: ['id','name','type','address','longitude','latitude','evaluate','numberReview','description','minCost'],
-            include: [{ model: db.Photo, as: "images", attributes: ['src'] }]
+            attributes: ['id', 'name', 'type', 'address', 'longitude', 'latitude', 'evaluate', 'numberReview', 'description', 'minCost'],
+            include: [{ model: db.Photo, as: "images", attributes: ['src'] },
+            { model: db.Room, as: "rooms", attributes: ['cost', 'salePrice'] }
+            ]
         });
         res.status(200).json(hotels);
     } catch (err) {
@@ -43,9 +47,9 @@ export const getHotelById = async (req, res) => {
     let id = req.params.id;
     try {
         let hotel = await db.Hotel.findOne({
-            attributes: ['id','name','type','address','longitude','latitude','evaluate','numberReview','description','minCost'],
+            attributes: ['id', 'name', 'type', 'address', 'longitude', 'latitude', 'evaluate', 'numberReview', 'description', 'minCost'],
             include: [{ model: db.Photo, as: "images", attributes: ['src'] },
-                        {model: db.Room, as: "rooms", attributes: ['name','image','cost','quantity','emptyRoom','salePrice','area','singleBed','doubleBed']}],
+            { model: db.Room, as: "rooms", attributes: ['name', 'image', 'cost', 'quantity', 'emptyRoom', 'salePrice', 'area', 'singleBed', 'doubleBed'] }],
             where: { id: id },
         });
         res.status(200).json(hotel);
@@ -85,5 +89,28 @@ export const addRoom = async (req, res) => {
         res.status(200).json(savedRoom);
     } catch (err) {
         res.status(500).json(err);
+    }
+}
+
+export const getHotels = async (req, res) => {
+    const { searchterm, daystart, dayend } = req.body;
+    try {
+
+        if (!searchterm) {
+            return res.status(400).json({
+                err: 1,
+                msg: 'missing inputs!'
+
+            })
+        }
+        
+        const response = await hotelService.getHotelsService(req.body);
+        return res.status(200).json(response)
+    } catch (error) {
+        return res.status(500).json({
+            err: error,
+            msg: 'Failed at hotel controller'
+        })
+
     }
 }

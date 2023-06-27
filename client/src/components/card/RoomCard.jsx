@@ -5,14 +5,18 @@ import { PiHouse } from 'react-icons/pi';
 function RoomCard({ room }) {
     let singleBed = '';
     let doubleBed = '';
-    if(room){
-        if(room.singleBed){
+    if (room) {
+        if (room.singleBed) {
             singleBed += room.singleBed + ' giường đơn';
         }
-        if(room.doubleBed){
+        if (room.doubleBed) {
             doubleBed += room.doubleBed + ' giường đôi';
         }
     }
+
+    function numberWithDot(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+      }
     return (
         <div className='card'>
             <div className='row g-0'>
@@ -24,13 +28,15 @@ function RoomCard({ room }) {
                         <h5 className="card-title">{room ? room.name : 'Unknown'}</h5>
                         <div className='row'>
                             <div className='col'>
-                                <p><PiHouse /> Diện tích {room ? room.area : '?'} m2</p>
-                                <p><LiaBedSolid /> {singleBed + doubleBed}</p>
+                                <p className='mb-1'><PiHouse /> Diện tích {room ? room.area : '?'} m2</p>
+                                <p ><LiaBedSolid /> {singleBed + doubleBed}</p>
                             </div>
                             <div className='col'>
-                                <h5 className='text-decoration-line-through text-end'>{room ? room.cost : '?'} VND</h5>
-                                <h4 className="text-danger text-end">{room ? room.salePrice : '?'} VND</h4>
-                                <button className="btn btn-primary d-block ms-auto" type="button" >Đặt ngay</button>
+                                <div className='' style={{textAlign: "right"}}>
+                                    <h5 className='text-secondary strikethrough d-inline-block'>{room ? numberWithDot(room.cost) : '?'} VND</h5>
+                                    <h4 className="text-danger text-end">{room ?numberWithDot(room.salePrice) : '?'} VND</h4>
+                                    <button className="btn btn-primary d-block ms-auto" type="button" >Đặt ngay</button>
+                                </div>
                             </div>
                         </div>
                     </div>

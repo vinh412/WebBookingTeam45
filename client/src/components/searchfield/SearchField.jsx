@@ -1,9 +1,18 @@
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const SearchField = () => {
+    const [address, setAddress] = useState("");
+    const navigate = useNavigate();
+    const handleSubmit = () => {
+        // navigate(`../search?searchterm=${address.replaceAll(' ', '+')}`);
+        window.location.href = `http://localhost:3000/search?searchterm=${address.replaceAll(' ', '+')}`;
+    }
     return (
         <div className='container bg-primary-subtle p-5 mt-5 rounded-4'>
-            <form action="#" className="row">
+            <div className="row">
                 <div className='col-md-12'>
-                    <input type='text' className='form-control py-3 my-2 rounded-3' placeholder='Nhập điểm du lịch hoặc tên khách sạn' />
+                    <input onChange={e=>setAddress(e.target.value)} type='text' className='form-control py-3 my-2 rounded-3' placeholder='Nhập điểm du lịch hoặc tên khách sạn' />
                 </div>
                 <div className="col-md-6">
                     <div className="form-group">
@@ -15,8 +24,8 @@ const SearchField = () => {
                         <input type="text" className="form-control py-3 my-2 rounded-3" id="input_to" placeholder="Start Date" data-rome-id="1" />
                     </div>
                 </div>
-                <button type='submit' className='btn btn-primary w-50 py-3 my-2 mx-auto'>Tìm</button>
-            </form>
+                <button onClick={handleSubmit} className='btn btn-primary w-50 py-3 my-2 mx-auto'>Tìm</button>
+            </div>
         </div>
     )
 }
