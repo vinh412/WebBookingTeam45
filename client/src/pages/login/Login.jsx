@@ -1,6 +1,28 @@
-import { Link } from 'react-router-dom';
+import { Link  , useLocation, useNavigate} from 'react-router-dom';
 import './Login.css';
+import {useState , useEffect} from "react"
+import { apiLogin } from '../../services/auth';
+import * as actions from '../../store/actions'
+import { useDispatch, useSelector } from 'react-redux';
 const Login = () => {
+    const [payload,setPayload]=useState({
+        gmail:'',
+        passWord:''
+        
+    })
+    const {isLoggedIn} = useSelector(state => state.auth)
+    const navigate = useNavigate()
+    const dispatch = useDispatch()
+    const handleLogin =async() =>{
+        console.log(payload)
+       dispatch(actions.login(payload))
+       console.log('ok1')
+    } 
+    useEffect(()=> {
+        isLoggedIn && navigate('/')
+
+    },[isLoggedIn]) 
+    
     return (
         <div>
             <section className="vh-100">
@@ -33,15 +55,20 @@ const Login = () => {
 
                                 {/* Email input */}
                                 <div className="form-outline mb-4">
-                                    <input type="email" id="form3Example3" className="form-control form-control-lg"
-                                        placeholder="Enter a valid email address" />
+                                    <input type="email" id="form3Example3" className="form-control form-control-lg "
+                                        placeholder="Enter a valid email address" 
+                                        onChange={()=>setPayload({...payload,gmail:document.getElementById("form3Example3").value
+})}
+                                        />
                                     <label className="form-label" for="form3Example3">Email address</label>
                                 </div>
 
                                 {/* <!-- Password input --> */}
                                 <div className="form-outline mb-3">
                                     <input type="password" id="form3Example4" className="form-control form-control-lg"
-                                        placeholder="Enter password" />
+                                        placeholder="Enter password"
+                                        onChange={()=>setPayload({...payload,passWord:document.getElementById("form3Example4").value
+})} />
                                     <label className="form-label" for="form3Example4">Password</label>
                                 </div>
 
@@ -58,7 +85,12 @@ const Login = () => {
 
                                 <div className="text-center text-lg-start mt-4 pt-2">
                                     <button type="button" className="btn btn-primary btn-lg"
-                                        style={{paddingLeft: 2.5 + 'rem', paddingRight: 2.5 + 'rem'}}>Login</button>
+                                        style={{paddingLeft: 2.5 + 'rem', paddingRight: 2.5 + 'rem'}}
+                                        
+                                        
+                                        onClick={handleLogin}
+                                       
+                                        >Login</button>
                                     <p className="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <Link to="/signup">Register</Link></p>
                                 </div>
 

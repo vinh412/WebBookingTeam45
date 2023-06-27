@@ -6,7 +6,7 @@ require('dotenv').config()
 
 
 
-export const registerService = ({gmail, passWord, typeUser}) => new Promise(async(resolve, reject) => {
+export const registerService = ({name, phone, gmail, passWord}) => new Promise(async(resolve, reject) => {
     try {
        
         const response= await db.Account.findOrCreate({
@@ -14,17 +14,23 @@ export const registerService = ({gmail, passWord, typeUser}) => new Promise(asyn
             defaults :{
                 gmail:gmail,
                 passWord: bcrypt.hashSync(passWord, 10),
-                typeUser:typeUser
-            },
-               
-              
-            
-        });
+                typeUser:1
+            }
+            });
+
+        if (response[1]==true){
+            await db.Customer.create({
+                accountID:response[0].id,
+                name:name,
+                numberPhone:phone
+            });
+        }
+        
         const token = response[1]&& jwt.sign({id: response[0].id,gmail: response[0].gmail}, process.env.SECRET_KEY, { expiresIn: '2d' })
        
         resolve({
             err: token ? 0 : 2,
-            msg: token ? 'Register is successfully !' : 'Phone number has been aldready used !',
+            msg: token ? 'Register is successfully !' : 'gmail has been aldready used !',
             token: token || null
         })
 

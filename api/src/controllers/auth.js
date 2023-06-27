@@ -1,12 +1,12 @@
-import *as authService from '../services/auth'
+import * as authService from '../services/auth'
 
 export const register = async(req,res)=>{
 
-  const {gmail, passWord,typeUser} = req.body
+  const {name, phone, gmail, passWord} = req.body
    
     try {
         
-        if( !typeUser|| !gmail || !passWord){ 
+        if( !name || !phone|| !gmail || !passWord){ 
           return res.status(400).json({
           err:1,
           msg:'missing inputs!'

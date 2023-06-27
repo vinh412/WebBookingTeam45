@@ -1,17 +1,25 @@
 import { useNavigate, Link } from "react-router-dom";
 import React, { memo } from "react"
 import avatar from "../../asset/avatar.jpg"
+import { useSelector , useDispatch} from "react-redux";
+import * as actions from '../../store/actions'
 
 
-const NavBar = ({status}) => {
+const NavBar = () => {
    
     const navigate = useNavigate();
+    const {isLoggedIn} = useSelector(state => state.auth)
+    const dispatch = useDispatch()
     const navigateToLogin = () => {
         navigate('/login');
     };
     const navigateToSignup = () => {
         navigate('/signup');
     };
+    const navigateToPartner = () => {
+        navigate('/newhotel');
+    };
+    
     
    
 
@@ -21,7 +29,7 @@ const NavBar = ({status}) => {
         <div>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">WebBooking</a>
+                    <a className="navbar-brand" href="../">WebBooking</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -30,26 +38,9 @@ const NavBar = ({status}) => {
                             <li className="nav-item">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><hr className="dropdown-divider" /></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled">Disabled</a>
-                            </li>
                         </ul>
                         
-                        {!status?<ul className='navbar-nav me-2'>
+                        {!isLoggedIn?<ul className='navbar-nav me-2'>
                                     <li className='nav-item me-2'>
                                         <button className='btn btn-outline-primary' onClick={navigateToLogin}>Đăng nhập</button>
                                     </li>
@@ -59,7 +50,12 @@ const NavBar = ({status}) => {
                                 </ul>
                                 :<ul className='navbar-nav me-2'>
                                     <li className='nav-item me-2'>  
-                                        <button className='btn btn-outline-primary mx-3'>Đăng ký làm đối tác</button>
+                                        <button className='btn btn-outline-primary mx-3' onClick={navigateToPartner}>Đăng ký làm đối tác</button>
+                                    </li>
+                                    <li className='nav-item me-2'>  
+                                        <button className='btn btn-primary mx-3'
+                                            onClick={()=>dispatch(actions.logout())}
+                                        >Đăng xuất</button>
                                     </li>
                                     <li className='nav-item me-2'>
                                     <img src={avatar} 

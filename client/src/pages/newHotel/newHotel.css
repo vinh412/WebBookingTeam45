@@ -1,0 +1,44 @@
+/* .new-hotel {
+  width: 100%;
+  display: flex;
+}
+
+.newContainer-hotel {
+flex: 6;
+}
+
+.top-hotel,
+.bottom-hotel {
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+padding: 10px;
+margin: 20px;
+display: flex;
+}
+
+.top-hotel h1{  
+    color: lightgray;
+    font-size: 20px;
+}
+.left-hotel {
+flex: 1;
+text-align: center;
+}
+
+.img-hotel {
+width: 90%;
+height: 90%;
+object-fit: cover;
+}
+
+
+.right-hotel {
+flex: 2;
+padding: 0px 20px;
+}
+.input1-hotel {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+} */
