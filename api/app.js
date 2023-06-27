@@ -34,6 +34,18 @@ app.post("/login",(req,res)=>{
         return res.json(data);
     })
 })
+app.post('/payment', (req, res) => {
+    const { email, form } = req.body;
+  
+    sendConfirmationEmail(email, form)
+      .then(() => {
+        res.json({ success: true });
+      })
+      .catch((error) => {
+        console.error('Error sending confirmation email:', error);
+        res.json({ success: false, error: 'Error sending confirmation email' });
+      });
+});
 
 app.post('/payment', (req, res) => {
     const { email, form } = req.body;

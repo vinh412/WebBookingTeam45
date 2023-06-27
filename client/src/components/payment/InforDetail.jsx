@@ -59,11 +59,9 @@ const InforDetail = () => {
             });
         }
 
-    
-
     return (
-        <div className="body1">
-            <section className="container1">
+        <div className="container1">
+            <section>
                 <header>Vui lòng điền thông tin của bạn</header>
                 <form action="#" className="form">
                     <div className="input-box">
@@ -120,7 +118,7 @@ const InforDetail = () => {
                         onClick={onSubmit}
                     >Kế tiếp: Bước cuối cùng</button>
                 </form>
-    </section>
+            </section>
         </div>
     )
 }

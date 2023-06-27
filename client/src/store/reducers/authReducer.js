@@ -9,6 +9,7 @@ const authReducer = (state = initState, actions) =>{
     switch (actions.type){
         case actionTypes.LOGIN_SUCCESS:
         case actionTypes.REGISTER_SUCCESS:
+            console.log('ok')
             return{
                 ...state,
                 isLoggedIn: true,

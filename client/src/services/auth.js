@@ -29,7 +29,7 @@ export const apiRegister = (payload) => new Promise(async(resolve, reject) => {
        
         resolve(response)
     } catch (error) {
-        // reject(error)
-        console.log("mothaiba")
+      reject(error)
+        
     }
 })

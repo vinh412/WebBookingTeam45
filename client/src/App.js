@@ -15,6 +15,7 @@ import Hotel from "./pages/hotel/Hotel";
 import Search from "./pages/search/Search"
 import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
+import ListHotel from "./pages/listhotel/ListHotel";
 
 function App() {
   return (
@@ -23,7 +24,6 @@ function App() {
       <BrowserRouter>
       
         <Routes>
-          
           <Route path="/*" element={<Home/>} />
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<SignUp/>}/>
@@ -33,6 +33,7 @@ function App() {
           <Route path="/search" element={<Search/>}/>
           <Route path="/newHotel" element={<NewHotel/>}/>
           <Route path="/newRoom" element={<NewRoom/>}/>
+          <Route path="/listHotel" element={<ListHotel/>}/>
         </Routes>
       </BrowserRouter>
 

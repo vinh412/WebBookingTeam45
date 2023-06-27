@@ -9,12 +9,13 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      name: {
+        type: Sequelize.STRING
+      },
       hotelID: {
         type: Sequelize.INTEGER
       },
-      typeRoomID: {
-        type: Sequelize.INTEGER
-      },
+      
       cost: {
         type: Sequelize.INTEGER
       },
@@ -25,6 +26,15 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       salePrice: {
+        type: Sequelize.INTEGER
+      },
+      area: {
+        type: Sequelize.INTEGER
+      },
+      singleBed: {
+        type: Sequelize.INTEGER
+      },
+      doubleBed: {
         type: Sequelize.INTEGER
       },
       createdAt: {

@@ -15,16 +15,20 @@ module.exports = (sequelize, DataTypes) => {
   }
   Hotel.init({
     accountID: DataTypes.INTEGER,
-    nameHotel: DataTypes.STRING,
+    name: DataTypes.STRING,
     revenua: DataTypes.INTEGER,
     fee: DataTypes.INTEGER,
     phoneNumber: DataTypes.STRING,
     type: DataTypes.INTEGER,
     address: DataTypes.STRING,
-    evaluate: DataTypes.INTEGER,
+    longitude: DataTypes.FLOAT,
+    latitude: DataTypes.FLOAT,
+    evaluate: DataTypes.FLOAT,
     numberReview: DataTypes.INTEGER,
-    description: DataTypes.STRING,
-    minCost: DataTypes.INTEGER
+    description: DataTypes.TEXT,
+    minCost: DataTypes.INTEGER,
+    saleMax: DataTypes.INTEGER,
+    status: DataTypes.INTEGER,
   }, {
     sequelize,
     modelName: 'Hotel',

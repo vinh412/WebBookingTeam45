@@ -1,9 +1,12 @@
 import NavBar from "../../components/navbar/NavBar";
-// import { Link } from 'react-router-dom';
+
 import avatar from '../../asset/avatar.jpg'
 import SearchField from "../../components/searchfield/SearchField";
 import SearchCard from "../../components/card/SearchCard";
-import {useState} from "react"
+import {useState, useEffect} from "react"
+import { useDispatch ,useSelector} from "react-redux";
+import * as actions from '../../store/actions'
+
 const dataSearch= [
     {
         id:1,
@@ -371,16 +374,21 @@ const dataSearch= [
 
 
 const Search = () =>{
+    const {hotels} = useSelector(state => state.hotel)
+  
+    
+  
 
    
     const itemhotel=[]
   
-    const numberPage=(dataSearch.length/5)+(dataSearch.length%5?1:0)
+    const numberPage=(hotels.length/5)+(hotels.length%5?1:0)
     
     const [itemhotel1,setPage]=useState(()=>{
         const itemhotel2=[]
-        for(let i=0; i<=4;i++){
-            itemhotel2.push(<SearchCard hotel={dataSearch[i]}/>)
+        
+        for(let i=0; i<(hotels.length>=5?5:hotels.length);i++){
+            itemhotel2.push(<SearchCard hotel={hotels[i]}/>)
         }
         return itemhotel2;
     })
@@ -400,10 +408,10 @@ const Search = () =>{
         
         
         var page=Number( document.getElementById(x).innerHTML);
-        console.log(page)
+       
         for(let i=5*(page-1); i<5*page; i++){
-            if(dataSearch[i]){
-            itemhotel.push(<SearchCard hotel={dataSearch[i]}/>);
+            if(hotels[i]){
+            itemhotel.push(<SearchCard hotel={hotels[i]}/>);
         }
         else{
             break;
@@ -427,6 +435,12 @@ const Search = () =>{
       return(itemhotel) ; 
 
 }
+useEffect(()=>{
+        
+    console.log(hotels)
+    switchPage(1)
+    setPage(itemhotel)
+}, [hotels])
 const Test1=()=>{
     switchPage(1);
     setPage(itemhotel);
@@ -457,7 +471,7 @@ const Test1=()=>{
     
     return(
         <div>
-            <NavBar status={true}/>
+            <NavBar/>
             <SearchField />
             <section className="h-1000 mt-5">
                 <div className="container-fluid h-custom mb-5">
@@ -540,10 +554,11 @@ const Test1=()=>{
                                 </div>
                            
                            </div>
+                           <button type="button" class="btn btn-light m-2" id="10" >clear</button>
                            
                         </div>
                         <div className="col-md-12 col-lg-9 col-xl-7 offset-xr-1 ">
-                            {itemhotel1}
+                          {itemhotel1} 
                         </div>
                     </div>
                     <div className="d-flex justify-content-center">
