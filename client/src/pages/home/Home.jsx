@@ -8,12 +8,12 @@ import HomeRecommended from "../../components/homerecommended/HomeRecommended";
 
 
 const destinations = [
-  { imgSrc: "https://pix6.agoda.net/geo/city/13170/1_13170_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "HCM City" },
-  { imgSrc: "https://pix6.agoda.net/geo/city/2758/065f4f2c9fa263611ab65239ecbeaff7.jpg?ce=0&s=345x345&ar=1x1", name: "Hanoi" },
+  { imgSrc: "https://pix6.agoda.net/geo/city/13170/1_13170_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Ho Chi Minh" },
+  { imgSrc: "https://pix6.agoda.net/geo/city/2758/065f4f2c9fa263611ab65239ecbeaff7.jpg?ce=0&s=345x345&ar=1x1", name: "Ha Noi" },
   { imgSrc: "https://pix6.agoda.net/geo/city/16440/1_16440_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Da Nang" },
   { imgSrc: "https://pix6.agoda.net/geo/city/2679/1_2679_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Nha Trang" },
   { imgSrc: "https://pix6.agoda.net/geo/city/17190/1_17190_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Vung Tau" },
-  { imgSrc: "https://pix6.agoda.net/geo/city/15932/1_15932_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Dalat" }
+  { imgSrc: "https://pix6.agoda.net/geo/city/15932/1_15932_02.jpg?ca=6&ce=1&s=345x345&ar=1x1", name: "Da Lat" }
 ];
 
 const rentals = [
