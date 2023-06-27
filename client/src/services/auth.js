@@ -7,13 +7,14 @@ export const apiLogin = (payload) => new Promise(async(resolve, reject) => {
            
             method: 'post',
             url: '/api/v1/auth/login',
-            data: payload
+            data:payload
         })
        
         resolve(response)
+       // console.log(response)
     } catch (error) {
-        // reject(error)
-        console.log("mothaiba")
+        reject(error)
+       
     }
 })
 
@@ -29,7 +30,7 @@ export const apiRegister = (payload) => new Promise(async(resolve, reject) => {
        
         resolve(response)
     } catch (error) {
-        // reject(error)
-        console.log("mothaiba")
+      reject(error)
+        
     }
 })

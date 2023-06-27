@@ -35,8 +35,8 @@ module.exports = (sequelize, DataTypes) => {
     latitude: DataTypes.DOUBLE,
     evaluate: DataTypes.FLOAT,
     numberReview: DataTypes.INTEGER,
-    description: DataTypes.TEXT,
-    minCost: DataTypes.INTEGER
+    description: DataTypes.STRING,
+    status: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'Hotel',

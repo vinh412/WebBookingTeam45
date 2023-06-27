@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useState, memo } from "react";
 import './SearchCard.css';
 import { useNavigate } from "react-router-dom";
-const SearchCard = ({ hotel }) => {
+const SearchCard = ({hotel}) =>{
   const navigate = useNavigate();
   const items = [];
   for (var i = 1; i <= hotel.type; i++) {
@@ -65,4 +65,4 @@ const SearchCard = ({ hotel }) => {
   )
 }
 
-export default SearchCard;
+export default memo(SearchCard);

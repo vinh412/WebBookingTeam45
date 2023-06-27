@@ -16,6 +16,7 @@ const Login = () => {
     const handleLogin =async() =>{
         console.log(payload)
        dispatch(actions.login(payload))
+       console.log('ok1')
     } 
     useEffect(()=> {
         isLoggedIn && navigate('/')
