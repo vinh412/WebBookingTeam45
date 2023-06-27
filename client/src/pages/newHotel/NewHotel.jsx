@@ -11,38 +11,27 @@ const hotelInputs = [
       id: "name",
       label: "Name",
       type: "text",
-      placeholder: "My Hotel",
+      placeholder: "name hotel",
     },
     {
       id: "type",
       label: "Type",
       type: "text",
-      placeholder: "hotel",
+      placeholder: "number star",
     },
     {
       id: "phonenumber",
       label: "Phone Number",
       type: "tel",
-      placeholder: "+84129999999",
+      placeholder: "number phone",
     },
     {
       id: "address",
       label: "Address",
       type: "text",
-      placeholder: "Hoang Mai, Ha Noi",
+      placeholder: "address",
     },
-    {
-      id: "longitude",
-      label: "Longitude",
-      type: "text",
-      placeholder: "",
-    },
-    {
-      id: "latitude",
-      label: "Latitude",
-      type: "text",
-      placeholder: "",
-    },
+    
     {
       id: "desc",
       label: "Description",

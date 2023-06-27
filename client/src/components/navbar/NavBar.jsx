@@ -16,6 +16,10 @@ const NavBar = () => {
     const navigateToSignup = () => {
         navigate('/signup');
     };
+    const navigateToPartner = () => {
+        navigate('/newhotel');
+    };
+    
     
    
 
@@ -63,7 +67,7 @@ const NavBar = () => {
                                 </ul>
                                 :<ul className='navbar-nav me-2'>
                                     <li className='nav-item me-2'>  
-                                        <button className='btn btn-outline-primary mx-3'>Đăng ký làm đối tác</button>
+                                        <button className='btn btn-outline-primary mx-3' onClick={navigateToPartner}>Đăng ký làm đối tác</button>
                                     </li>
                                     <li className='nav-item me-2'>  
                                         <button className='btn btn-primary mx-3'
