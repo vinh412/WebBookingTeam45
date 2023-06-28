@@ -90,7 +90,7 @@ const NewHotel = () => {
   };
   return (
     <div className="new-hotel">
-      <div className="newContainer-hotel">
+      <div className="new-container-hotel">
         <NavBar/>
         <div className="top-hotel">
           <h1>Add New Hotel</h1>
@@ -108,11 +108,14 @@ const NewHotel = () => {
             />
           </div>
           <div className="right-hotel">
-            <form>
+            <form className="form-hotel">
               <div className="form-input-hotel">
-                <label htmlFor="file">
+                <label
+                  className="label-hotel" 
+                  htmlFor="file">
                   Image: <DriveFolderUploadOutlinedIcon className="icon" />
                 </label>
+                <p style={{padding: "10px 0px 0px 0px"}}>(Chọn nhiều ảnh)</p>
                 <input
                   type="file"
                   id="file"
@@ -124,20 +127,18 @@ const NewHotel = () => {
 
               {hotelInputs.map((input) => (
                     <div className="form-input-hotel">
-                        <label className="label1-hotel">{input.label}</label>
-                        <div>
+                        <label className="label-hotel col-sm-5 col-form-label">{input.label}</label>
                             <input
                                 id={input.id}
                                 onChange={handleChange}
                                 type={input.type}
-                                className="input1-hotel"
+                                className="input-hotel"
                                 placeholder={input.placeholder}
                                 />
-                        </div>
                     </div>
               ))}
-              <button className="button1-hotel mx-5 center-block my-2" onClick={handleClick}>Send</button>
             </form>
+              <button className="button-hotel" onClick={handleClick}>Send</button>
           </div>
         </div>
       </div>
