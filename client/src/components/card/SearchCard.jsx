@@ -1,6 +1,11 @@
 import { useState, memo } from "react";
 import './SearchCard.css';
 import { useNavigate } from "react-router-dom";
+
+function numberWithDot(x) {
+  return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+}
+
 const SearchCard = ({hotel}) =>{
   const navigate = useNavigate();
   const items = [];
@@ -25,10 +30,6 @@ const SearchCard = ({hotel}) =>{
   }
   const handleClick = () => {
     navigate(`../hotel/${hotel.id}`);
-  }
-
-  function numberWithDot(x) {
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
   }
 
   return (

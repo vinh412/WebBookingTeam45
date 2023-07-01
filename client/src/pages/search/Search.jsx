@@ -64,11 +64,12 @@ const Search = () => {
         <div>
             <NavBar status={true} />
             <SearchField />
-            <section className="h-1000 mt-5">
-                <div className="container-fluid h-custom mb-5">
-                    <div className="row d-flex justify-content-center  ">
-                        <FilterSearch />
-                        <div className="col-md-12 col-lg-9 col-xl-7 offset-xr-1 ">
+                <div className="container h-custom mb-5">
+                    <div className="row d-flex">
+                        <div className="col-3">
+                        <FilterSearch hotels={hotels} setHotels={setHotels}/>
+                        </div>
+                        <div className="col-9">
                             {displayHotels.map(item => <SearchCard hotel={item} />)}
                             <Pagination
                                 count={Math.ceil(hotels.length / pageSize)}
@@ -80,7 +81,6 @@ const Search = () => {
                     </div>
                 </div>
                 <Footer />
-            </section>
 
         </div>
     )
