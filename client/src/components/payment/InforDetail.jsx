@@ -45,7 +45,7 @@ const InforDetail = () => {
             place: 'DaLat Hotel'
         }
 
-        axios.post('http://localhost:5000/payment', {
+        axios.post('http://localhost:5000/api/v1/payment/sendemail', {
             email: email,
             form: form,
             })

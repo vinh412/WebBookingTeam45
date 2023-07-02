@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors = require('cors');
+const sendConfirmationEmail = require('./src/sentEmail')
 const mysql = require('mysql');
 const path = require('path');
 const app = express();
@@ -36,6 +37,7 @@ app.post("/login",(req,res)=>{
 })
 app.post('/payment', (req, res) => {
     const { email, form } = req.body;
+    console.log(req.body);
   
     sendConfirmationEmail(email, form)
       .then(() => {
@@ -46,18 +48,5 @@ app.post('/payment', (req, res) => {
         res.json({ success: false, error: 'Error sending confirmation email' });
       });
 });
-
-app.post('/payment', (req, res) => {
-    const { email, form } = req.body;
-  
-    sendConfirmationEmail(email, form)
-      .then(() => {
-        res.json({ success: true });
-      })
-      .catch((error) => {
-        console.error('Error sending confirmation email:', error);
-        res.json({ success: false, error: 'Error sending confirmation email' });
-      });
-  });
 
 app.listen(port,() => console.log(`Example app listening on port ${port}!`));

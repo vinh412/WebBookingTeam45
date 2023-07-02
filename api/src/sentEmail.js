@@ -1,13 +1,13 @@
 const nodemailer = require('nodemailer');
 
 
-function sendConfirmationEmail(email) {
+function sendConfirmationEmail(email, form) {
     
     const transporter = nodemailer.createTransport({
         service: 'Gmail',
         auth: {
         user: 'bookingnow.45@gmail.com',
-        pass: 'Bookingnow.45@' 
+        pass: 'rfnimaaghivlcupl' 
         }
     });
     const mailOptions = {
