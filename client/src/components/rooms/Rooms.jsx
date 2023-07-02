@@ -1,22 +1,34 @@
 import React from 'react'
 import RoomCard from '../card/RoomCard'
 
-function Rooms() {
-  return (
-    <div className='container p-3'>
-        <div className='row gy-2'>
-            <div className="col-md-6">
-                <RoomCard/>
-            </div>
-            <div className="col-md-6">
-                <RoomCard/>
-            </div>
-            <div className="col-md-6">
-                <RoomCard/>
+function Rooms({ rooms }) {
+    const items = [];
+    if (rooms) {
+        rooms.forEach((element) => {
+            items.push(
+                <div className="col-md-6">
+                    <RoomCard room={element} />
+                </div>
+            );
+        });
+    } else {
+        for (let i = 0; i < 4; i++) {
+            items.push(
+                <div className="col-md-6">
+                    <RoomCard />
+                </div>
+            );
+        }
+    }
+
+    return (
+        <div className='container p-3'>
+            <h2 className='pb-3'>Chọn phòng</h2>
+            <div className='row gy-2'>
+                {items}
             </div>
         </div>
-    </div>
-  )
+    )
 }
 
 export default Rooms

@@ -1,7 +1,8 @@
 import { useState } from "react";
 import DatePicker from "./DatePicker";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const SearchField = () => {
+const SearchField2 = () => {
   const [address, setAddress] = useState("");
   const handleSubmit = () => {
     window.location.href = `http://localhost:3000/search?searchterm=${address.replaceAll(
@@ -13,6 +14,9 @@ const SearchField = () => {
     <div className="container bg-primary-subtle p-5 mt-5 rounded-4">
       <div className="row">
         <div className="col-md-12">
+          <span>
+            <FontAwesomeIcon icon="fa-light fa-magnifying-glass" />
+          </span>
           <input
             onChange={(e) => setAddress(e.target.value)}
             type="text"
@@ -34,4 +38,4 @@ const SearchField = () => {
   );
 };
 
-export default SearchField;
+export default SearchField2;

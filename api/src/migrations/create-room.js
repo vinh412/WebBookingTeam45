@@ -15,7 +15,12 @@ module.exports = {
       hotelID: {
         type: Sequelize.INTEGER
       },
-      
+      name: {
+        type: Sequelize.STRING
+      },
+      image: {
+        type: Sequelize.STRING
+      },
       cost: {
         type: Sequelize.INTEGER
       },

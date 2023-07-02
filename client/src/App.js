@@ -4,7 +4,7 @@ import {
   Route,
   Link,
   BrowserRouter,
-  Routes,
+  Routes
 } from "react-router-dom";
 import Payment from "./pages/payment/Payment";
 import Login from "./pages/login/Login";
@@ -16,6 +16,7 @@ import Search from "./pages/search/Search"
 import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
 import ListHotel from "./pages/listhotel/ListHotel";
+import Confirm from "./pages/payment/Confirm";
 
 function App() {
   return (
@@ -27,13 +28,15 @@ function App() {
           <Route path="/*" element={<Home/>} />
           <Route path="/login" element={<Login/>}/>
           <Route path="/signup" element={<SignUp/>}/>
-          <Route path="/hotel" element={<Hotel/>}/>
+          <Route path="/hotel/:id" element={<Hotel/>}/>
           <Route path="/test" element={<Overview/>}/>
           <Route path="/payment" element={<Payment/>}/>
           <Route path="/search" element={<Search/>}/>
-          <Route path="/newHotel" element={<NewHotel/>}/>
-          <Route path="/newRoom" element={<NewRoom/>}/>
-          <Route path="/listHotel" element={<ListHotel/>}/>
+          <Route path="/newhotel" element={<NewHotel/>}/>
+          <Route path="/newroom" element={<NewRoom/>}/>
+          <Route path="/listhotel" element={<ListHotel/>}/>
+          <Route path="/confirm" element={<Confirm/>}/>
+
         </Routes>
       </BrowserRouter>
 

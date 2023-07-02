@@ -12,7 +12,7 @@ module.exports = {
       hotelID: {
         type: Sequelize.INTEGER
       },
-      image: {
+      src: {
         type: Sequelize.STRING
       },
       createdAt: {

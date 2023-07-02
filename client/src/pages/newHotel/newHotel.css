@@ -1,51 +1,79 @@
-.new {
+.new-hotel {
   width: 100%;
   display: flex;
 }
 
-.newContainer {
-flex: 6;
+.new-container-hotel {
+  flex: 6;
 }
 
-.top,
-.bottom {
--webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-padding: 10px;
-margin: 20px;
-display: flex;
+.top-hotel,
+.bottom-hotel {
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
 }
 
-.top h1{  
-    color: lightgray;
-    font-size: 20px;
-}
-.left {
-flex: 1;
-text-align: center;
+.top-hotel h1 {
+  color: lightgray;
+  font-size: 20px;
 }
 
-.left img {
-width: 90%;
-height: 90%;
-object-fit: cover;
+.left-hotel {
+  flex: 1;
+  text-align: center;
+}
+
+.img-hotel {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
 
 
-.right {
-flex: 2;
-padding: 0px 20px;
+.right-hotel {
+  display: block;
+  flex: 2;
+  padding: 0px 20px;
 }
 
-/* .form-input {
-    width: 40%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: space-between;
+.input-hotel {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
 }
-.label1 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}*/
+
+.form-input-hotel {
+  width: 40%;
+  margin: 5px;
+  padding-top: 5px;
+  display: block;
+}
+.form-hotel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 0 20px;}
+
+.label-hotel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.button-hotel {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
+}

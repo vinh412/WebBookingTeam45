@@ -8,7 +8,7 @@ const ImagePreview = ({ images }) => {
         if (index < 8)
             items.push(
                 <div className="col-md-3" style={{ height: "12em" }}>
-                    <img className='previewImg' src={element} alt="" onClick={(e) => {setOpenModal(true); }} />
+                    <img className='previewImg' src={element.src} alt="" onClick={(e) => {setOpenModal(true); }} />
                 </div>
             );
     });

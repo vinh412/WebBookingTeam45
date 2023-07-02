@@ -15,7 +15,10 @@ module.exports = {
       hotelID: {
         type: Sequelize.INTEGER
       },
-      note: {
+      header: {
+        type: Sequelize.STRING
+      },
+      content: {
         type: Sequelize.STRING
       },
       dateCreate: {

@@ -1,5 +1,6 @@
 import HotelCard2 from '../../components/card/HotelCard2'
 import NavBar from '../../components/navbar/NavBar'
+import './listhotel.css'
 const hotels = [
     { imgSrc: "https://pix8.agoda.net/hotelImages/13594309/-1/5c2b630a41e9e0675208dc8bc871ff5a.jpg?ce=0", name: "DHTS Business Hotel & Apartment", address: "Phú Nhuận, HCM", price: "1.318.182" },
     { imgSrc: "https://pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440969.jpg?ca=0&ce=1", name: "NTA Serviced Apartments", address: "District 1, HCM", price: "1.826.550" },

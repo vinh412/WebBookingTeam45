@@ -1,0 +1,3255 @@
+[
+    {
+        "id": 33834429,
+        "name": "HoLo Central Saigon - Serviced HomeStay",
+        "latitude": 10.766189575195312,
+        "longitude": 106.69740295410156,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422011.jpg?k=908b9cd6465817cd3367f13bc2c70e7fba55115bf5a221dd337f9b52f91ddf14&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422085.jpg?k=1114d004e85728f67b992977e9e4db3758a7312705fbdcc81895ca092a66887c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422000.jpg?k=dc43ec0ce4089b56e341975e838d3941db521589f067b0b9046c8537a57d5c2d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377421721.jpg?k=3135482b3631ac8c88b35f2e1d238bc54a65ddae41d691a10595595b4a13f29e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422074.jpg?k=65df3e854d0948058bf491b082b1dc0895349edb56fb153dacc9f2f5cc3717af&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377421723.jpg?k=eafbebbf92fd5d49479a0e3341a57bccfdf54adb35ef2611dc02b2477f7285b4&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422135.jpg?k=be7c3c8db0157ebf055a79e1ea1be07db9be724a730b76a54b471334d2944e6f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377421729.jpg?k=3213e36f648eafc21a3f7f80a179e6a3fe4b6b5496b2ce0898d767b08651cdcb&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422087.jpg?k=6d094628a888478d9212014f49308bea5c5c3e981689db9692d02c835e334e77&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377421736.jpg?k=3c0c5e31b00ba17b6d97dc1ca4564ed46a5ab681f1d1b4033484fd9cffaa4a0e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/377422089.jpg?k=50bec56e2dfe3bcca5fd428f021385fc4284dc230b8d8895ba845d5f66d827c2&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "Phòng Đôi Cao Cấp (Superior Double Room)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/377422085.jpg?k=1114d004e85728f67b992977e9e4db3758a7312705fbdcc81895ca092a66887c&o=&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 799999,
+                "area": 20,
+                "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Standard Double Room",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/377421736.jpg?k=3c0c5e31b00ba17b6d97dc1ca4564ed46a5ab681f1d1b4033484fd9cffaa4a0e&o=&isSkia=true",
+                "cost": 799999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 599999,
+                "area": 20,
+                "singleBed": 0,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 77,
+            "score": 8.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/holo-central-saigon-serviced-homestay/hotel/all/ho-chi-minh-city-vn.html",
+        "description": "Nằm ở vị trí trung tâm tại Quận 1 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
+    },
+    {
+        "id": 15946528,
+        "name": "An Binh House Saigon",
+        "latitude": 10.780630111694336,
+        "longitude": 106.67427062988281,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/258481346.jpg?k=7e58d5cc656239e2d821e634fb9a5d458c9e116dc43fffc56206bd11845f5a3d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262682620.jpg?k=b2843cfe53b2fb549da30533763e224d2b008a16a2ea63b2d9eeb06ec3e9f209&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262682559.jpg?k=40d6a84b552f4afc83a20923f95638ae22db0bbc1ae9814761d4465f6f6dc13c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262683065.jpg?k=4fb3d8f66a5c687010b05e0860111b53ec1bd8ceabb28be89e8fe9d30887b383&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262683179.jpg?k=709b54cc6f3a79a9cd7f68ccbaa494d254ec6e487d463dc0fed632f7d2eff23d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/258481354.jpg?k=dd9e5bf0031e966bafe896ce524f87428deccc17b199dd614669e3feef2c8717&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262683112.jpg?k=743b3e2ff5b3757115eb2ddb353a27b2322ab041100660c8b657179e5ffec51f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262682757.jpg?k=25f8c18881960e54161716c7bcbbca81c0f4a11a9617714642fd5702322c0714&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262683311.jpg?k=7a830907ce067e25cde3a21f126cb2acd77b1ebef97e3e1c852e95b9e5fcb524&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262682819.jpg?k=12600e44139e8378ac383c80e125e74bb68991a7d8c56b36020b2878af39b2ca&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262683283.jpg?k=9630bccb6a9d2128290b2edd3eba21de9be144fcfe86147bfd6d7bb41a8bce9c&o="
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 10"
+        },
+        "rooms": [
+            {
+                "name": "Căn Hộ Studio (Studio Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/262682757.jpg?k=25f8c18881960e54161716c7bcbbca81c0f4a11a9617714642fd5702322c0714&o=&isSkia=true",
+                "cost": 1000000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 900000,
+                "area": 26,
+                "singleBed": 1,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 197,
+            "score": 7.7
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/an-binh-house-saigon/hotel/all/ho-chi-minh-city-vn.html",
+        "description": "Nằm ở vị trí trung tâm tại Quận 10 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Chỗ nghỉ 5 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
+    },
+    {
+        "id": 18766278,
+        "name": "Căn hộ sân bay Sabay - The Connect (Sabay Airport Apartment - The Connect)",
+        "latitude": 10.809909576974206,
+        "longitude": 106.66572673743437,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/3a0787678d83a020105158fadef73593.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/471406516.jpg?k=a44039632a321a73b2b0076632526cdd9e1780bfc8cfe7aa7619592ea749d283&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/f5514c5e67be5acd2add17aa172cde77.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/affef4ed9855a26b9c8d643d7d3fb91d.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/5012d5fbbe455415e3a2c734d79b7847.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/fea40be76a8d9abb3c71dcb95703391e.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/187/18766278/18766278_20101917190092796161.jpg?ca=14&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/428ea02de5e9ab5e5115cbbc947c889e.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/d9869ad4a65a0ca65e90f246bc7fbeb3.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/ff4fff16ce5a0e9ad5ceefe3a331e4eb.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18766278/-1/2ec96a410ecc10ff0a7203fbf0793786.jpg?ca=16&ce=1"
+            }
+        ],
+        "type": 2,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Tân Bình"
+        },
+        "rooms": [
+            {
+                "name": "Apartment With 2 Bedrooms",
+                "image": "https://pix8.agoda.net/hotelImages/18766278/-1/f5514c5e67be5acd2add17aa172cde77.jpg?ca=16&ce=1&isSkia=true",
+                "cost": 1700000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 1500000,
+                "area": 65,
+                "singleBed": 2,
+                "doubleBed": 2
+            },
+            {
+                "name": "Căn Hộ 1 Phòng Ngủ (Apartment 1 Bedroom)",
+                "image": "https://pix8.agoda.net/hotelImages/187/18766278/18766278_20101917190092796161.jpg?ca=14&ce=1&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 799999,
+                "area": 35,
+                "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn Hộ có Cửa Sổ (Apartment with Window)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/471406516.jpg?k=a44039632a321a73b2b0076632526cdd9e1780bfc8cfe7aa7619592ea749d283&o=&isSkia=true",
+                "cost": 1000000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 750000,
+                "area": 30,
+                "singleBed": 0,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 945,
+            "score": 9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/sabay-airport-apartment/hotel/ho-chi-minh-city-vn.html",
+        "description": "Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 5 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
+    },
+    {
+        "id": 7431632,
+        "name": "Khách sạn Leaf Signature - La Group (Leaf Signature Hotel - La Group)",
+        "latitude": 10.786441478803,
+        "longitude": 106.69279325762,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/f70613308b9661d88e098eaf86c4d78e.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/14d04a7cc6377744cb0485a37270a030.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/9c688a77a469f4e6b7e95f10a319dec0.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/bd90d16e68378c0bfae12806b86b13a8.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/64312523dbe3c248eb7ea56b8841c0b6.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/b77590cc52aa689186e078d04b9f276f.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/2a20429b53e98ff92857fce4a29b6163.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/adef33de8a7b1e24644d0cd534074e8f.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/743/7431632/7431632_19052112130074628476.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/743/7431632/7431632_19052112300074628788.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7431632/-1/755058056ea0f62b8a0eef52391817a3.jpg?ca=8&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 3"
+        },
+        "rooms": [
+            {
+                "name": "Studio Suite",
+                "image": "https://pix8.agoda.net/hotelImages/7431632/-1/bd90d16e68378c0bfae12806b86b13a8.jpg?ca=13&ce=1&isSkia=true",
+                "cost": 799999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 499999,
+                "area": 20,
+                "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Suite Vườn (Garden Suite)",
+                "image": "https://pix8.agoda.net/hotelImages/7431632/-1/1e0ef4eaea82343fd81948025d5c0b51.jpg?ca=9&ce=1&isSkia=true",
+                "cost": 899999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 699999,
+                "area": 29,
+                "singleBed": 2,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 782,
+            "score": 8.5
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/the-hut-boutique-hotel-notre-dame/hotel/ho-chi-minh-city-vn.html",
+        "description": "Hãy để chuyến đi của quý khách có một khởi đầu tuyệt vời khi ở lại khách sạn này, nơi có Wi-Fi miễn phí trong tất cả các phòng. Nằm ở vị trí trung tâm tại Quận 3 của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 3 sao này được trang bị các tiện nghi ngay trong khuôn viên để nâng cao chất lượng và niềm vui cho kỳ nghỉ của quý khách."
+    },
+    {
+        "id": 2205456,
+        "name": "Diamond Luxury Ben Thanh",
+        "latitude": 10.769328394273346,
+        "longitude": 106.69759005306332,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_19100315280081780069.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_19100409420081794970.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_19100315280081780060.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_20060300430090740369.jpg?ca=11&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2205456/-1/24fe0bf4904bd36364685e4cf3cac3d9.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/221687712.jpg?k=12b8abbbd7a74a9f4bd3b69a67d13ff80a6fb005b735c81f838181f67039bf69&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_20060300430090740368.jpg?ca=11&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/221687656.jpg?k=1b39c5b75aa4d8e2ce2391566ffc39a3f88278f3a78bcd5989e1fb573478debf&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2205456/-1/0d7ba910c584afdd85e5d53491b8d846.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2205456/-1/3654154a8e94d2686932d5e9d569571e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/220/2205456/2205456_19100409400081794882.jpg?ca=9&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "Căn hộ Deluxe (Deluxe Apartment)",
+                "image": "https://pix8.agoda.net/hotelImages/220/2205456/2205456_19100315010081779192.jpg?ca=9&ce=1&isSkia=true",
+                "cost": 1199999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 999999,
+                "area": 45,
+                "singleBed": 1,
+                "doubleBed": 1
+            },
+            {
+                "name": "Phòng Đôi Cao Cấp (Superior Double Room)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/256113408.jpg?k=ea2e114520f4341de0e12f6336393217878f7ab47b8a0e37e422147a4558188d&o=&isSkia=true",
+                "cost": 1099999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 899999,
+                "area": 50,
+                "singleBed": 1,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 927,
+            "score": 8.6
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/diamond-luxury-ben-thanh/hotel/ho-chi-minh-city-vn.html",
+        "description": "Hãy để chuyến đi của quý khách có một khởi đầu tuyệt vời khi ở lại khách sạn này, nơi có Wi-Fi miễn phí trong tất cả các phòng. Nằm ở vị trí chiến lược tại Quận 1, cho phép quý khách lui tới và gần với các điểm thu hút và tham quan địa phương. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 4 sao này có spa giúp cho kỳ nghỉ của quý khách thêm thư thái và đáng nhớ."
+    },
+    {
+        "id": 11157171,
+        "name": "The Art - Sunshine Apartment",
+        "latitude": 10.806693900295915,
+        "longitude": 106.66525368706505,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/6dc12f849d779041a2c4fd53a801616f.jpg?ca=14&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/021e7a2b9dc5d039b9e7f2055ed88c3a.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/111/11157171/11157171_19122013310086114833.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/e126a57dcf57038209970c82c17fab00.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/7dc77f527b61d88cb32e334972800ab5.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/6c474f42c0dfed5534599c607235e544.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/d8a4ef2a50c2a1ff8449d5c278d3be2d.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/6b020d1b83f6f4bfbef8cb2ae52f5f7b.jpg?ca=11&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/269687329.jpg?k=73ef30dbb631a98ef62cfa78aed9070716bd1f7ba36f131ea5c4e68ba9d7e890&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/33c0e89d948ba6fac54d38410d9ce6ff.jpg?ca=14&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11157171/-1/eedbba733fed954f4844eb02ad70e08c.jpg?ca=11&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Tân Bình"
+        },
+        "rooms": [
+            {
+                "name": "Căn hộ 201 (Apartment 201)",
+                "image": "https://pix8.agoda.net/hotelImages/11157171/-1/7aabef6350e3c023df4e3164e6fddc7c.jpg?ca=13&ce=1&isSkia=true",
+                "cost": 999999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 799999,
+                "area": 38,
+                "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn hộ 1 giường (1 bed apartment)",
+                "image": "https://pix8.agoda.net/hotelImages/11157171/-1/e40da93fdc8df71639008cf7b6659d8c.jpg?ca=14&ce=1&isSkia=true",
+                "cost": 899999,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 699999,
+                "area": 38,
+                "singleBed": 0,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 929,
+            "score": 9.1
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/the-art-sunshine-apartment/hotel/ho-chi-minh-city-vn.html",
+        "description": "Đỗ xe và Wi-Fi luôn miễn phí, vì vậy quý khách có thể giữ liên lạc, đến và đi tùy ý. Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị. Đừng rời đi trước khi ghé thăm Bảo tàng Chứng tích chiến tranh nổi tiếng. Chỗ nghỉ 3 sao này có nhà hàng giúp cho kỳ nghỉ của quý khách thêm thư thái và đáng nhớ"
+    },
+    {
+        "id": 36886794,
+        "name": "Yen house",
+        "latitude": 10.793749809265137,
+        "longitude": 106.66326904296875,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/414333292.jpg?k=db7408e17f334bd181d327215d38980637e5b5f1b9ad2bb8ca321386d184c6a4&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720560.jpg?k=17e8cc5056114d870ff77a7d9108e1e4c57d6e7d93591ed5442578a36ee0fbfe&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720443.jpg?k=e55305439b87728f648125e1ebeeb801516bbae584bba017e0c1403c8e6815cd&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720553.jpg?k=215818f60bc7e6d946a91c6ae7ba8ac8c13e50dee37c7aa3ac6e60517c3f2b10&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720572.jpg?k=908b04310d464cac0d3a4895db91de9b007bb0cee5590ba623d6eedf1b45f24a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720559.jpg?k=cc64a534efa24f48171d08c9d38a3210da02584a781cc12734e0a4be0583f6fe&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720375.jpg?k=a75d26fe46303931a27536fce7fba5119b7134191090a4088f87412e0978ba8c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720550.jpg?k=71bde776be355c447f688ebb0d7195a0821084177e54a0cd9c98362d2e019f7c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720445.jpg?k=4fa72de1c5d2a28ae12801c466df250ecc42236707bb716ee361a3d8ba7823bb&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426719328.jpg?k=789320bcbf28b01e6e80c66218aed38fc43d7b0f498ee5f8ea286eac736ccca9&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/426720554.jpg?k=17e8aea3009167eb91b5d6e7785c506fdf9c10e539da3d6ae852f5de30ca04db&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Tân Bình"
+        },
+        "rooms": [
+            {
+                "name": "Căn Hộ 1 Phòng Ngủ (One-Bedroom Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/414333366.jpg?k=94cb540ab0f093cac87d9fe5ef0ae29a7c117ea4183d0479cd97f55205232ffc&o=&isSkia=true",
+                "cost": 700000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 500000,
+                "area": 40,
+                "singleBed": 0,
+                "doubleBed": 1
+            },
+            {
+                "name": "Căn Hộ (Apartment)",
+                "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/426720572.jpg?k=908b04310d464cac0d3a4895db91de9b007bb0cee5590ba623d6eedf1b45f24a&o=&isSkia=true",
+                "cost": 6000000,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 4000000,
+                "area": 35,
+                "singleBed": 0,
+                "doubleBed": 1
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 72,
+            "score": 9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/yen-house_2/hotel/all/ho-chi-minh-city-vn.html",
+        "description": "Nằm ở vị trí trung tâm tại Tân Bình của Hồ Chí Minh, chỗ nghỉ này đặt quý khách ở gần các điểm thu hút và tùy chọn ăn uống thú vị."
+    },
+    {
+        "id": 8705825,
+        "name": "SAIGON 9 - Rivergate Residence Infinity Pool",
+        "latitude": 10.76276969909668,
+        "longitude": 106.69889831542969,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/227327647.jpg?k=8027b8c607323e4dc203b3f414bed3f2aee863a7ad02aee04ab2239791541ac1&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/227328078.jpg?k=abdbbb509e13758e011810fe0bef5b7a0b300c8ddb3939813a5f799c5a1e372d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/227331340.jpg?k=a0baa5bc61c6bb6829c42811ee9cb3e41c18e18a54bc7cfab5b84787458a6b6a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/239568737.jpg?k=81de03af3e06ab450dffa38d946fd741ba16f16dd4bfdd874fa603d1c70a2aa1&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/248073520.jpg?k=9341915d4b1a2c98be2c3fbfc326770a963353bd545eacff5f38738eff0f2294&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/370699562.jpg?k=f25c795373cdfa07a7cde8d095bde7e16ab06b345782d70b02377ade5f2f4419&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/227532613.jpg?k=93bdd16ebb276b64b48eb3a8ddee17710de9a8426563017ea8e58c59c326ea8a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/248072865.jpg?k=a3876f07400592a843c5bda1c895b93ce687405fe8b54d4893e77d2f5165a897&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/370699576.jpg?k=1d3446fcc7bbf37c5dfb31eb6c7eab74e2c164f0f9ab6ecb25c018549a20d1be&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/227532745.jpg?k=c20e7d5e1013fc7450d144cb41d1b4a44d832828095517da17f80fbd53758916&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/248071222.jpg?k=6da3c21c255e1c886317b68d6cd089c9bf8a8c5ad2222d0cb1815d8d29ad3a9e&o="
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 220,
+            "score": 8.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vnundefined",
+        "description": ""
+    },
+    {
+        "id": 26077218,
+        "name": "Bland Landmark Luxury Residence",
+        "latitude": 10.7954905,
+        "longitude": 106.7191187,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/727541894e2e083de7948c480e95dcfe.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/374260843/0b787ca7bff1a46d76b3b4e9cd5c7927.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/7a2977a34a8f8a4a0c52ad50b4e18d55.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/8c3f0e367cdb6871f7a0ba0afd8f537c.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/601556742/3bd293340412ca9e5b83c318d8221c31.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/601562806/c44766ba77bc825b43b900dd004730f7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/7162aa607086ed5d1291f8753704b172.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/374260843/530ebe3b963372407a0490edb755c1ac.jpg?ca=21&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/49905f88f6ad68d0865fe22884422354.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/248679077.jpg?k=d4b077706938a75781953a1e61bfbe2451d9775424b2357df8b2bb8babf7b4af&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/26077218/-1/4fe6823c3e7e3684b8fc43b4c3d86f04.jpg?ca=21&ce=0"
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 495,
+            "score": 8.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/bland-landmark-luxury-residence/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 21765074,
+        "name": "Khách sạn Mari By Connek (Mari Hotel By Connek)",
+        "latitude": 10.768241547795,
+        "longitude": 106.686787630619,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/-1/5a4112e1a7091346b2dec3b3640b96cf.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/217/21765074/21765074_20122023180093754738.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/350812637/2f2d0c4c6c2e38056779caee017277ac.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/296033517/5f8b3139dcc1b306b4d3ec7a43f83b3d.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/-1/32a97e0ded4ff6e75ce2cff7c3be9ead.png?ca=20&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/350812637/bfd813884780d6c62934e69b44fd33b5.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/296039026/a84ed484d5279612dba4b326920c617a.png?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/350812637/fb5a94487133125c5a6843bc1d1abaa7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/296033857/832b38aae87b9845fdc69936c63fd6dc.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21765074/350812637/cf0ffd738d8278dcb289a5453bee2798.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/217/21765074/21765074_20122023120093754681.jpg?ca=16&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 789,
+            "score": 8.1
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/mari-hotel-by-connek/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 4409091,
+        "name": "KAY'S HOME-Vinhomes Luxury Apartment",
+        "latitude": 10.789460182189941,
+        "longitude": 106.71437072753906,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/233697336.jpg?k=5ff697f36d61b9ddb0d40ca25b3000a2733852f1922572add77674c36857f1d3&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/233697620.jpg?k=3f4d0d38f3615ef0c1ff62c265c2842d94dc341fc6af4cad26fbc60bc84713cf&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/184469955.jpg?k=e21a5add854b5978630328c7938ba7e7d5d0c2b97dc8565541bbf05689919305&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/189910984.jpg?k=142a7075cfc19f2789a38848a88bbe3a715cb8fecdd6872e4a27bfaab038b8d6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/184469932.jpg?k=bf1ea2b1e8eb31d2ff6c5d05563f7e11b42c46a2a1fc91fdc83898ffcc8eb59b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/233697704.jpg?k=a01bac94eb2157a636d0f0d2536ead239b73f63fea953fc8dd718acc91ba3335&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/226591441.jpg?k=b7ecaa727bc6ce550f6597b0b12139c8ba241e80d8e84e4405f48c4c9e013a53&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/184469924.jpg?k=4a685be5cb209bb43f2670bba956879ce7a9ee527293bd57e369cc99b80dabec&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/184470039.jpg?k=03c359375b49ad5c65131918b920442f55b3704841b246338ba87ecff4125be9&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/189911010.jpg?k=ab1dec098958619fa1f1db8df2fbdbaa75c88a012fdec7efa215ff5d451679d7&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/184469905.jpg?k=eb9eeaf401db761d724da581c434832784f6e9598f1555e016bcbd89343fc9b5&o="
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 178,
+            "score": 8.1
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/kay-s-home-vinhomes-luxury-apartment/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 36753013,
+        "name": "ZO APARTMENT MILLENNIUM FREE POOL& GYM",
+        "latitude": 10.7632437,
+        "longitude": 106.699654,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/36753013/-1/cd550322b101f8bb06686f34f572c110.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/467528321.jpg?k=d30af047b43eb5a4d881ee46a868dfe27e1badfe3e27f2db50de78698454fa1e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/467528592.jpg?k=b9aeec640aaf7f567dc48cee5205bfa0def41b560e99d3fb3a032f9353afdb5e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/448403822.jpg?k=60ca3f490d31a1589945084e3e56011134925096098f171bb7440583374c3399&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36753013/607902754/91f9f87b6ae9a8f78b076d6c62e9ea89.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/467528341.jpg?k=a55612e29853fcae00ad344d75470d63d94f16cfef97d59e07ca40f2446ea872&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36753013/607902754/b806c484a92466d2045c52a0379ae552.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/467528574.jpg?k=3ebb2092ac792681900fbaf530da3e3ec8dbe7591e71f546286863f5349dfbd6&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36753013/607902754/b2904f64c2b92a5c89855b1ff8c199e9.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/448403835.jpg?k=b7aa32c64d6e24f6d29b0371ed87dd8eb2f59fc32485df3428e143fb2d92fe79&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36753013/607902754/79e0abe063207b595923157e42271fdb.jpg?ce=0"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 252,
+            "score": 8.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/zo-apartment-millennium-free-pool-gym/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 37209872,
+        "name": "Cozrum Homes - Coraline House",
+        "latitude": 10.7800512,
+        "longitude": 106.674774,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428691312.jpg?k=60e3d57cc48d6703d83194f78346aa798fedf4afebf0ab026ceae01ce33f43e3&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/37209872/0/1e6174910e723d4989b97a69af34d042.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/37209872/617612581/e29bcaf65dd5fbee8882f6ec213e178e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/37209872/613103372/fdcbb2c1bf2188e971935ae47566064c.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428692903.jpg?k=97fbae2d0e34a2e42660fbd3336cbd4ad948a2dfb03a9527b16546e4ccb00e03&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428691289.jpg?k=014a1c47108c391ba189c43dd07bc83e5d7f11bf7db60a01ac6c8eccf3118f4d&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/37209872/617613211/ea8fdf6ee538b2ee3a036d5dea48a6d3.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428692923.jpg?k=d6c5c40f04e440ee6cae1115bad7823bd38526a3932b29789d40c1a94246d6b5&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428691335.jpg?k=babdaf7c4773e170f7f8dbfa034fd8ca3ed3e0c506df9e9290eafa95cff9032d&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/37209872/617612676/a19863580ea5e050fc509a012046b3b5.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428691310.jpg?k=5950065f1bc9f3ca377e90614a338b4ae8044f68ea835571b94742438958d207&o="
+            }
+        ],
+        "type": 4,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 10"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 68,
+            "score": 7.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/cozrum-homes-coraline-house/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 9844423,
+        "name": "RedDoorz Khách sạn Sun gần đường Dương Quảng Hàm (RedDoorz The Sun Hotel near Duong Quang Ham Street)",
+        "latitude": 10.835018052329877,
+        "longitude": 106.68841277247394,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/984/9844423/9844423_19100312050081772513.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/984/9844423/9844423_19100312070081772561.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/123763680/3dabd061f6ebc68f2904fc41f999077e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/123763685/6ff71b393950fdf9135b5097a0620532.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/123763680/dd547dcd30d9399b90d71d67f5957f07.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/-1/4461cfc2e1ab863bc82b28d7ca63b1ac.jpg?ca=15&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/-1/90127aac2329fc08dc5af3e55fe5c0a7.jpg?ca=20&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/123763685/40447a6443db0f064f61a071c3371e12.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/-1/f168ac1c6243eccde038e4f4c763969f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/-1/163d7f5478a26a203dabe219fdfac4ad.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9844423/123763680/d013f04fd8f83bbd087b1613967a6392.jpg?ce=0"
+            }
+        ],
+        "type": 2,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Gò Vấp"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 160,
+            "score": 7.6
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/reddoorz-near-vincom-go-vap-2/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 29850533,
+        "name": "Căn hộ Phú Mỹ Hưng Simmi (Phu My Hung Simmi Apartment)",
+        "latitude": 10.732029914856,
+        "longitude": 106.707611083984,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/29850533/-1/94dc1e8dd9b74f9c5367b26915e3ef70.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/29850533/-1/81e0855a5c92e003591bcf939e2c9627.jpg?ca=25&ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/452657742.jpg?k=30e7996b71731f9c0b0c590b1c3f0ae4c58213efa73ffd49d58b658919626c2d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/411928118.jpg?k=67d711706a1802874f8d2197a4a25082ffeecd7eba37eee1946de7a67dae5d23&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/29850533/-1/e86c7bd3eca139726eb87b0b17eb7fb5.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/433774573.jpg?k=acbd434662132345e30c8e9c0ac6ded22aaadd8d95d79e93f8d3a47cbcd96414&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/411928444.jpg?k=2a956bff58fd6e28cda3b568142c3c106704df77d462aba2673af836cec67bbc&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/411928324.jpg?k=77ab1925d251c8a9df0436ef2fc09545cd4e07ee7cfffb35472414432b8ab917&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/331271759.jpg?k=f27bc8e5c4656547e68bc6f7384e410b328c1be37a3350dbed505eabb60af721&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/411928241.jpg?k=18ae83609f58fb53c25d24a8237385a9c1d88837e033dedcf5f4b76ce97b1c54&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/411928126.jpg?k=ceb4fb28fee8399438b3c9910cda866ae2f9e210a4d596c403c5d3cfa9054d48&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 7"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 179,
+            "score": 8.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/phu-my-hung-simmi-apartment/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 29482107,
+        "name": "Central Apartments - Vinhomes Central Park, Landmark 81 Area & Ice Skating Rink",
+        "latitude": 10.792949676513672,
+        "longitude": 106.72012329101562,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339204982.jpg?k=d491ae4a27a087ecd2b4ac9bf8e24e1c43df8d6d4e460d3d6aecf71693dc2e81&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/355829234.jpg?k=66aca107b9bc2fc4bb9d0bed84633b59ac8d57deee74e2790f219585161583f3&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339204854.jpg?k=849049be8496ce7d6c5c9bde418720a890143709b0e786e994126e1bf569615f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339209338.jpg?k=3cf5be8bace074a3527a4dc82a22b6fd798cf53bb22fdee6e297b4a19bc45795&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/355829269.jpg?k=3397b9f84f9fc863f2a12eae0f5081bb3359751fa04b04130e5b9b5e071daacb&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/355829152.jpg?k=fce8d6028e49f21a61c570a84ed25c1c944b959b4427905a2e31ec22f55c8e0f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339206279.jpg?k=5af4030a5591ac365527bbe8ca9efa63e090da8b028d6a79a2e53509168da699&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/355829150.jpg?k=b03d0c726f819d276fb03c82a98ca80e6dd1d5e7630c78769e5ae6a57c413bec&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339206277.jpg?k=2dd36777acedf4ed1d8ee497a98929cdbde49bf37af455e389938e7f3170ffb9&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339206286.jpg?k=451a56b694bd4fe57b06d3bf1df693ca8a4c615824f7ece2f462e7b8c1ed245f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/339206287.jpg?k=ed6acbd4bf1cf2e77ac79e0820c68fbe0aef6d4e053aa7d65ae30f0e4a41c7d1&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 289,
+            "score": 7.8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/central-apartments-vinhomes-central-park-landmark-81-area-ice-skating-rink/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 22042592,
+        "name": "Căn hộ 32 m² 1 phòng ngủ, 1 phòng tắm riêng ở Quận 9 (Vinhome Grand Park Homestay House)",
+        "latitude": 10.83994741196003,
+        "longitude": 106.8372884842651,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/52c76cdf46c6a9c99804ce3601ba63d9.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/ab4f726407b568eca70c8ed2d50468a2.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/52b9de6d419f533b35b0599eb0ab820d.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/aee1ce7b89ce5be9a4519d7454db0674.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/e56eeb1acfee324b91859efb7a7a39e6.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/b6564d24325b86ad3b68faf4b6dad1a1.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/3eab99043f2408f1e28c27bc3eac9fb8.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/17be029985514c88f8f0e26eecc685b8.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/93154d2f554f513b1eba496a133fc260.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/8a3471ef3dc22d725e1f10768c883896.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/22042592/0/455ed0c337bafe52e70c98147baa3ac5.jpg?ce=0"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 9"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 40,
+            "score": 8.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/vinhome-grand-park-homestay-house/hotel/go-cong-vn.html",
+        "description": ""
+    },
+    {
+        "id": 9091698,
+        "name": "CouCou Homestead",
+        "latitude": 10.7701567,
+        "longitude": 106.6905748,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/-1/2be283e9fc69319176b5a6841ae65ce1.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/-1/4849488ef6e4d40fb40c4349bdeb2f25.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/123384719/8598f97630570feb7be39818e8b8dae7.jpg?ca=26&ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/458857599.jpg?k=7b5bddb8e9b7a0b01c2637996781054f4ee0eba7f807e668f1b9d9f5f58eb01a&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/112807930/44b8def26b02ca13d86faeab9e8199af.jpg?ca=26&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/909/9091698/9091698_19081411470079248854.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/112809236/4b20562e0f82ea66b00aa34d45a2cdc3.jpg?ca=26&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/-1/3d2f2e198f65970b6a9bd76157abd2ef.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/112803533/38a6f7bfea94df2f22ed8f8b519a7281.jpg?ca=26&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/-1/db7eb8fb832e4c01d0fb8845c4670225.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9091698/112806593/5f8b5c744572cfddf5b201e7d8bad90d.jpg?ca=26&ce=0"
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 542,
+            "score": 8.4
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/coucou-homestead/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 7091668,
+        "name": "Chung cư 35 m² 1 phòng ngủ, 1 phòng tắm riêng ở Bình Thạnh (THE MANOR 2 IN CENTER-33% OFF-FREE ROOFTOP POOL)",
+        "latitude": 10.798897318640822,
+        "longitude": 106.71033403376248,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/7388d46f431172785a0a6164e107d69a.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/fad2fd615f5b0eb639f31e507f061dd7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/db336a7b5c51a4014e69175a865344c4.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/6e35cc05c295cdd6d39babbb14801df7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/75588a99eeb8dc53025511090d912697.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/6dfb974a117c188fa1bc3abe155e514e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/a016d07214ca94f79d37544859921a87.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/f36edd2b1610f9a144190e97c4fa863b.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/a0384d534b8fc66a5acfe8266db058c3.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/6a3a929d3a94bc77867cace9f9621616.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/7091668/0/d264fae93464a54f21b19b61c7607a2c.jpg?ce=0"
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 74,
+            "score": 9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/the-manor-2-in-center-33-off-free-rooftop-pool/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 5071184,
+        "name": "Chung cư studio 32 m² có 1 phòng tắm riêng ở Quận 4 (Chau Apartment-FREE Pool-Netflix-Bui Vien)",
+        "latitude": 10.760854,
+        "longitude": 106.69677000000001,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/ada028ec61d6b3a13011633373f8d454.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/fa4f84bf2d779aac8879a2f1f8a39f14.jpg?ca=25&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/457c1d518450e1da40af07bcbb6c6383.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/fdcf47644f858af66dd7103ce12a9b75.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/89ea0faabbeb079c840acc9fe2a7ac4e.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/45831b32306223d9dcecb4d7dbd1bbc8.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/d4db7ba794697155034a9727cad72d9b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/ecba544bf9a05539f1e10fee83cfe704.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/a0957d69bf1480e123be99e43452db31.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/15b425409f7141d7a0248fe9ba104bcf.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5071184/0/70ec8c6f37c337e06338a91bf5f9b862.jpg?ce=0"
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 39,
+            "score": 8.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/chau-apartments-free-infinity-pool-and-gym/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 13594309,
+        "name": "Khách sạn & Căn hộ DHTS Business (DHTS Business Hotel & Apartment)",
+        "latitude": 10.7945711613703,
+        "longitude": 106.679900120613,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/5c2b630a41e9e0675208dc8bc871ff5a.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/4d6664eaeebc38fccb26b29ff681cf78.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/be7287bc326f6e58be220ccba7111592.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/8d68f93ce9e4c7bfe9ec7d0b532ba80b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/98ff1d03228e8cb22d2acdb95b741244.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/2610218506dc49779ac46f7e2b7d1f8d.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/f588a3c4e77409f121d5b4f1824025fe.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/9dd62bf4b00a62361542daf4386a15ef.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/33c562a726b636ffd4779080b393debd.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/5ee2a33b883ce2c753ecbf8c2783c929.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/13594309/-1/eb5e26011730e66cb6d15f7152d9b456.jpg?ce=0"
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Phú Nhuận"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 69,
+            "score": 9.5
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/cactusland-apartment/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 5684454,
+        "name": "Căn hộ dịch vụ NTA (NTA Serviced Apartments)",
+        "latitude": 10.786768205116,
+        "longitude": 106.694605350494,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440969.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440977.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081315240067438944.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440990.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5684454/-1/fb5c83572ad4aaadbe0e788c2f0dd5fe.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440994.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440989.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5684454/-1/4d1dece1213236eebaec8bd0dfd59c45.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440978.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/568/5684454/5684454_18081316440067440965.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5684454/-1/07fd71826409454317e7be5159f38134.jpg?ca=9&ce=1"
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 611,
+            "score": 9.1
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/nta-serviced-apartments/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 31072257,
+        "name": "ANNIE SAIGON APARTMENT - RIVERGATE RESIDENCE",
+        "latitude": 10.762510299682617,
+        "longitude": 106.69860076904297,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/346479700.jpg?k=c26748dc9495f0e2b0df429401072337ef9aed301b9fba6f72dfb6f848ef6747&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/435765417.jpg?k=45b2d86f849059dc222de2402662428f6ee605879af40057fdc7df9e96e84514&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/372181848.jpg?k=0bdd2a4d7d8a136f5530836603df1f7273063c2be9d15f56a3c30ad286c37d5f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/372109566.jpg?k=18af45b8e858b795e34715fc1041e57414137880b8ad012983aadd4154bec14c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/346479680.jpg?k=88376cdf771efd707770e295fa5266d4473693f4d5f08d59009d1b31c296b81a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/372109574.jpg?k=ef6889fbed6baa9effdad8f6c06507eddfa0e7900ebd90298aa11cd28770a02c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/350284214.jpg?k=d43a72b817759d120c6ad8266a50aa30e61379f7a1abd575f1ba0020db0bca18&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/346939739.jpg?k=356cd859b7c516e4fcded96c05874eb9da0a350af290ebc0923b20f7aa897de6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/372181967.jpg?k=29bbb7d4659cbf0fb7ea63eb52b59c7345ea2196fe387b3d981fcae4953c4209&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/435765413.jpg?k=b08ecdcc52c72989f15e186878066bb5982a8a5f56a37e80f936a95077bc1568&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/346938521.jpg?k=7c31c915f69810cbb4959dac951032d86dc2513846c6a738a4cfd379f4cf52af&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 396,
+            "score": 8.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/annie-saigon-apartment-rivergate-residence/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 31260773,
+        "name": "RedDoorz Yen Nam Hotel Hoang Van Thu",
+        "latitude": 10.7995014,
+        "longitude": 106.673157,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/501829969/98980902569a9782c5839f8cd6bc6254.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/-1/91e0f4e4de119adc416d767571dffc49.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/-1/503538dc4a5e621011f5709c0e7249b6.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/-1/8893f847216baef9b4cf38773e782e4b.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/0/66d0d338eb058355623a51934bb3fd78.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/0/f77ad8f7e170cb2a57e6f0986a0a7299.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/0/97fa6ff0c1415f08caf4b5eb7b5d2d9f.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/0/a3f10394ad01c1ec7195e38fa2a1722b.jpg?ca=28&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31260773/-1/fd0bfb07b5e9931130406d8043530c6c.jpg?ce=0"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Phú Nhuận"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 188,
+            "score": 8.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/yen-nam-hotel-hoang-van-thu/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 9589532,
+        "name": "Gem Apartment",
+        "latitude": 10.809488513858557,
+        "longitude": 106.75183775015125,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/930a01b8847c3a14b3219f364a3c9e32.jpg?ca=10&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/01b0d4016f6dba909c290543c63d9cf5.jpg?ca=12&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/de6b7bf13fd48e0cb78815de32bda6bc.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/ba1862d84232c3c711b3c3bb2fd040cc.jpg?ca=12&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/745c78910d4a5fd122c992fd8a93c71d.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/3e56496c37cbb78d26e01fb930e09562.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/9adeea1da388685d171ee5b29974dfb2.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/259840714.jpg?k=50c66cf925d3426ffa3fbee0e674728d7c9a8e3173666179e1faacc136bff963&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/d5ac59c2fb77e5eff7c589480e705411.jpg?ca=12&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/b97c3d79a24c3f0f2ffd5459d058106d.jpg?ca=12&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/9589532/-1/4d951653d4ab92b682d4f8386ebe8a14.jpg?ca=12&ce=1"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 2"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 201,
+            "score": 8.8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/gem-apartment/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 28258508,
+        "name": "Khu dân cư Sang trọng Bland Landmark Plus (Bland Landmark Plus Luxury Residence)",
+        "latitude": 10.7954905,
+        "longitude": 106.7191187,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/-1/a2a537c485bbd8076cb5d2c9487a66d7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588976/3799c6586cc65d25e509ec0fe5240921.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588974/a7343c936cb5270223aff8738872807a.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588975/95164f66e7776ca1076f47f4221d070e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588974/ab935963820452b4c96015888aa751d6.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588975/f81510352efef8ef62f10653c9dd2d4f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588973/ab935963820452b4c96015888aa751d6.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/-1/3799c6586cc65d25e509ec0fe5240921.jpg?ca=23&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588976/2a72c00db350a68269d0495c43bfd6fd.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/-1/8605b00fde46d2d5e4c56f3115dc5763.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/28258508/440588975/d9ec2ea85e82af7523e234f5c489a660.jpg?ce=0"
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 315,
+            "score": 8.6
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/bland-landmark-plus/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 31177830,
+        "name": "Imai House",
+        "latitude": 10.777400016784668,
+        "longitude": 106.67790222167969,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334278808.jpg?k=b31a4f37340918a292a387689de07363cd50e4213aafc7750759cc9bcd1f15f8&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334545500.jpg?k=91131d8beb437b77f742121fc042e35314e23d3e19b429382e59454d98f29bb8&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/410733557.jpg?k=7f15078baf3dbb5bf592a7dc25b6c2c70e8255f930dac40d2f303a4f3f83c85e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334545490.jpg?k=4823b9c05c2ba9edaa6f0fb7a80ba0ff0f49708e50d63ea6752bb5fc390721e4&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/410733566.jpg?k=bd34848953e6a2b8dd0f7d6a6966eb173eb0fb948bc83e6581195fca59ae9fd8&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334545291.jpg?k=1ae44249252f26c967fbeb02cf3e712f120cd525e3e244fedd4c7567b081b34a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/410733572.jpg?k=d40887cd235481cb94f6159ef0335107e8ccb97ba0614e12467b951358ee1f84&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334545290.jpg?k=952bc016e7b8a601c4b67f9ac006dbb07d4723e2be3d3cc0cdee70f8e1966f9c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/410733562.jpg?k=69e8ce6a5564730180ce9c3b10e1114ef993548dbaaee1e9295160a56b4370c6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/334545343.jpg?k=04053c1ad3fddaac3d430dce490f9de10a21f82664a734c5def6ef04dead9168&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/410733560.jpg?k=56e59271b7272f318c2fab91805c84885eadb1f322ee2221cd750a7396a45cc4&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 10"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 129,
+            "score": 8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/imai-house_3/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 6768728,
+        "name": "can ho Ly Chinh Thang",
+        "latitude": 10.786470413208008,
+        "longitude": 106.68527221679688,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/188218637.jpg?k=0d3cd331e124a323bbc991a20ff155d344bb177f5fe6fc709de9e977a122679c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462684242.jpg?k=2834a505da1f52b9ac57ffd27b7873fc885f13f91ded1995a1e160c549e89bbe&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462689048.jpg?k=ef825babcf3ef15156e82d9b7ea931162cf7e5357f68aa3432695ae480508ae6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462688171.jpg?k=6d0d7bee688f7765f4cda1c2c7f6743c1fcd11bf9186afb3edb84896c48a2b40&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462684047.jpg?k=483e88272315f4d8ed93451c2c27457ea3a22ecc8ff77e6c34939689dc16822d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462684502.jpg?k=0df9d42508700ad4038866e8edf9efc9881f7f09dd702412455e46ed78d46c8e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462685973.jpg?k=3dd04b10e2b1c486f6d6182590d7d51ef8d2ecc99ce10cd3d584ce8239c802c6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462688733.jpg?k=11a1e36dc3f1441298328aca0031ff7d3dcfb292341c90fd7211c7c02173516b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462688449.jpg?k=4820c94078e307c1d2e28830aefec43d7fa9fcd355a180fe8dc33aeec2dca3af&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462686246.jpg?k=ecb005d0aae9d19689af59ed836b852fc9a807a8acc1901bdc3bbbc920bd6e41&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/462688603.jpg?k=09474a95b7e09719b8cb0a4fc58b3a7dcb140e84bcf6b41089e456fa3d8d0d74&o="
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 3"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 79,
+            "score": 9.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/can-ho-ly-chinh-thang/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 37328978,
+        "name": "123 Apartment in Bui Vien street",
+        "latitude": 10.768019676208496,
+        "longitude": 106.69499969482422,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049421.jpg?k=132c7a0ec6a58d4399af38c4967e6c6ad0c32a5a658f900d1d98dba14878dee4&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/465496370.jpg?k=e834739acc1f57e1ff5a65e6f984e4e1609aa370fbd52c6dfd9b7838a4f929a3&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/465496375.jpg?k=927d0078008a35c1aa33746c6ec655e54f01db4cc1156449fc12b3b8e19cfe11&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049429.jpg?k=0bfb7534cd4c9c621dc1b6ae74c077639bf1243c2cde3f61273f4851e7c22b5d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049815.jpg?k=db2748bfd039395c72921658a5aabb356a167e15027291cdd71e55c6119b4660&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049373.jpg?k=4558378806dc68c75504e9d52f6d42ae260d48fe305c3a016f4a56eff8c97c3e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049704.jpg?k=2d13eb227cb52230e9ebd6112efcb82df4812a0b9dde00daedbbe0b387683929&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049404.jpg?k=3263a60b6345c4084e2768e94d71dbc74ea3be11adfbe09ef092c40fd16fee7e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049399.jpg?k=0c49eac1caee8d4f37c7c22b4e63b8e42f35e4b660d327903e0661a4118892ea&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049794.jpg?k=d503f54c6a45983754fed07dde99b93b4baf8cd8c273090014d0c56c007b7ae8&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/425049804.jpg?k=b20f0273d064d2ce5ab72b4eee26b23413ec98e9f5fe29ed0654f98f7b3555bd&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 39,
+            "score": 7.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/123-apartment-in-bui-vien-street/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 5920816,
+        "name": "RiverGate Apartment with Central View",
+        "latitude": 10.768019676208496,
+        "longitude": 106.695068359375,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246382985.jpg?k=477f6e8f0310f320356fc7b3972aac8287f2fefdcfc8622e13daf66b51d0b94a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428911194.jpg?k=e9246f86014f25939fe067862e3baa22cbf8c67e179d6392e24b131201f0113f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247095245.jpg?k=eda7f8f3e5a62475da6b73a8958c0a7f4d84967c9ad7b23a95d24ea1ee7d8fc1&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246382973.jpg?k=0ede520a13885f99f65c6a6080b6b80406af3b016fd36af36ec539b5fa300493&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247096587.jpg?k=c3e51a5e1e3c2aac54767ccfbfbfd634eda0829b6c96b7fe2aaceb883eba252e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428910547.jpg?k=65401d0c05b6e268faf2ea07b4055912d590a30637f014df21b5259ffcd33f4d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247095203.jpg?k=1cf8e18abde2eea8576ea772046b42695f5abce4c6af4c9a346c2e40e322411a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247094823.jpg?k=3eec44f014ddd60837b1d49567abae7d45703742bf22269dfffe1ce65cfb8214&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/428911098.jpg?k=5dfd1ec3571dc3e7a7df193aba0c92ba9f3e72c61fcadb8ced36a66deb160134&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247095236.jpg?k=1cd2964e092bdbb8d484999b7c2bb3e317ba9b5efd97f8cc91f163ae5068869b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/247094829.jpg?k=c3031e50e6c957f92a20c3f88eb95f4df2a5af4b066c6fd18c0a8cb405273ac8&o="
+            }
+        ],
+        "type": 4,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 346,
+            "score": 7.8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/rivergate-apartment-with-central-view/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 300972,
+        "name": "Mayfair Suites - WMC Tower",
+        "latitude": 10.765044946323425,
+        "longitude": 106.69076710939407,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16091317470046411711.png?ca=6&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16093011380047161421.png?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16093011350047161240.png?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_15072910480033236536.jpg?ca=5&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16093011280047160887.png?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_15072910480033236531.jpg?ca=5&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300972/609125681/77b8ead474e87f629acfa77b566edbb4.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16093011380047161424.png?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_15072910480033236532.jpg?ca=5&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_16093011350047161241.png?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/300/300972/300972_15072910480033236534.jpg?ca=5&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 879,
+            "score": 8.7
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/mayfair-suites-wmc-tower/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 5694356,
+        "name": "Scenic Valley Suite",
+        "latitude": 10.730220065159576,
+        "longitude": 106.71750934959869,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/88a2df18591ce54bbe5c894b3aacda24.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/569/5694356/5694356_18082109510067563362.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/569/5694356/5694356_18082109510067563384.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/569/5694356/5694356_18082109510067563388.jpg?ca=0&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/34ad8f5cd25d4e24d79dd08a4b4c49bf.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/92c3873ad7faf4eba125e81eaab446b6.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/f0bb79938152b9f9fe42c45f5a98e4b4.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/3c8ab755ec25d7de9f8503fbae09a23f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/46dc0f20ae547b7e1b0cb8a8a7c837e5.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/aa77002b3961766f6c6846af1d7f671c.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/5694356/-1/4c46bd7742f206e39fba20ca5deaee5a.jpg?ca=0&ce=1"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 7"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 217,
+            "score": 8.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/scenic-valley-suite/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 4913590,
+        "name": "Chill Suites (Chill suites)",
+        "latitude": 10.766569029918854,
+        "longitude": 106.68810367584229,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/7950e1c0f64350512784f3f9429a7b6e.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/fd7feb5db96b2461b41b2f9609c03ebe.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/f3849826549b54a642f82596fdaa10bc.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/92680f378ba2c3679c374d634d16b54b.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/f003ddb82c802cd190b520fdb0ca15e8.jpg?ca=27&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/e3bb36f7f731823294c66d9d7d5805c1.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/f379993f91b0be496269f2a200778ad7.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/74ed5aba0d6aafcb0383a4c8c31b4d0e.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/2aa341464299103cf517b9925ac1fe59.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/d9d5e223b99c9f41aa477f129cc9f78e.jpg?ca=8&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/4913590/-1/9a0f0c2b7420019325ea97df1ac955e0.jpg?ca=16&ce=1"
+            }
+        ],
+        "type": 3.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 2537,
+            "score": 8.8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/chill-suites_2/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 31567283,
+        "name": "RedDoorz Ura Hotel Hung Phuoc 4",
+        "latitude": 10.7298222,
+        "longitude": 106.707993,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/-1/b5d491efe45a41f73183319c8b3b9394.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/0/b212333c929d846c1cdbac573e4034d7.jpg?ca=29&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/0/8188582ef48a56e0d25c115f4de1f2e2.jpg?ca=29&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/0/4fd6c96398bc2e499678dab977d4b7cc.jpg?ca=29&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/0/ca5b14607036eb70eaf282351685b718.jpg?ca=29&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/-1/90127aac2329fc08dc5af3e55fe5c0a7.jpg?ca=29&ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/-1/1dea5b166b1686f23967d61d23106e52.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/-1/f168ac1c6243eccde038e4f4c763969f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/-1/d743c1b6c7909104057c838cf2ab4bdc.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/31567283/0/1e68970bdc71471de473c7b716b4c4cf.jpg?ca=29&ce=0"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 7"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 231,
+            "score": 7.6
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/reddoorz-premium-ura-hotel/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 11288942,
+        "name": "Chung cư 40 m² 1 phòng ngủ, 1 phòng tắm riêng ở Bình Thạnh (THE MANOR 2 STUDIO APT FREE ROOFTOP POOL )",
+        "latitude": 10.793724496605149,
+        "longitude": 106.71785478020217,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/8325dbc858418d3d87fa1e2a6ae15e3b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/50fbce64f8810243016c327190e0da17.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/746c49768f069f687016fb26c891a3bd.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/ddc406fcd2ab33e4adb70b68a0113160.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/194c0f47c7a76b6567b9e02ecf623d20.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/10d9cf069c5fdefbcd35cc2775aedfa9.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/5c3adc806be139e010168e0d8e1802c2.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/c6d68391e95adee7aabd8f1ca53303b7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/150f2be909354cef48d4bbc44d3d976d.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/c7d73f4197741d616a2a1b5a35c70aca.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/11288942/0/dc1dd57f4f000872f472736e6ff5d91f.jpg?ce=0"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 21,
+            "score": 8.5
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/the-manor-high-fl-stu-free-roofpool-5mins-landmark/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 34049719,
+        "name": "Căn hộ 35 m² 1 phòng ngủ, 1 phòng tắm riêng ở Quận 1 (Sense House)",
+        "latitude": 10.771089826123378,
+        "longitude": 106.6927223020707,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/d60d39780f6917bfccf090e2a4453c45.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/5b3c74136fd0fefe640865606f88eda2.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/cd283e61fa9f5f145bb9df6b3bc61f2f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/6c6653053988d44ea53e7150348b11e0.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/8a16914e180f797dc9d23e23f19c8e6f.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/1d1533032e561860f2eab48539ada553.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/a6b538b08e187637510d0ee0a60bbaa2.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/c7af5fa8bc0b8bd9bcf068ca6313e4e8.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/8bba468ad4068f4e684d3ce2c039cf00.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/a22028b56879dad4eba13817b5c4c617.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34049719/0/f376f04b97b36704c1e3181a44d3e2b1.jpg?ce=0"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 7,
+            "score": 7.8
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/sense-house-h34049719/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 36977997,
+        "name": "Căn hộ 50 m² 1 phòng ngủ, 1 phòng tắm riêng ở Bình Thạnh (Căn hộ CityView Nguyễn Hữu Cảnh)",
+        "latitude": 10.7960975,
+        "longitude": 106.7185407,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/2e8f8b1049fc8dac101df54fca98884b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/e14c2c8f63776aceeefc4e5c2e6393c1.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/91ca004321df93dfa08d85cdfee2f1e6.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/3a029a7a7817e237a04fb3c76bfba503.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/1c5ecb36cb80c9144aff8a1467035aae.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/4337e7d2d24c0cd4da5ef760fbd6b19c.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/69cb4ae9ffbfef641db151793d1e284a.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/834fdebfab727a1d63505f9ca8116368.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/dd7133bdc67272b1d3a04abfd5e01faf.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/f38f98a75e7d4a68b1db17b4d19b9d7e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36977997/0/1cefeafcc5e656abc446b4fcfc42bbc8.jpg?ce=0"
+            }
+        ],
+        "type": 5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 3,
+            "score": 9.5
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/can-h-cityview-nguy-n-h-u-c-nh/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 8787635,
+        "name": "Hello SaiGon Homestay",
+        "latitude": 10.7718502,
+        "longitude": 106.68092030000003,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/878/8787635/8787635_19071818020078253105.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/d3abe5b353d4dfffbbc9c63fc370cc11.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/262956882.jpg?k=2716972f2d6ce61e9b1f25581b15f78c6e0e66c9a2c1eb47db38841cd8c1566b&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/c705f471a5846af9c048f9fd40358036.jpg?ca=19&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/878/8787635/8787635_19071818020078253112.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/fc00a4b18cbc3137fa376410f9e975d6.jpg?ca=19&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/f9a897abcaa0f1b1f827b1661224b49d.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/208297589.jpg?k=8283d854aa0581d7d3b739a4715e3262662ca1194fc440c65fb42cadbd06c7cf&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/29139144d57daa58e0528d563bdd77f1.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/365747829.jpg?k=de4918d4301abc5e71d016d8aa68850c0ca314588f255f703e2cc384659af3ed&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/8787635/-1/1150193d07a65f24bc8e4da4f6941a12.jpg?ce=0"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 3"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 216,
+            "score": 9.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/hello-saigon-homestay/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 12180552,
+        "name": "Cozrum Lux Hotel",
+        "latitude": 10.7719007756095,
+        "longitude": 106.690653090807,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/12180552/-1/951e95e4077c50d20c8ea5e4d23d17ac.jpg?ca=10&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721060086855388.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721220086855849.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721470086856363.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721470086856348.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721170086855737.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721470086856346.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721470086856360.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721220086855846.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721170086855741.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/121/12180552/12180552_20010721350086856089.jpg?ca=9&ce=1"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 1148,
+            "score": 7.7
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/cozrum-lux-hotel/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 6380098,
+        "name": "Emerald Central (Emerald Central )",
+        "latitude": 10.7896050162438,
+        "longitude": 106.686869277281,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710460071122581.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710350071122284.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/6380098/-1/c42e92634218e98a7bb3f50e88220d75.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710340071122208.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19121309200085778229.jpg?ca=9&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710340071122206.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710460071122585.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710460071122582.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/638/6380098/6380098_19010710370071122357.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/176313026.jpg?k=540a533206a4ddca1f000c1d4af6549f1d49056fe8fa9bf1c5bf70eed04a79ab&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/233290217.jpg?k=e0148e9392de716f3349faf68cfadd8a53d737d4d661e39c84900d7dc76ad4ae&o="
+            }
+        ],
+        "type": 3.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 3"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 770,
+            "score": 8.4
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/emerald-central/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 8127210,
+        "name": "Best View River - River Gate Apartment",
+        "latitude": 10.76276969909668,
+        "longitude": 106.69889831542969,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/417645780.jpg?k=98b6abbbb457b3045e2aeb8be5c869a8ef19b5e774d30dac09b95e14a7809e28&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137648.jpg?k=5b4768b3b64107a681eb3ee4e8bbb671955d2f09ac5d50b5be457c1c98b81e27&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137101.jpg?k=9a143f9e1692d1bd336a0469ab3568b4e221c2305324ff59482da0b03f343eaf&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443136335.jpg?k=51f1a5e1e0c2d5ad5a098f65ab0e45e32ecba2186116cec8e80556cf5d9c586d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443135980.jpg?k=270bd2b24e7e4d5550e030dc9322e4d361da0dd98d0d01985f2f8b0c49b0a882&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137449.jpg?k=312840afad8d15a43a4e2b32110f1b351f0654f5c2a3ba1cbb734492e0432e1a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443136218.jpg?k=2ba9ced87ee701007b732ac65a6daaff50a3bd5d09c84b768cde23cfa2864f2b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137276.jpg?k=951f50372d2ee46637977d1477db9b3ed1ca284d2d2ff304abfc89617bb04d03&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137028.jpg?k=88916a9bd9503ad33ac399a409236eb04abed11f16808922464ccbb5aee000a0&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443137218.jpg?k=a4150a37ce9ee3e73f8c36a1902fc89d776e8aff79ea3bd61dc8df2d9aa39f7a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/443136157.jpg?k=c60c60611c8181abe44f6b6b40d997a4f5ba8cc498ddf2ade4451c273102e9d0&o="
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 40,
+            "score": 9.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/best-view-river-river-gate-apartment/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 2279980,
+        "name": "Sen Boutique House",
+        "latitude": 10.8100801503557,
+        "longitude": 106.734379827976,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/08635f845557c87d704ed9cf15c583d1.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/bfd3d9c8462d133896f4b741fbf00e8a.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/5f08471b45c23ddd05579e322885cc4a.jpg?ca=13&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/8ed905cb1fda3874092bc624217aa381.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/d9ad0005474fdd2dac9be7edb2ea91b8.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/1f2c36f04dcc3be26c462be41ca7b3a5.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/162973143.jpg?k=3b1af420c1eecdfeab0dda67625f1d31e83cc1da07be4223074458f9cd315998&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/162979982.jpg?k=2ee391fdc979327d0ce27ce05064e7310c40bd12c57dd3fb2cf7caf122b4e3b3&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/2286e3307f413f42010235402e18fd29.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/2ea0855f682359e5f33a6097e83f2b50.jpg?ca=7&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/2279980/-1/97aece041b4621ad798832656bc3d90d.jpg?ca=7&ce=1"
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 2"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 318,
+            "score": 8.6
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/sen-boutique-house_2/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 38537166,
+        "name": "Nexdor",
+        "latitude": 10.78052043914795,
+        "longitude": 106.70726776123047,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444513951.jpg?k=970ff12c8af5d4d0217593b6e0b76e530e28ffb0e574cf827efc7fc5821ee642&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444513824.jpg?k=735cd313635a8db9552d89e48266ce009ac89b4f026ffc4debd1dcf832c5a94b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444614644.jpg?k=379a1111a2bc5940904c3f9e34a6fbb84ba6344affd9b1a584e3d43908560537&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444614985.jpg?k=78f3a5be101f0f03681e0201269684ed24aedc96790c2cbe67eb71a5d9593662&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444619247.jpg?k=c11c71d61c219f8361504abd1d6634e150aaadb5b5ac349467cb388471979283&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444631934.jpg?k=c527d98a0bbada62ad4ba1cc4e494d66128374022e4d14d673be6fdf91e576c4&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444619252.jpg?k=4e5020b64a5e815dba441d682c211afe3bea14aa37d53d305500b1435b26f537&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444617351.jpg?k=550b5865a04e7d358720738fd1ef7ceb2c7a10c73297507b8fa054a2e2e03126&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444513822.jpg?k=565f1957c234563ee2c3cfc53f3b9c905de54f0161c94188d01d6bc9f5acf507&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444615074.jpg?k=04da07ec7a2d9637cbc81c32e2ca3ff934375eb39cc5941e5c4f0f4486278a1f&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/444617343.jpg?k=87fc59b29fa7b5c8b8d5558d279121ba5553dd8e96b40725a25ed1490da8947e&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 27,
+            "score": 7.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/nexdor/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 18709076,
+        "name": "NHÀ CỦA SUPERTRAMP (SUPERTRAMP'S HOUSE)",
+        "latitude": 10.767040252685547,
+        "longitude": 106.68499755859375,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243729836.jpg?k=bf8b22343342c4956dc294c7598570887ac9a7be4c2a92a04c74a467c3394bea&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/18709076/-1/fd604d99e11cc7214eecffb15c5e5ea8.png?ca=25&ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243729925.jpg?k=49be2cdf110259f836b44e86532c252545b26e3fc50ee1800f7954732977cba2&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246682671.jpg?k=f3c6fe6c6f7ba75b171e185f9d0afa7e8049619f81dba1a84c2de1954f73a08c&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243729976.jpg?k=df98e1c571814320bb3097750b4ef1c697b5d6d576e5cb3a7b8390fe7024f999&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246682672.jpg?k=c07556ae29933cee9f3dcd4535e2d4306ebaff2ac3689b8a73714ffd60eb39d5&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243729995.jpg?k=f8e10f09e306ee0da0f9a8a678ed0f0b34bf44a1265493c7d45edb25f2590b9b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246682675.jpg?k=aec00bd939d4fa8c7507a1cec462e026c145aa74e71452fb736d05b19fb125f6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243729917.jpg?k=6761dc18406c9526cd077f90c2ea736acdb87afc55586d98078a788ff26217a8&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/246682667.jpg?k=1403d4646e7ce2931da73e7707f7bff9590ef8a5d2484a2aa67133257eddcef0&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/243730043.jpg?k=88d53f6505dec17c9f4bf0347f1537474837c14fd357e3ee1e913e1be6348825&o="
+            }
+        ],
+        "type": 4.5,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 331,
+            "score": 6.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/supertramp-s-house/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 34735044,
+        "name": "Cityhouse - S Home",
+        "latitude": 10.7945938,
+        "longitude": 106.676605,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/0/6a6049c950303632e6551fc4439c1547.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/610358083/b409acb14190f04a2602061346929e76.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/610358195/7ce320f2474d2e4235b3cfcfd7a52776.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/11209000e3a94c3c7ac441abfb651ec3.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/677c9197ee13fb9f3c2766612acf4b02.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/9b6a4646565b2ced08509097b04fd809.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/e571942a2410bad38e52414cc7b5ac3b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/667811701495bf7f2ea41709bd05d41b.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/57551164699c93b6ae7c37403196c3f1.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/610358083/233ebcbb59d177ca0bd1112d465159c7.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/34735044/-1/9cbde6d79c9b17525992c9f1ce2d3966.jpg?ce=0"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Phú Nhuận"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 248,
+            "score": 9.3
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/cityhouse-s-home/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 32181702,
+        "name": "Millennium Spacious Aparts, Pool & Gym and CENTRAL Location",
+        "latitude": 10.762969970703125,
+        "longitude": 106.69960021972656,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/361072848.jpg?k=2e215bfde81d6c534021615bc1e9d79a23b08866ee07a2cac15c44a9e877fef2&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400387626.jpg?k=a15c58004ef28ca0766e952e25b320954a1532ea3253b92def64f1cc07f159f1&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400387902.jpg?k=d993f67ff8bf93f9ae26bd8a3452370530a46f91a2084e8caa3e7b48e3bb0ad6&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400388465.jpg?k=35e60aaab6136b5c6f65e8863ee72178667bb609005d8320368f389bde2df02e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400388435.jpg?k=0b749294ced1d70e2edca08ab2ac4bda8e1f2e4c1b6d9301b3b3bd5dd6d00f41&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/424231903.jpg?k=f81b638322250ff6ec105107569bcce29a5d6c5315e1c084ef8291c9fba5cc01&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400388362.jpg?k=d2e2a4778f6d27503343a1d3edfbdd107a5b7d717f857d3c02350f6c23617332&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/424231856.jpg?k=fd9cce18a74d674abab5fcdded25b0d422326711cc3eabef805bd12052ef3567&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400388450.jpg?k=8f5374013a598446c38f3e55b3278ffa429120625d4058e3ffc5373a31b29f17&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/424231783.jpg?k=3bd0f6d9654c55ba7f77b20732efab19f95cb40132b79ed05ecb8ec0e463790a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/400388456.jpg?k=1ebbcb367fcc61fdce08ac4033928480b60da3184c44c86887cb37928ea4f8de&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 4"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 116,
+            "score": 7.9
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/millennium-spacious-aparts-pool-gym-and-central-location/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 36924896,
+        "name": "The Lovenote Home",
+        "latitude": 10.7835255,
+        "longitude": 106.6809,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/0/fff45b5dc3fd5ce71ad3bf0f1b0de55a.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/610360549/9d9934c7e3ac113d70648ec009782ef7.jpg?ce=0"
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/418848538.jpg?k=1eb9ee4ffb4ecb52c8fc6dac986dfdeba3ed6287ae243334fe63eb215cdf7388&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/431195235.jpg?k=b39df5e06ff9683f928bb87627277ccffbcbe92eee497286489e957ef53e2137&o="
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/610360549/b4e0482c540d915d750d70ee5b6354a8.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/0/6f294b371d0931bedd7d57e829ea6da4.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/610360803/faa03845d58c2eb9d1a772dbaef0c1ab.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/610360549/f43d1718bbf65eabc3e4f18b96ac6104.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/0/5b0e16fae8e91d916389457dfba34e32.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/0/6d180d98f442844237ba4a1a5401e06e.jpg?ce=0"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/36924896/610361032/8a279eacf7f0eee7a26c4074f9a2bfb2.jpg?ce=0"
+            }
+        ],
+        "type": 3,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 3"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 132,
+            "score": 9.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/the-lovenote-home/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 21336169,
+        "name": "Nhà dân AYA 3 HCM (AYA Homestay 3 HCM)",
+        "latitude": 10.789775651848746,
+        "longitude": 106.6960832674606,
+        "images": [
+            {
+                "src": "//pix8.agoda.net/hotelImages/21336169/-1/214874827def4a7ec9629a263e47c192.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420390093644420.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420130093644225.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420150093644269.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420040093644165.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/21336169/-1/c00fd9de3dcbca763cee1a517bdd6943.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420230093644317.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420110093644214.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420040093644144.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420110093644210.jpg?ca=16&ce=1"
+            },
+            {
+                "src": "//pix8.agoda.net/hotelImages/213/21336169/21336169_20121420140093644255.jpg?ca=16&ce=1"
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Quận 1"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 28,
+            "score": 8.1
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/aya-homestay-3-h17248259/hotel/ho-chi-minh-city-vn.html",
+        "description": ""
+    },
+    {
+        "id": 35311126,
+        "name": "Luxury Vinhomes Central Park (Cozy Apartment)",
+        "latitude": 10.795539855957031,
+        "longitude": 106.71916961669922,
+        "images": [
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/398760860.jpg?k=a7d89e285815aacd8a51bda59375a686af4ee8999d16f5170ba4b7cf93f5cf91&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399866937.jpg?k=d2f80909fd6cd9d33c6ad6d0a731c2f30b459f6323f263c35782242b6336a3a1&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399874864.jpg?k=c8a4cb9bcb27cade255d7b4ff50ee0a478bf81deb397ccde574fba06db7b0963&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399867326.jpg?k=5a2b6c05ded687fdabe2cf31776aa3fbfebb649d17fd0c970d54513597677cfd&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399872986.jpg?k=52a635959825f7b8e02459e63a0c6363d97e901f3cbb82535bd874ec67d6dd11&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399875873.jpg?k=bc039f5789f61e9662bd2acb1f55b69010b45932513f2968a2acecfbb920d56a&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399875450.jpg?k=b1d614bc2d555491dac3fb2b71cbc93e17f03602109d7c08353ffa794e75f455&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399876304.jpg?k=ac50eb3fdfa0741f3b2c6d3bd6c9e577e37337f39fcf497aae9c285f95e25f4d&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399867969.jpg?k=49bb49f395ebcbecc1ed7c5ac71bd7047b5e8e588e98e98ebb0a2960b8e9483b&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399866988.jpg?k=e4d17995673a73aec4228c6d495c8690acab657dc5fb08fadbc188b8931e419e&o="
+            },
+            {
+                "src": "//q-xx.bstatic.com/xdata/images/hotel/max500/399871574.jpg?k=78c6e31d48fb76d11d4ca8450758e575482f4a15cd3976ad9ee1a9d98840194b&o="
+            }
+        ],
+        "type": 0,
+        "address": {
+            "city": "Hồ Chí Minh",
+            "area": "Bình Thạnh"
+        },
+        "rooms": [
+            {
+                "name": "",
+                "image": "",
+                "cost": 0,
+                "quantity": 10,
+                "emptyRoom": 0,
+                "salePrice": 0,
+                "area": 0,
+                "singleBed": 0,
+                "doubleBed": 0
+            }
+        ],
+        "evaluate": {
+            "reviewCount": 21,
+            "score": 8.2
+        },
+        "propertyPage": "https://www.agoda.com/vi-vn/luxury-vinhomes-central-park-cozy-apartment/hotel/all/ho-chi-minh-city-vn.html",
+        "description": ""
+    }
+]

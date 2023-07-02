@@ -11,38 +11,27 @@ const hotelInputs = [
       id: "name",
       label: "Name",
       type: "text",
-      placeholder: "My Hotel",
+      placeholder: "name hotel",
     },
     {
       id: "type",
       label: "Type",
       type: "text",
-      placeholder: "hotel",
+      placeholder: "number star",
     },
     {
       id: "phonenumber",
       label: "Phone Number",
       type: "tel",
-      placeholder: "+84129999999",
+      placeholder: "number phone",
     },
     {
       id: "address",
       label: "Address",
       type: "text",
-      placeholder: "Hoang Mai, Ha Noi",
+      placeholder: "address",
     },
-    {
-      id: "longitude",
-      label: "Longitude",
-      type: "text",
-      placeholder: "",
-    },
-    {
-      id: "latitude",
-      label: "Latitude",
-      type: "text",
-      placeholder: "",
-    },
+    
     {
       id: "desc",
       label: "Description",
@@ -100,15 +89,16 @@ const NewHotel = () => {
     } catch (err) {console.log(err)}
   };
   return (
-    <div className="new">
-      <div className="newContainer">
+    <div className="new-hotel">
+      <div className="new-container-hotel">
         <NavBar/>
-        <div className="top">
+        <div className="top-hotel">
           <h1>Add New Hotel</h1>
         </div>
-        <div className="bottom">
-          <div className="left">
+        <div className="bottom-hotel">
+          <div className="left-hotel">
             <img 
+              className="img-hotel"
               src={
                 files
                   ? URL.createObjectURL(files[0])
@@ -117,12 +107,15 @@ const NewHotel = () => {
               alt=""
             />
           </div>
-          <div className="right">
-            <form>
-              <div className="form-input">
-                <label htmlFor="file">
+          <div className="right-hotel">
+            <form className="form-hotel">
+              <div className="form-input-hotel">
+                <label
+                  className="label-hotel" 
+                  htmlFor="file">
                   Image: <DriveFolderUploadOutlinedIcon className="icon" />
                 </label>
+                <p style={{padding: "10px 0px 0px 0px"}}>(Chọn nhiều ảnh)</p>
                 <input
                   type="file"
                   id="file"
@@ -133,21 +126,19 @@ const NewHotel = () => {
               </div>
 
               {hotelInputs.map((input) => (
-                    <div className="form-input">
-                        <label className="label1">{input.label}</label>
-                        <div>
+                    <div className="form-input-hotel">
+                        <label className="label-hotel col-sm-5 col-form-label">{input.label}</label>
                             <input
                                 id={input.id}
                                 onChange={handleChange}
                                 type={input.type}
-                                className="input1"
+                                className="input-hotel"
                                 placeholder={input.placeholder}
                                 />
-                        </div>
                     </div>
               ))}
-              <button className="button1 mx-5 center-block my-2" onClick={handleClick}>Send</button>
             </form>
+              <button className="button-hotel" onClick={handleClick}>Send</button>
           </div>
         </div>
       </div>
