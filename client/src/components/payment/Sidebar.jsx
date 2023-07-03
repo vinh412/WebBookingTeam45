@@ -1,19 +1,32 @@
 import "./sidebar.css";
-import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import { LiaBedSolid } from 'react-icons/lia';
+import { PiHouse } from 'react-icons/pi';
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Sidebar = () => {
-  const bookingInfor = {
-    room: {},
-  };
+const Sidebar = ({ bookingInfor }) => {
+  let singleBed = '';
+  let doubleBed = '';
+  if (bookingInfor.room) {
+    if (bookingInfor.room.singleBed) {
+      singleBed += bookingInfor.room.singleBed + ' giường đơn';
+    }
+    if (bookingInfor.room.doubleBed) {
+      doubleBed += bookingInfor.room.doubleBed + ' giường đôi';
+    }
+  }
+
+  function numberWithDot(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  }
+
   return (
     <div id="container-sidebar">
       <span className="banner">PHÒNG RẺ NHẤT</span>
       <div id="booking-infor-sidebar">
         <h5>
-          {bookingInfor.time || "12 tháng 8 2023 đến 15 tháng 8 2023"}{" "}
-          <span style={{ color: "green" }}> - 2 đêm</span>{" "}
+          {`${bookingInfor.startDate} đến ${bookingInfor.endDate}` || "12 tháng 8 2023 đến 15 tháng 8 2023"}{" "}
+          <span style={{ color: "green" }}> - {bookingInfor.days} đêm</span>{" "}
         </h5>
         <h6>
           {bookingInfor.sophong || "1"} x{" "}
@@ -30,12 +43,11 @@ const Sidebar = () => {
           />
           <div className="if-detail">
             <div className="if-detail-line">
-              <FontAwesomeIcon icon={faPerson} size="lg" />
-              <p>1 phòng, 2 người lớn</p>
+              <p><PiHouse /> Diện tích {bookingInfor ? bookingInfor.room.area : '?'} m2</p>
+
             </div>
             <div className="if-detail-line">
-              <FontAwesomeIcon icon={faPerson} size="lg" />
-              <p>2 người lớn</p>
+              <p ><LiaBedSolid /> {singleBed + doubleBed}</p>
             </div>
             <div className="if-detail-line">
               <FontAwesomeIcon
@@ -77,12 +89,8 @@ const Sidebar = () => {
           <span className="banner2">GIẢM 72% HÔM NAY</span>
         </div>
         <div className="price-line">
-          <span>Giá gốc ( 1 phòng x 2 đêm )</span>
-          <span className="gach-ngang"> 1,900,000 VND </span>
-        </div>
-        <div className="price-line">
-          <span>Giá phòng ( 1 phòng x 2 đêm )</span>
-          <span> 1,900,000 VND </span>
+          <span>Giá gốc ( 1 phòng x {bookingInfor.days} đêm )</span>
+          <span className="gach-ngang"> {numberWithDot(bookingInfor.room.cost)} VND </span>
         </div>
         <div className="price-line">
           <span>Phí đặt trước</span>
@@ -96,11 +104,11 @@ const Sidebar = () => {
             <span
               style={{ fontSize: "22px", color: "black", fontWeight: "bold" }}
             >
-              1,399,000
+              {numberWithDot(bookingInfor.room.salePrice)}
             </span>
           </div>
-          <div style={{marginTop: "10px"}}>
-            <span style={{fontWeight: "bold"}}>Giá đã bao gốm: </span>
+          <div style={{ marginTop: "10px" }}>
+            <span style={{ fontWeight: "bold" }}>Giá đã bao gốm: </span>
             <span> Thuế 10%, Phí dịch vụ 5% </span>
           </div>
         </div>

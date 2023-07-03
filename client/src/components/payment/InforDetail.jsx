@@ -47,7 +47,8 @@ const InforDetail = ({ inf }) => {
       fullname: fullname,
       phonenumber: phonenumber,
       time: `từ ngày ${inf.startDate} đến ngày ${inf.endDate}`,
-      place: `${inf.nameHotel || "Khách sạn Mường Thanh - Thành phố Đà Lạt"}`,
+      hotel: `${inf.nameHotel || "Khách sạn Mường Thanh - Thành phố Đà Lạt"}`,
+      room: `${inf.room.name || "Phòng 2 người"}`
     };
     const encodedForm = encodeURIComponent(JSON.stringify(form));
 

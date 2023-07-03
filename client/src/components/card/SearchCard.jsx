@@ -1,12 +1,13 @@
 import { useState, memo } from "react";
 import './SearchCard.css';
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 
 function numberWithDot(x) {
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
 
 const SearchCard = ({hotel}) =>{
+  const [searchParams, setSearchParams] = useSearchParams();
   const navigate = useNavigate();
   const items = [];
   for (var i = 1; i <= hotel.type; i++) {
@@ -29,7 +30,7 @@ const SearchCard = ({hotel}) =>{
     }
   }
   const handleClick = () => {
-    navigate(`../hotel/${hotel.id}`);
+    navigate(`../hotel/${hotel.id}?startDate=${searchParams.get('startDate')}&endDate=${searchParams.get('endDate')}`);
   }
 
   return (

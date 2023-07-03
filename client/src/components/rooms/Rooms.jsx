@@ -1,13 +1,13 @@
 import React from 'react'
 import RoomCard from '../card/RoomCard'
 
-function Rooms({ rooms }) {
+function Rooms({ rooms, nameHotel }) {
     const items = [];
     if (rooms) {
         rooms.forEach((element) => {
             items.push(
                 <div className="col-md-6">
-                    <RoomCard room={element} />
+                    <RoomCard room={element} nameHotel={nameHotel} />
                 </div>
             );
         });

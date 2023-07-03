@@ -16,6 +16,7 @@ const PayMent = () => {
   let date1 = new Date(inf.startDate);
   let date2 = new Date(inf.endDate);
   let days = Math.ceil(Math.abs(date2 - date1) / (1000 * 60 * 60 * 24));
+  inf.days = days;
   inf.room.cost *= days;
   inf.room.salePrice *= days;
   return (
@@ -26,7 +27,7 @@ const PayMent = () => {
           <PaymentMethod />
           <InforDetail inf = {inf} />
         </div>
-        <Sidebar />
+        <Sidebar bookingInfor={inf}/>
       </div>
     </div>
   );

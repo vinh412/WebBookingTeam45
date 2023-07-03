@@ -25,7 +25,7 @@ const Confirm = () => {
           </div>
           <div className="thankyou-massage-ending">
             <h2>Cảm ơn bạn đã đặt phòng</h2>
-            <p>Một email xác nhận đã được gửi tới ngohaivan7@gmail.com.</p>
+            <p>Một email xác nhận đã được gửi tới {bookingInfor.email || "ngohaivan7@gmail.com"}.</p>
             <p>Xin vui lòng kiểm tra email của bạn</p>
           </div>
         </div>
@@ -39,9 +39,9 @@ const Confirm = () => {
           <div className="content-child">
             <h4>Khách sạn</h4>
             <p>
-              {bookingInfor.place || "Khách sạn Mường Thanh - Đà Nẵng"}
+              {bookingInfor.hotel}
             </p>
-            <p>{"Phòng 2 người"}</p>
+            <p>{bookingInfor.room}</p>
             <p>
               {bookingInfor.time || "Từ ngày 27 th6 2023 đến ngày 30 th6 2023" }
             </p>

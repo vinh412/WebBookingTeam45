@@ -6,10 +6,10 @@ import { useSearchParams } from 'react-router-dom';
 
 const crypto = require('crypto-js');
 
-function RoomCard({ room }) {
+function RoomCard({ room, nameHotel }) {
+    const [searchParams, setSearchParams] = useSearchParams();
     let singleBed = '';
     let doubleBed = '';
-    const [searchParams, setSearchParams] = useSearchParams();
     if (room) {
         if (room.singleBed) {
             singleBed += room.singleBed + ' giường đơn';
@@ -21,6 +21,7 @@ function RoomCard({ room }) {
     const handleClick = (event) => {
         let paymentInfo = JSON.stringify({
             room: room,
+            nameHotel: nameHotel,
             startDate: searchParams.get('startDate'),
             endDate: searchParams.get('endDate')
         });
@@ -44,7 +45,7 @@ function RoomCard({ room }) {
                             <div className='col'>
                                 <p className='mb-1'><PiHouse /> Diện tích {room ? room.area : '?'} m2</p>
                                 <p ><LiaBedSolid /> {singleBed + doubleBed}</p>
-                                {room.emptyRoom !== 0 && <p> Còn {room.emptyRoom} phòng</p>}
+                                {room.emptyRoom > 0 && <p> Còn {room.emptyRoom} phòng</p>}
                             </div>
                             <div className='col'>
                                 <div className='' style={{textAlign: "right"}}>

@@ -52,7 +52,7 @@ function Hotel() {
                 <>
                     <ImagePreview images={hotel.images} />
                     <Overview hotel={hotel} />
-                    <Rooms rooms={hotel.rooms} />
+                    <Rooms rooms={hotel.rooms} nameHotel={hotel.name} />
                     <Reviews reviews={reviews} />
                 </>
             }
