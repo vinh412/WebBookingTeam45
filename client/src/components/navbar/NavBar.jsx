@@ -17,7 +17,7 @@ const NavBar = () => {
         navigate('/signup');
     };
     const navigateToPartner = () => {
-        navigate('/newhotel');
+        navigate('/listhotel');
     };
     
     

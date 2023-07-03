@@ -1,7 +1,8 @@
 import actionTypes from "../actions/actionTypes";
 
 const initState = {
-    currentData: {}
+    currentUser: null,
+    msg:'',
 }
 
 const userReducer = (state = initState, action) => {
@@ -9,12 +10,12 @@ const userReducer = (state = initState, action) => {
         case actionTypes.GET_CURRENT:
             return {
                 ...state,
-                currentData: action.currentData || {}
+                currentUser: action.currentUser
             }
         case actionTypes.LOGOUT:
             return {
                 ...state,
-                currentData: {}
+                currentUser: null
             }
 
 

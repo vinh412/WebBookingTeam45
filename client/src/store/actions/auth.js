@@ -9,18 +9,23 @@ export const login= (payload)=> async (dispatch) =>{
        if (response?.data.err === 0){
             dispatch({
                 type: actionTypes.LOGIN_SUCCESS,
-                data: response.data.token
+                data: response.data.token,
+                gmail:payload.gmail
             })
        } else{
         dispatch({
             type: actionTypes.LOGIN_FAIL,
-            data: response.data.msg
+            data: response.data.msg,
+            gmail:payload.gmail
+
         })
        }
     } catch (error) {
         dispatch({
             type: actionTypes.LOGIN_FAIL,
-            data: null
+            data: null,
+            gmail:payload.gmail
+
         })
     }
 }

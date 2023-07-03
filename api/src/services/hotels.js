@@ -69,7 +69,6 @@ export const createHotelsService=(hotel) => new Promise(async(resolve, reject) =
 }) 
 export const deleteHotelsService=(hotel) => new Promise(async(resolve, reject) =>{
     try{
-        console.log(hotel)
        
         
         const response = await db.Hotel.update({
