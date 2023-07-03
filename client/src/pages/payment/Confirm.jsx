@@ -4,7 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import NavBar from "../../components/navbar/NavBar";
 
 const Confirm = () => {
-  let bookingInfor;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const encodedObject = urlParams.get("data");
+  let bookingInfor = JSON.parse(decodeURIComponent(encodedObject));
+  console.log(bookingInfor)
+
+
   return (
     <div>
       <NavBar/>
@@ -26,23 +32,23 @@ const Confirm = () => {
         <div id="content-confirm">
           <div className="content-child">
             <h4>Thông tin đặt phòng</h4>
-            <p>{"Ngo Hai Van" || bookingInfor.name}</p>
-            <p>{"ngohaivan7@gmail.com" || bookingInfor.email}</p>
-            <p>{"+84383274914" || bookingInfor.phonenumber}</p>
+            <p>{bookingInfor.fullname || "Ngo Hai Van"}</p>
+            <p>{bookingInfor.email || "ngohaivan7@gmail.com"}</p>
+            <p>{bookingInfor.phonenumber || "+84383274914"}</p>
           </div>
           <div className="content-child">
             <h4>Khách sạn</h4>
             <p>
-              {"Khách sạn Mường Thanh - Đà Nẵng" || bookingInfor.hotel.Name}
+              {bookingInfor.place || "Khách sạn Mường Thanh - Đà Nẵng"}
             </p>
             <p>{"Phòng 2 người"}</p>
             <p>
-              {"Từ ngày 27 th6 2023 đến ngày 30 th6 2023" || bookingInfor.time}
+              {bookingInfor.time || "Từ ngày 27 th6 2023 đến ngày 30 th6 2023" }
             </p>
           </div>
           <div className="content-child">
             <h4>Phương thức thanh toán</h4>
-            <p>{"Thanh toán khi nhận phòng" || bookingInfor.paymentMethod}</p>
+            <p>{bookingInfor.paymentMethod || "Thanh toán khi nhận phòng"}</p>
           </div>
         </div>
         <div className="button-confirm">

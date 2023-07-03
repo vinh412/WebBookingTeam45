@@ -11,7 +11,7 @@ export const sendemail = async (req, res) => {
         }
     });
     const mailOptions = {
-        from: 'bookingnow.45@gmail.com',
+        from: 'Booking Now - Team 45',
         to: email,
         subject: 'Xác nhận đặt phòng thành công',
         html: `<body style="text-align: center;">

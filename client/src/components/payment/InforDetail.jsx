@@ -6,6 +6,7 @@ import "./inforDetail.css"
 const InforDetail = () => {
     const [fullname, setFullname] = useState('')
     const [email, setEmail] = useState('')
+    const [phonenumber, setPhonenumber] = useState('')
     const [validationMsg, setValidationMsg] = useState('')
 
 
@@ -16,6 +17,10 @@ const InforDetail = () => {
     const onChangeEmail = (e) => {
         const value = e.target.value
         setEmail(value)
+    }
+    const onChangePhoneNumber = (e) => {
+        const value = e.target.value
+        setPhonenumber(value)
     }
 
     const validateAll = () => {
@@ -40,10 +45,13 @@ const InforDetail = () => {
         if (!isValid) return
 
         const form = {
-            name: fullname,
+            email: email,
+            fullname: fullname,
+            phonenumber: phonenumber,
             time: '12/08/2023 - 15/08/2023',
-            place: 'DaLat Hotel'
+            place: 'Khách sạn Mường Thanh - Thành phố Đà Lạt'
         }
+        const encodedForm = encodeURIComponent(JSON.stringify(form))
 
         axios.post('http://localhost:5000/api/v1/payment/sendemail', {
             email: email,
@@ -57,6 +65,11 @@ const InforDetail = () => {
                 console.error('Error sending confirmation email:', error);
                 // Xử lý lỗi
             });
+        
+        
+        const url = `http://localhost:3000/payment/confirm?data=${encodedForm}`;
+
+        window.location.href = url;
         }
 
     return (
@@ -84,7 +97,9 @@ const InforDetail = () => {
                     </div>
                     <div className="input-box" required >
                         <label>Số điện thoại </label>
-                        <input type="tel" />
+                        <input 
+                            type="tel"
+                            onChange={onChangePhoneNumber} />
                     </div>
                     <div className="input-box">
                         <label>Quốc gia cư trú</label>

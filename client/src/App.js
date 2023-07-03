@@ -35,7 +35,7 @@ function App() {
           <Route path="/newhotel" element={<NewHotel/>}/>
           <Route path="/newroom" element={<NewRoom/>}/>
           <Route path="/listhotel" element={<ListHotel/>}/>
-          <Route path="/confirm" element={<Confirm/>}/>
+          <Route path="/payment/confirm" element={<Confirm/>}/>
 
         </Routes>
       </BrowserRouter>
