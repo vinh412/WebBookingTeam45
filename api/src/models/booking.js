@@ -20,7 +20,8 @@ module.exports = (sequelize, DataTypes) => {
     vocherApplyID: DataTypes.INTEGER,
     discount: DataTypes.INTEGER,
     pay: DataTypes.INTEGER,
-    dateCreate: DataTypes.DATE,
+    startDate: DataTypes.DATE,
+    endDate: DataTypes.DATE,
     status: DataTypes.INTEGER
   }, {
     sequelize,

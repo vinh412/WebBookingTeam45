@@ -2,9 +2,14 @@ import './RoomCard.css'
 import React from 'react'
 import { LiaBedSolid } from 'react-icons/lia';
 import { PiHouse } from 'react-icons/pi';
+import { useSearchParams } from 'react-router-dom';
+
+const crypto = require('crypto-js');
+
 function RoomCard({ room }) {
     let singleBed = '';
     let doubleBed = '';
+    const [searchParams, setSearchParams] = useSearchParams();
     if (room) {
         if (room.singleBed) {
             singleBed += room.singleBed + ' giường đơn';
@@ -13,7 +18,16 @@ function RoomCard({ room }) {
             doubleBed += room.doubleBed + ' giường đôi';
         }
     }
+    const handleClick = (event) => {
+        let paymentInfo = JSON.stringify({
+            room: room,
+            startDate: searchParams.get('startDate'),
+            endDate: searchParams.get('endDate')
+        });
 
+        let params = crypto.AES.encrypt(paymentInfo, "uencnbkwsnb").toString();
+        window.open(`http://localhost:3000/payment?inf=${encodeURIComponent(params)}`);
+    }
     function numberWithDot(x) {
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
       }
@@ -30,12 +44,20 @@ function RoomCard({ room }) {
                             <div className='col'>
                                 <p className='mb-1'><PiHouse /> Diện tích {room ? room.area : '?'} m2</p>
                                 <p ><LiaBedSolid /> {singleBed + doubleBed}</p>
+                                {room.emptyRoom !== 0 && <p> Còn {room.emptyRoom} phòng</p>}
                             </div>
                             <div className='col'>
                                 <div className='' style={{textAlign: "right"}}>
-                                    <h5 className='text-secondary strikethrough d-inline-block'>{room ? numberWithDot(room.cost) : '?'} VND</h5>
-                                    <h4 className="text-danger text-end">{room ?numberWithDot(room.salePrice) : '?'} VND</h4>
-                                    <button className="btn btn-primary d-block ms-auto" type="button" >Đặt ngay</button>
+                                    {room.emptyRoom === null && <p>Chọn ngày để xem giá</p>}
+                                    
+                                    
+                                    {room.emptyRoom !== 0 && room.emptyRoom !== null &&
+                                    <>
+                                        <h5 className='text-secondary strikethrough d-inline-block'>{room ? numberWithDot(room.cost) : '?'} VND</h5>
+                                        <h4 className="text-danger text-end">{room ?numberWithDot(room.salePrice) : '?'} VND</h4>
+                                        <button className="btn btn-primary d-block ms-auto" type="button" onClick={handleClick}>Đặt ngay</button>
+                                    </>}
+                                    {room.emptyRoom === 0 && <button className="btn btn-primary d-block ms-auto" type="button" disabled>Hết phòng</button>}
                                 </div>
                             </div>
                         </div>

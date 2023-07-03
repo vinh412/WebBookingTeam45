@@ -1,14 +1,19 @@
 import { useState } from "react";
 import DatePicker from "./DatePicker";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { format } from "date-fns";
 
 const SearchField = () => {
   const [address, setAddress] = useState("");
+  const [date, setDate] = useState({
+    startDate: format(new Date(), "yyyy-MM-dd"),
+    endDate: format(new Date(), "yyyy-MM-dd"),
+  });
   const handleSubmit = () => {
     window.location.href = `http://localhost:3000/search?searchterm=${address.replaceAll(
       " ",
       "+"
-    )}`;
+    )}&startDate=${date.startDate}&endDate=${date.endDate}`;
   };
   return (
     <div className="container bg-primary-subtle p-5 mt-5 rounded-4">
@@ -25,7 +30,7 @@ const SearchField = () => {
           />
         </div>
         <div className="col-md-12">
-          <DatePicker />
+          <DatePicker setDate={setDate}/>
         </div>
         <button
           onClick={handleSubmit}

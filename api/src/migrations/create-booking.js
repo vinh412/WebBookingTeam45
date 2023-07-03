@@ -27,7 +27,10 @@ module.exports = {
       pay: {
         type: Sequelize.INTEGER
       },
-      dateCreate: {
+      startDate: {
+        type: Sequelize.DATE
+      },
+      endDate: {
         type: Sequelize.DATE
       },
       status: {

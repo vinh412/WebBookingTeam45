@@ -7,7 +7,7 @@ import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { format } from "date-fns";
 
-const DatePicker = () => {
+const DatePicker = ({ setDate }) => {
   const [openDate, setOpenDate] = useState(false);
   const [dates, setDates] = useState([
     {
@@ -36,18 +36,26 @@ const DatePicker = () => {
         <span
           onClick={() => setOpenDate(!openDate)}
           className="headerSearchText"
-        >{`${format(dates[0].startDate, "MM/dd/yyyy")} to ${format(
+        >{`${format(dates[0].startDate, "dd/MM/yyyy")} to ${format(
           dates[0].endDate,
-          "MM/dd/yyyy"
+          "dd/MM/yyyy"
         )}`}</span>
         {openDate && (
           <DateRange
             editableDateInputs={true}
-            onChange={(item) => setDates([item.selection])}
+            onChange={(item) => {
+              setDates([item.selection]);
+              setDate({
+                startDate: format(item.selection.startDate, "yyyy-MM-dd"),
+                endDate: format(item.selection.endDate, "yyyy-MM-dd"),
+              });
+            }}
             moveRangeOnFirstSelection={false}
             ranges={dates}
             className="date"
             minDate={new Date()}
+            months={2}
+            direction="horizontal"
           />
         )}
       </div>

@@ -28,15 +28,25 @@ export const addHotel = async (req, res) => {
     }
 };
 
-export const getHotelById = async (req, res) => {
-    let id = req.params.id;
+export const getSumRooms = async (req, res) => {
     try {
-        let hotel = await db.Hotel.findOne({
-            attributes: ['id', 'name', 'type', 'address', 'longitude', 'latitude', 'evaluate', 'numberReview', 'description', 'minCost'],
-            include: [{ model: db.Photo, as: "images", attributes: ['src'] },
-            { model: db.Room, as: "rooms", attributes: ['name', 'image', 'cost', 'quantity', 'emptyRoom', 'salePrice', 'area', 'singleBed', 'doubleBed'] }],
-            where: { id: id },
+        const response = await db.Room.sum('quantity',{
+            where: {
+                hotelID: 7431632
+            }
         });
+        return res.status(200).json(response)
+    } catch (error) {
+        return res.status(500).json({
+            err: -1,
+            msg: 'Failed at hotel controller' + error,
+        })
+    }
+}
+
+export const getHotelById = async (req, res) => {
+    try {
+        const hotel = await hotelService.getHotelById(req);
         res.status(200).json(hotel);
     } catch (err) {
         res.status(500).json(err);
@@ -84,7 +94,7 @@ export const getHotels = async (req, res) => {
         if (!searchterm) {
             const response = await hotelService.getAllHotels();
             return res.status(200).json(response)
-        }else{
+        } else {
             const response = await hotelService.getHotelsService(req.body);
             return res.status(200).json(response)
         }
@@ -96,46 +106,46 @@ export const getHotels = async (req, res) => {
 
     }
 }
-export const createHotel = async (req, res) =>{
-    
+export const createHotel = async (req, res) => {
+
     try {
-        
+
         const response = await hotelService.createHotelsService(req.body)
         return res.status(200).json(response)
     } catch (error) {
         return res.status(500).json({
-            err:-1,
-            msg:'Failed at hotel controller'
+            err: -1,
+            msg: 'Failed at hotel controller'
         })
 
     }
 }
 
-export const deleteHotel = async (req, res) =>{
-    
+export const deleteHotel = async (req, res) => {
+
     try {
-        
+
         const response = await hotelService.deleteHotelsService(req.body)
         return res.status(200).json(response)
     } catch (error) {
         return res.status(500).json({
-            err:-1,
-            msg:'Failed at hotel controller'
+            err: -1,
+            msg: 'Failed at hotel controller'
         })
 
     }
 }
 
-export const updateHotel = async (req, res) =>{
-    
+export const updateHotel = async (req, res) => {
+
     try {
-        
+
         const response = await hotelService.updateHotelsService(req.body)
         return res.status(200).json(response)
     } catch (error) {
         return res.status(500).json({
-            err:-1,
-            msg:'Failed at hotel controller'
+            err: -1,
+            msg: 'Failed at hotel controller'
         })
 
     }

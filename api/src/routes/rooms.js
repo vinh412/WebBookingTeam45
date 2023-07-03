@@ -6,6 +6,7 @@ import * as roomController from '../controllers/rooms'
 
 router.post('/all',roomController.getRooms)
 router.post('/createroom',roomController.createRooms)
+router.post('/getCountEmptyRoom', roomController.getCountEmptyRoom)
 // router.post('/deletehotel',hotelController.deleteHotel)
 // router.post('/updatehotel',hotelController.updateHotel)
 

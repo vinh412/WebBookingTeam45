@@ -1,5 +1,6 @@
 import db from '../models'
 const {Op} = require('sequelize')
+import * as roomService from './rooms'
 
 export const getHotelsService=({searchterm}) => new Promise(async(resolve, reject) =>{
     try{
@@ -31,7 +32,30 @@ export const getHotelsService=({searchterm}) => new Promise(async(resolve, rejec
     }
 });
 
-       
+
+
+export const getHotelById = (req) => new Promise(async(resolve, reject) => {
+    try{
+        let id = req.params.id;
+        let hotel = await db.Hotel.findOne({
+            attributes: ['id', 'name', 'type', 'address', 'longitude', 'latitude', 'evaluate', 'numberReview', 'description', 'minCost'],
+            include: [{ model: db.Photo, as: "images", attributes: ['src'] },
+            { model: db.Room, as: "rooms", attributes: ['id' ,'name', 'image', 'cost', 'quantity', 'emptyRoom', 'salePrice', 'area', 'singleBed', 'doubleBed'] }],
+            where: { id: id },
+        });
+        
+        if(req.query.startDate !== "null" && req.query.endtDate !== 'null'){
+            for(let i=0; i<hotel.rooms.length; i++) {
+                hotel.rooms[i].emptyRoom = await roomService.getCountEmptyRoomService({roomId: hotel.rooms[i].id, date: req.query.startDate});
+            }
+        }
+        
+        resolve(hotel);
+    }catch(error){
+        reject(error)
+    }
+});
+
 export const getAllHotels=() => new Promise(async(resolve, reject) =>{
     try{
         const response = await db.Hotel.findAll({
