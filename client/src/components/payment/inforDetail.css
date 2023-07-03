@@ -8,8 +8,14 @@
   color: red;
   margin-top: 5px;
 }
+.form-validate {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: red;
+  margin-top: 5px;
+}
 .container1 {
-  width: 80vw;
+  width: 60vw;
   background: #fff;
   padding: 25px;
   border-radius: 8px;

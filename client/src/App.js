@@ -17,6 +17,7 @@ import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
 import ListHotel from "./pages/listhotel/ListHotel";
 import FilterSearch from "./components/filtersearch/FilterSearch";
+import Confirm from "./pages/payment/Confirm";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/newhotel" element={<NewHotel/>}/>
           <Route path="/newroom" element={<NewRoom/>}/>
           <Route path="/listhotel" element={<ListHotel/>}/>
+          <Route path="/payment/confirm" element={<Confirm/>}/>
 
         </Routes>
       </BrowserRouter>
