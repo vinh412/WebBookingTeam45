@@ -36,3 +36,9 @@
     margin: 20px;
 }
 
+.payment-page {
+    
+}
+.payment-page .payment-page-content {
+    display: flex;
+}
