@@ -10,3 +10,6 @@ display: flex;
     color: lightgray;
     font-size: 20px;
 }
+.row {
+    margin: 30px;
+}
