@@ -64,7 +64,7 @@ const Search = () => {
         <div>
             <NavBar status={true} />
             <SearchField />
-                <div className="container h-custom mb-5">
+                <div className="container h-custom my-5">
                     <div className="row d-flex">
                         <div className="col-3">
                         <FilterSearch hotels={hotels} setHotels={setHotels}/>

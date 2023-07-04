@@ -1,4 +1,9 @@
 import React, { useState } from 'react'
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import FormControl from '@mui/material/FormControl';
+import FormLabel from '@mui/material/FormLabel';
 import Slider from '@mui/material/Slider'
 
 const minRange = 500000;
@@ -14,11 +19,11 @@ function numberWithDot(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
 }
 
-function FilterSearch({hotels, setHotels}) {
+function FilterSearch({ hotels, setHotels }) {
 
 
     const [rangeBudget, setRangeBudget] = useState([0, 500000]);
-
+    const [starValue, setStarValue] = useState(5);
     const handleSliderChange = (event, newRangeBudget, activeThumb) => {
         if (!Array.isArray(newRangeBudget)) {
             return;
@@ -32,15 +37,17 @@ function FilterSearch({hotels, setHotels}) {
     };
 
     const handleMinInputChange = (event) => {
-        setRangeBudget([Math.min(Number(event.target.value)*1000, rangeBudget[1] - minRange), rangeBudget[1]]);
+        setRangeBudget([Math.min(Number(event.target.value) * 1000, rangeBudget[1] - minRange), rangeBudget[1]]);
     };
     const handleMaxInputChange = (event) => {
-        setRangeBudget([rangeBudget[0], Math.max(Number(event.target.value)*1000, rangeBudget[0] + minRange)]);
+        setRangeBudget([rangeBudget[0], Math.max(Number(event.target.value) * 1000, rangeBudget[0] + minRange)]);
     };
+    const handleRadioChange = (event) => {
+        setStarValue(event.target.value);
+    }
     const handleBlur = () => {
 
     }
-
     return (
         <div className='border'>
             <div className='p-3'>
@@ -65,24 +72,24 @@ function FilterSearch({hotels, setHotels}) {
                     <div className="col-6">
                         <div class="input-group mb-3">
                             <input type="number" class="form-control" placeholder="Tối thiểu"
-                                value={rangeBudget[0]/1000}
-                                min={min/1000}
-                                max={(max-minRange)/1000}
-                                step={step/1000}
+                                value={rangeBudget[0] / 1000}
+                                min={min / 1000}
+                                max={(max - minRange) / 1000}
+                                step={step / 1000}
                                 aria-describedby="minbudget"
                                 onBlur={handleBlur}
                                 onChange={handleMinInputChange}
-                                 />
+                            />
                             <span class="input-group-text" id="minbudget">K</span>
                         </div>
                     </div>
                     <div className="col-6">
                         <div class="input-group mb-3">
                             <input type="number" class="form-control" placeholder="Tối đa"
-                                value={rangeBudget[1]/1000}
-                                min={(min+minRange)/1000}
-                                max={max/1000}
-                                step={step/1000}
+                                value={rangeBudget[1] / 1000}
+                                min={(min + minRange) / 1000}
+                                max={max / 1000}
+                                step={step / 1000}
                                 aria-describedby="maxbudget"
                                 onBlur={handleBlur}
                                 onChange={handleMaxInputChange} />
@@ -93,45 +100,21 @@ function FilterSearch({hotels, setHotels}) {
             </div>
 
             <div className='p-3'>
-                <span className="fw-bolder" >Property rating</span>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype2" />
-                    <label class="form-check-label" for="checktype2">
-                        1 Stars
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype3" />
-                    <label class="form-check-label" for="checktype3">
-                        2 Stars
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype4" />
-                    <label class="form-check-label" for="checktype">
-                        3 Stars
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype5" />
-                    <label class="form-check-label" for="checktype5">
-                        4 Stars
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype6" />
-                    <label class="form-check-label" for="checktype7">
-                        5 Stars
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="checktype" id="checktype1" />
-                    <label class="form-check-label" for="checktype1">
-                        Unrated
-                    </label>
-                </div>
-
+                <FormControl>
+                    <FormLabel id="demo-controlled-radio-buttons-group">Star Rating</FormLabel>
+                    <RadioGroup
+                        aria-labelledby="demo-controlled-radio-buttons-group"
+                        name="controlled-radio-buttons-group"
+                        value={starValue}
+                        onChange={handleRadioChange}
+                    >
+                        <FormControlLabel value={1} control={<Radio />} label="1 star" />
+                        <FormControlLabel value={2} control={<Radio />} label="2 star" />
+                        <FormControlLabel value={3} control={<Radio />} label="3 star" />
+                        <FormControlLabel value={4} control={<Radio />} label="4 star" />
+                        <FormControlLabel value={5} control={<Radio />} label="5 star" />
+                    </RadioGroup>
+                </FormControl>
             </div>
 
         </div>
