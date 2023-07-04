@@ -9,7 +9,9 @@ const Confirm = () => {
   const encodedObject = urlParams.get("data");
   let bookingInfor = JSON.parse(decodeURIComponent(encodedObject));
   console.log(bookingInfor)
-
+  const homeBack = () => {
+    window.location.href = "http://localhost:3000";
+  }
 
   return (
     <div>
@@ -59,7 +61,7 @@ const Confirm = () => {
           >
             Tiếp tục đặt phòng
           </button>
-          <button type="button" className="btn btn-outline-primary">
+          <button type="button" className="btn btn-outline-primary" onClick={homeBack}>
             Trang chủ
           </button>
         </div>
