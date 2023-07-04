@@ -5,7 +5,7 @@ const PaymentMethod = () =>{
     // const [checked, setChecked] = useState();
     let time = '20 Tháng 6, 2023';
     return (
-        <div className="container1">
+        <div className="container-payment">
             <section>
                 <header>Chọn cách thanh toán</header>
                 <div className="radio-list">

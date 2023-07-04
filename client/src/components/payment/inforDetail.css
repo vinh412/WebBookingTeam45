@@ -14,13 +14,13 @@
   color: red;
   margin-top: 5px;
 }
-.container1 {
+.container-payment {
   width: 60vw;
   background: #fff;
   padding: 25px;
   border-radius: 8px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  margin: 30px;
+  margin: 30px 30px 30px 70px;
 }
 .container1 header {
   font-size: 1.5rem;

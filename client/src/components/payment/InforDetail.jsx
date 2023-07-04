@@ -85,7 +85,7 @@ const InforDetail = ({ inf }) => {
   };
 
   return (
-    <div className="container1">
+    <div className="container-payment">
       <section>
         <header>Vui lòng điền thông tin của bạn</header>
         <form action="#" className="form">
