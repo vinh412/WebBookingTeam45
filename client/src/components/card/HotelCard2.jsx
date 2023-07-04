@@ -1,4 +1,31 @@
+import { Link  , useLocation, useNavigate} from 'react-router-dom';
+
+import axiosConfig from '../../axiosConfig'
 const HotelCard2 = ({hotel}) => {
+    const navigate = useNavigate()
+  
+    const deletehotel = () => new Promise(async(resolve, reject) => {
+        try {
+            
+            const response = await axiosConfig({
+               
+                method: 'post',
+                url: '/api/v1/hotel/deletehotel',
+                data:hotel
+            })
+           
+            resolve(response)
+           // console.log(response)
+        } catch (error) {
+            reject(error)
+           
+        }
+    })
+
+    const edithotel = () => {
+        //navigate('/edithotel')
+         navigate(`/edithotel/${hotel.id}`)
+    }
     return (
         <div className="col-md-3">
             <div className="card my-3">
@@ -8,8 +35,8 @@ const HotelCard2 = ({hotel}) => {
                     <h6 className="text-info">{hotel.address}</h6>
                     <div>
                       
-                        <button type="button" class="btn btn-danger px-4 mx-1 float-end">Xóa</button>
-                        <button type="button" class="btn  btn-success px-4 float-end">Sửa</button>
+                        <button type="button" class="btn btn-danger px-4 mx-1 float-end" onClick={deletehotel}>Xóa</button>
+                        <button type="button" class="btn  btn-success px-4 float-end" onClick={edithotel}>Sửa</button>
                     </div>
                 </div>
             </div>

@@ -1,69 +1,75 @@
 .new-room {
-    width: 100%;
-    display: flex;
+  width: 100%;
+  display: flex;
 }
 
 .newContainer-room {
-flex: 6;
+  flex: 6;
 }
 
 .top-room,
 .bottom-room {
--webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-padding: 10px;
-margin: 20px;
-display: flex;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+}
+.top-room h1 {
+  color: lightgray;
+  font-size: 20px;
 }
 
 
 .left-room {
-flex: 1;
-text-align: center;
+  flex: 1;
+  text-align: center;
 }
 
 
 
 .right-room {
-flex: 2;
+  flex: 2;
 }
 
 .right-room form {
-display: flex;
-flex-wrap: wrap;
-gap: 30px;
-justify-content: space-between;
-padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .form-input-room {
-width: 40%;
-margin: 5px;
-padding-top: 5px;
-display: block;
+  width: 40%;
+  margin: 5px;
+  padding-top: 5px;
+  display: block;
 }
 
-.label1-room {
+.label-room {
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.input1-room {
+.input-room {
   width: 100%;
   padding: 5px;
   border: none;
   border-bottom: 1px solid gray;
 }
 
-.button1-room {
-margin: auto;
-width: 30%;
-padding: 10px;
-border: none;
-background-color: teal;
-color: white;
-font-weight: bold;
-cursor: pointer;
-margin-top: 10px;
+.button-room {
+  display: block;
+  width: 10%;
+  padding: 10px;
+  margin-top: 30px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  left: 30px;
 }
