@@ -16,6 +16,7 @@ import Search from "./pages/search/Search"
 import NewHotel from "./pages/newHotel/NewHotel";
 import NewRoom from "./pages/newRoom/NewRoom";
 import ListHotel from "./pages/listhotel/ListHotel";
+import ListRoom from "./pages/listroom/Listroom";
 import FilterSearch from "./components/filtersearch/FilterSearch";
 import Confirm from "./pages/payment/Confirm";
 
@@ -36,6 +37,7 @@ function App() {
           <Route path="/newhotel" element={<NewHotel/>}/>
           <Route path="/newroom" element={<NewRoom/>}/>
           <Route path="/listhotel" element={<ListHotel/>}/>
+          <Route path="/listroom" element={<ListRoom/>}/>
           <Route path="/payment/confirm" element={<Confirm/>}/>
 
         </Routes>
