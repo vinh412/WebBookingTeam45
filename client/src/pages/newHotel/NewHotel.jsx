@@ -98,7 +98,11 @@ const NewHotel = () => {
       method: 'post',
       url: '/api/v1/hotel/createhotel',
       data:newhotel
-  })
+    })
+    if(response!==null){
+      alert("Thêm hotel thành công");
+
+    }
     } catch (err) {console.log(err)}
   };
   const item=[]

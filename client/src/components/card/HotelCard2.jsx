@@ -13,8 +13,12 @@ const HotelCard2 = ({hotel}) => {
                 url: '/api/v1/hotel/deletehotel',
                 data:hotel
             })
-           
+            if(response!==null){
+                alert("Bạn đã xóa hotel thành công");
+          
+              }
             resolve(response)
+            
            // console.log(response)
         } catch (error) {
             reject(error)

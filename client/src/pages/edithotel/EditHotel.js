@@ -47,6 +47,7 @@ const hotelInputs = [
   ];
 
 const EditHotel = () => {
+  
     const location = useLocation();
     
     const id=location.pathname.split("/")[2];
@@ -54,21 +55,25 @@ const EditHotel = () => {
         id:id
     }
     const [hotel,sethotel]= useState({})
-    const [photos,setphotos]= useState({})
-    console.log(hotel)
+    const [photos,setphotos]= useState([])
+  
     useEffect(() => {
         axios.post(`http://localhost:5000/api/v1/hotel/getonehotel`,data)
             .then(res => {
                 sethotel(res.data[0])
                 console.log(res.data[0]);
                 console.log(res.data[0].Photos);
-                //setphotos(res.data[0].Photos)
+                setphotos(res.data[0].Photos)
                
             })
             .catch(error => console.log(error));
         
     }, [])
-
+    const [info, setInfo] = useState(hotel)
+    const handleChange = (e) => {
+      
+      setInfo((prev) => ({ ...prev, [e.target.id]: e.target.value }));
+    };
 hotelInputs[0].placeholder=hotel.name
 hotelInputs[1].placeholder=hotel.type
 
@@ -82,19 +87,35 @@ const item=[]
    
 
 
-//  for(let i=0;i<photos.length;i++) {
-//     item.push(<img 
-//       className="img-hotel"
-//       src={
-//         photos
-//           ? URL.createObjectURL(photos[i])
-//           : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
-//       }
-//       alt=""
-//     />)
-//    }
+ for(let i=0;i<photos.length;i++) {
+    item.push(<img 
+      className="img-hotel"
+      src={
+        photos[i]
+          ?photos[i].src
+          : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
+      }
+      alt=""
+    />)
+   }
 
-
+   const handleClick = (e) => {
+   
+console.log(hotel)
+console.log(info)
+const data={
+  ...hotel,
+  ...info
+}
+console.log(data)
+    axios.post(`http://localhost:5000/api/v1/hotel/updatehotel`,data)
+            .then(res => {
+                console.log('ok')
+               
+            })
+            .catch(error => console.log(error));
+    
+  };
    
   
    
@@ -132,7 +153,7 @@ const item=[]
                         <label className="label-hotel col-sm-5 col-form-label">{input.label}</label>
                             <input
                                 id={input.id}
-                                // onChange={handleChange}
+                                 onChange={handleChange}
                                 type={input.type}
                                 className="input-hotel"
                                 placeholder={input.placeholder}
@@ -140,7 +161,7 @@ const item=[]
                     </div>
               ))}
             </form>
-              <button className="button-hotel" >Send</button>
+              <button className="button-hotel" onClick={handleClick}>Send</button>
           </div>
         </div>
       </div>

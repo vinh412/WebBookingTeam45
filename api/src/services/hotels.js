@@ -143,7 +143,8 @@ export const updateHotelsService=(hotel) => new Promise(async(resolve, reject) =
             address:hotel.address,
             longitude:hotel.longitude,
             latitude:hotel.latitude,
-            description:hotel.description
+            description:hotel.description,
+            type:hotel.type,
         },{
             where:{
                 id: hotel.id
