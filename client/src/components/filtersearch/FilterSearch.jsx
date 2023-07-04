@@ -70,7 +70,7 @@ function FilterSearch({ hotels, setHotels }) {
                 </div>
                 <div className="row">
                     <div className="col-6">
-                        <div class="input-group mb-3">
+                        <div className="input-group mb-3">
                             <input type="number" class="form-control" placeholder="Tối thiểu"
                                 value={rangeBudget[0] / 1000}
                                 min={min / 1000}
@@ -80,11 +80,11 @@ function FilterSearch({ hotels, setHotels }) {
                                 onBlur={handleBlur}
                                 onChange={handleMinInputChange}
                             />
-                            <span class="input-group-text" id="minbudget">K</span>
+                            <span className="input-group-text" id="minbudget">K</span>
                         </div>
                     </div>
                     <div className="col-6">
-                        <div class="input-group mb-3">
+                        <div className="input-group mb-3">
                             <input type="number" class="form-control" placeholder="Tối đa"
                                 value={rangeBudget[1] / 1000}
                                 min={(min + minRange) / 1000}
@@ -93,7 +93,7 @@ function FilterSearch({ hotels, setHotels }) {
                                 aria-describedby="maxbudget"
                                 onBlur={handleBlur}
                                 onChange={handleMaxInputChange} />
-                            <span class="input-group-text" id="maxbudget">K</span>
+                            <span className="input-group-text" id="maxbudget">K</span>
                         </div>
                     </div>
                 </div>

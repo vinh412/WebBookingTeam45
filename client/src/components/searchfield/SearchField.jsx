@@ -1,6 +1,5 @@
 import { useState } from "react";
 import DatePicker from "./DatePicker";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { format } from "date-fns";
 
 const SearchField = () => {
@@ -19,9 +18,6 @@ const SearchField = () => {
     <div className="container bg-primary-subtle p-5 mt-5 rounded-4">
       <div className="row">
         <div className="col-md-12">
-          <span>
-            <FontAwesomeIcon icon="fa-light fa-magnifying-glass" />
-          </span>
           <input
             onChange={(e) => setAddress(e.target.value)}
             type="text"
