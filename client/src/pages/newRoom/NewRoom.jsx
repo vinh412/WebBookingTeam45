@@ -44,7 +44,7 @@ const NewRoom = () => {
   };
 
   const handleClick = async (e) => {
-    //TODO
+    console.log(info)
   };
 
   console.log(info);

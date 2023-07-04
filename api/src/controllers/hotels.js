@@ -66,6 +66,21 @@ export const addImage = async (req, res) => {
     }
 }
 
+export const getoneHotel = async (req, res) =>{
+   console.log(req.body)
+    try {
+        
+        const response = await hotelService.getOneHotel(req.body)
+        return res.status(200).json(response)
+    } catch (error) {
+        return res.status(500).json({
+            err:-1,
+            msg:'Failed at hotel controller'
+        })
+
+    }
+}
+
 export const addRoom = async (req, res) => {
     let newRoom = {
         hotelID: 1,

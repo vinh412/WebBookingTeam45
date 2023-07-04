@@ -6,7 +6,7 @@ router.post('/createhotel',hotelController.createHotel)
 router.post('/deletehotel',hotelController.deleteHotel)
 router.post('/updatehotel',hotelController.updateHotel)
 router.get('/getSumRooms',hotelController.getSumRooms)
-
+router.post('/getonehotel',hotelController.getoneHotel)
 
 
 

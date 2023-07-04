@@ -11,17 +11,38 @@ const Login = () => {
         
     })
     const {isLoggedIn} = useSelector(state => state.auth)
+    const {gmail} = useSelector(state => state.auth)
+
+    const currentUser = useSelector(state => state.user)
+
     const navigate = useNavigate()
     const dispatch = useDispatch()
     const handleLogin =async() =>{
         console.log(payload)
        dispatch(actions.login(payload))
-       console.log('ok1')
-    } 
-    useEffect(()=> {
-        isLoggedIn && navigate('/')
+       //dispatch(actions.getCurrent(payload))
+      
+       
 
+    } 
+   
+    useEffect(()=> {
+        if(isLoggedIn) {
+          
+            navigate('/')
+           
+        }
     },[isLoggedIn]) 
+    const handleLogin1 =async() =>{
+       
+        // console.log(currentUser)
+        // console.log(currentUser.currentUser.Hotels)
+        console.log(gmail)
+
+
+    } 
+   
+
     
     return (
         <div>
@@ -36,7 +57,7 @@ const Login = () => {
                             <form>
                                 <div className="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                                     <p className="lead fw-normal mb-0 me-3">Sign in with</p>
-                                    <button type="button" className="btn btn-primary btn-floating mx-1">
+                                    <button type="button" className="btn btn-primary btn-floating mx-1" onClick={handleLogin1}>
                                         <i className="fab fa-facebook-f"></i>
                                     </button>
 
