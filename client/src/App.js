@@ -18,6 +18,7 @@ import NewRoom from "./pages/newRoom/NewRoom";
 import EditHotel from "./pages/edithotel/EditHotel";
 
 import ListHotel from "./pages/listhotel/ListHotel";
+import ListRoom from "./pages/listroom/ListRoom";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/edithotel/:id" element={<EditHotel/>}/>
           <Route path="/newroom" element={<NewRoom/>}/>
           <Route path="/listhotel" element={<ListHotel/>}/>
+          <Route path="/listroom" element={<ListRoom/>}/>
 
         </Routes>
       </BrowserRouter>
