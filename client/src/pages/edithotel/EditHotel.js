@@ -48,23 +48,53 @@ const hotelInputs = [
 
 const EditHotel = () => {
     const location = useLocation();
-    const id = location.pathname.split("/")[2];
-    console.log(id)
-    // const handleClick = async (e) => {
-      
-    //      const response = await axiosConfig({
-                   
-    //       method: 'post',
-    //       url: '/api/v1/hotel/getonehotel',
-    //       data:id
-    //   })
-    //   console.log(response)
-    // } 
-    useEffect(()=> {
-       
-       // handleClick()
-      
-    },[]) 
+    
+    const id=location.pathname.split("/")[2];
+    const data={
+        id:id
+    }
+    const [hotel,sethotel]= useState({})
+    const [photos,setphotos]= useState({})
+    console.log(hotel)
+    useEffect(() => {
+        axios.post(`http://localhost:5000/api/v1/hotel/getonehotel`,data)
+            .then(res => {
+                sethotel(res.data[0])
+                console.log(res.data[0]);
+                console.log(res.data[0].Photos);
+                //setphotos(res.data[0].Photos)
+               
+            })
+            .catch(error => console.log(error));
+        
+    }, [])
+
+hotelInputs[0].placeholder=hotel.name
+hotelInputs[1].placeholder=hotel.type
+
+hotelInputs[2].placeholder=hotel.phoneNumber
+
+hotelInputs[3].placeholder=hotel.address
+
+hotelInputs[4].placeholder=hotel.description
+const item=[]
+
+   
+
+
+//  for(let i=0;i<photos.length;i++) {
+//     item.push(<img 
+//       className="img-hotel"
+//       src={
+//         photos
+//           ? URL.createObjectURL(photos[i])
+//           : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
+//       }
+//       alt=""
+//     />)
+//    }
+
+
    
   
    
@@ -77,7 +107,7 @@ const EditHotel = () => {
         </div>
         <div className="bottom-hotel">
           <div className="left-hotel">
-            {/* {item} */}
+            {item}
           </div>
           <div className="right-hotel">
             <form className="form-hotel">

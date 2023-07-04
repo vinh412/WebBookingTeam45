@@ -52,9 +52,12 @@ export const getOneHotel=(id) => new Promise(async(resolve, reject) =>{
     db.Photo.belongsTo(db.Hotel, {
         foreignKey: 'hotelID'
       });
+      db.Hotel.hasMany(db.Room, { foreignKey: 'hotelID' });
+        db.Room.belongsTo(db.Hotel, { foreignKey: 'hotelID' });
     try{
         const response = await db.Hotel.findAll({
-            include:[ {model: db.Photo}],
+            include:[ {model: db.Photo},
+                      {model: db.Room}],
             where: {id:id.id}
            
         })

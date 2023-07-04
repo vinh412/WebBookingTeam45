@@ -38,7 +38,7 @@ function App() {
           <Route path="/edithotel/:id" element={<EditHotel/>}/>
           <Route path="/newroom" element={<NewRoom/>}/>
           <Route path="/listhotel" element={<ListHotel/>}/>
-          <Route path="/listroom" element={<ListRoom/>}/>
+          <Route path="/listroom/:id" element={<ListRoom/>}/>
 
         </Routes>
       </BrowserRouter>
