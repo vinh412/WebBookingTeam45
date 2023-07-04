@@ -25,13 +25,29 @@
   flex: 1;
   text-align: center;
 }
-
-
-
-.right-room {
-  flex: 2;
+.img-room {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
 
+.label-room {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.form-room {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 0 20px;}
+
+.right-room {
+  display: block;
+  flex: 2;
+  padding: 0px 20px;
+}
 .right-room form {
   display: flex;
   flex-wrap: wrap;

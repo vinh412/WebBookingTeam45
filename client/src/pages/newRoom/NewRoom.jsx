@@ -7,16 +7,10 @@ import axios from "axios";
 
 const roomInputs = [
   {
-    id: "title",
-    label: "Title",
+    id: "name",
+    label: "Name",
     type: "text",
     placeholder: "2 bed room",
-  },
-  {
-    id: "desc",
-    label: "Description",
-    type: "text",
-    placeholder: "King size bed, 1 bathroom",
   },
   {
     id: "price",
@@ -25,14 +19,27 @@ const roomInputs = [
     placeholder: "100",
   },
   {
-    id: "maxPeople",
-    label: "Max People",
+    id: "area",
+    label: "Area",
+    type: "number",
+    placeholder: "100",
+  },
+  {
+    id: "singleBed",
+    label: "Single Bed",
+    type: "number",
+    placeholder: "2",
+  },
+  {
+    id: "doubleBed",
+    label: "Double Bed",
     type: "number",
     placeholder: "2",
   },
 ];
 
 const NewRoom = () => {
+  const [files, setFiles] = useState("");
   const [info, setInfo] = useState({});
   const [hotelId, setHotelId] = useState(undefined);
   const [rooms, setRooms] = useState([]);
@@ -56,8 +63,30 @@ const NewRoom = () => {
           <h1>Add New Room</h1>
         </div>
         <div className="bottom-room">
+          <div className="left-room">
+            <img
+              className="img-room"
+              src={
+                files
+                  ? URL.createObjectURL(files[0])
+                  : "https://icon-library.com/images/no-image-icon/no-image-icon-0.jpg"
+              }
+              alt=""
+            />
+          </div>
           <div className="right-room">
             <form>
+              <label className="label-room" htmlFor="file">
+                Image: <DriveFolderUploadOutlinedIcon className="icon" />
+              </label>
+              <p style={{padding: "30px 0px 0px 0px"}}>(Chọn nhiều ảnh)</p>
+              <input
+                  type="file"
+                  id="file"
+                  multiple
+                  onChange={(e) => setFiles(e.target.files)}
+                  style={{ display: "none" }}
+                />
               {roomInputs.map((input) => (
                 <div className="form-input-room">
                   <label className="label-room col-sm-5 col-form-label">
@@ -75,19 +104,18 @@ const NewRoom = () => {
                 </div>
               ))}
               <div className="form-input-room">
-                <label>Rooms</label>
+                <label>Description</label>
                 <textarea
                   className="form-control my-2"
-                  onChange={(e) => setRooms(e.target.value)}
-                  placeholder="give comma between room numbers."
+                  placeholder="Mô tả phòng"
                 />
               </div>
             </form>
-              <div style={{width: "80%"}}>
-                <button className="button-room" onClick={handleClick}>
-                  Send
-                </button>
-              </div>
+            <div style={{ width: "80%" }}>
+              <button className="button-room" onClick={handleClick}>
+                Send
+              </button>
+            </div>
           </div>
         </div>
       </div>
