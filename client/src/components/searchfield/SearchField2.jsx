@@ -6,20 +6,22 @@ import { useState } from "react";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import { format } from "date-fns";
+import { useSearchParams } from "react-router-dom";
 
 const SearchField2 = () => {
+  const [searchParams, setSearchParams] = useSearchParams();
   const [openDate, setOpenDate] = useState(false);
   const [address, setAddress] = useState("");
   const [dates, setDates] = useState([
     {
-      startDate: new Date(),
-      endDate: new Date(),
+      startDate: new Date(searchParams.get('startDate')),
+      endDate: new Date(searchParams.get('endDate')),
       key: "selection",
     },
   ]);
   const [date, setDate] = useState({
-    startDate: format(new Date(), "yyyy-MM-dd"),
-    endDate: format(new Date(), "yyyy-MM-dd"),
+    startDate: format(new Date(searchParams.get('startDate')), "yyyy-MM-dd"),
+    endDate: format(new Date(searchParams.get('endDate')), "yyyy-MM-dd"),
   });
   const [openOptions, setOpenOptions] = useState(false);
   const [options, setOptions] = useState({
@@ -47,6 +49,7 @@ const SearchField2 = () => {
         <input
           type="text"
           placeholder="Where are you going?"
+          value={searchParams.get('searchterm')}
           className="headerSearchInput"
           onChange={(e) => setAddress(e.target.value)}
         />

@@ -39,12 +39,12 @@ const [rooms,setrooms]=useState([])
 
     }
     return (
-        <div className="list">
+        <div className="list-room-1">
             <NavBar/>
-            <div className="top">
+            <div className="top-room-1">
                 <button type="button" class="btn btn-outline-secondary float-end" onClick={gotoaddroom}>Add New Room</button>
             </div>
-            <div className="row">
+            <div className="row-room-1">
                     {items}
                 </div>
         </div>

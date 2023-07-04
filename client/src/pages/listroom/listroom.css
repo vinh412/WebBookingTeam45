@@ -1,4 +1,4 @@
-.top {
+.top-room-1 {
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     padding: 10px;
@@ -6,10 +6,10 @@
     display: flex;
 }
 
-.top h1 {
+.top-room-1 h1 {
     color: lightgray;
     font-size: 20px;
 }
-.row {
+.row-room-1 {
     margin: 30px;
-}
+}   

@@ -31,7 +31,7 @@ const HotelCard2 = ({hotel}) => {
          navigate(`/listroom/${hotel.id}`)
     }
     return (
-        <div className="col-md-3">
+        <div>
             <div className="card my-3">
                 <img src={hotel.Photos[0]?.src} className="card-image-top" style={{height: 200}} alt="" />
                 <div className="card-body">

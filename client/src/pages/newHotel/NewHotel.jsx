@@ -94,11 +94,11 @@ const NewHotel = () => {
      console.log(newhotel)
     
      const response = await axiosConfig({
-               
       method: 'post',
       url: '/api/v1/hotel/createhotel',
       data:newhotel
   })
+    window.location.href = "http://localhost:3000/listhotel"
     } catch (err) {console.log(err)}
   };
   const item=[]
