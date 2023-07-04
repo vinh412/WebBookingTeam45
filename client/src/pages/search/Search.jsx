@@ -2,6 +2,7 @@ import NavBar from "../../components/navbar/NavBar";
 // import { Link } from 'react-router-dom';
 import avatar from '../../asset/avatar.jpg'
 import SearchField from "../../components/searchfield/SearchField";
+import SearchField2 from "../../components/searchfield/SearchField2";
 import SearchCard from "../../components/card/SearchCard";
 import { useState, useEffect } from "react"
 import * as React from 'react';
@@ -63,8 +64,8 @@ const Search = () => {
     return (
         <div>
             <NavBar status={true} />
-            <SearchField />
-                <div className="container h-custom my-5">
+                <div className="container h-custom mb-5">
+                    <SearchField2 />
                     <div className="row d-flex">
                         <div className="col-3">
                         <FilterSearch hotels={hotels} setHotels={setHotels}/>
