@@ -2,7 +2,8 @@ import actionTypes from "../actions/actionTypes";
 const initState = {
    isLoggedIn: false,
    token: null,
-   msg:''
+   msg:'',
+   gmail:''
 }
 
 const authReducer = (state = initState, actions) =>{
@@ -14,7 +15,8 @@ const authReducer = (state = initState, actions) =>{
                 ...state,
                 isLoggedIn: true,
                 token: actions.data,
-                msg:''
+                msg:'',
+                gmail:actions.gmail
             }
         case actionTypes.LOGIN_FAIL:
         case actionTypes.REGISTER_FAIL:
@@ -23,6 +25,7 @@ const authReducer = (state = initState, actions) =>{
                 isLoggedIn: false,
                 msg: actions.data,
                 token: null,
+                gmail:actions.gmail
                 
             }
             case actionTypes.LOGOUT:
@@ -30,7 +33,8 @@ const authReducer = (state = initState, actions) =>{
                     ...state,
                     isLoggedIn:false,
                     token: null,
-                    msg:''
+                    msg:'',
+                    gmail:actions.gmail
                 }
         default:
             return state;
